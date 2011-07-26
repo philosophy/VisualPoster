@@ -4,6 +4,7 @@
         <title>{title}</title>
         <link rel="stylesheet" type ="text/css" href="http://localhost/visualposter/assets/css/base.css" />
         <link rel="stylesheet" type="text/css" href="http://localhost/visualposter/assets/css/banner/home_banner.css" />
+        <link rel="stylesheet" type="text/css" href="http://localhost/visualposter/assets/css/content/home_content.css" />
     </head>
     <body>
         <div id="wrapper">
@@ -23,6 +24,9 @@
                     }
                 ?>
             </div>
+
+            <div class="clearfix"></div>"
+
             <div id="content_wrapper">
                 <?php
                     if(isset($content)) {

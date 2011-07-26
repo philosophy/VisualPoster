@@ -8,7 +8,8 @@
     class Home extends CI_Controller {
         function index() {
             $data['title'] = 'Visual Posters';
-//            $content = $this->load->view('');
+            $data['content'] = 'home/index';
+            $data['banner'] = 'home/banner';
 
             $this->load->helper('asset');
             $this->load->library('parser');

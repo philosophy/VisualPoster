@@ -1,0 +1,296 @@
+#upload h3 {
+	background				:	url('../../images/title-arrow.gif') no-repeat 67px top
+}
+
+.box, .box1 {
+	width							:	274px;
+	background-color		:	#312619;
+	margin						:	0 0 25px 0;
+	position						:	relative;
+}
+
+.box h3, .box h4, .box h5, .box p, .box h2 {
+	margin						:	0 10px 0 20px;
+}
+
+.box h3 {
+	font-size					:	1.5em;
+	line-height					:	1.3;
+	font-family					:	Georgia, Arial, 'Times New Roman' serif;
+	font-style					:	italic;
+	margin-bottom			:	10px;
+}
+
+.box h5 {
+	font-size					:	1.2em;
+	font-weight				:	bold;
+	line-height					:	1.1;
+	font-style					:	italic;
+	margin-bottom			:	15px;
+}
+
+.bg-top-box, .bg-bottom-box {
+	background				:	#312619 url('../../images/bg-top-box.gif') repeat-x center top;
+	height							:	5px;
+	padding						:	10px;
+}
+
+.bg-bottom-box {
+	background: url('../../images/bg-bottom-box.gif') repeat-x center bottom;
+}
+
+#btn-push {
+	text-indent					:	-9999em;
+	display						:	block;
+	position						:	absolute;
+	top								:	30px;
+	right							:	10px;
+	width							:	105px;
+	height							:	105px;
+	background				:	url('../../images/btn-push.jpg') no-repeat left top;
+}
+
+#lifetime {
+	margin-bottom			:	50px;
+}
+
+#lifetime h2 {
+font-size						:	3em;
+color								:	#CBB87C;
+font-style						:	italic;
+font-weight					:	bold;
+font-family						:	Georgia, Arial, 'Times New Roman' serif;
+margin-top						:	-10px;
+margin-bottom				:	15px;
+}
+
+#lifetime p {
+font-size						:	1.1em;
+}
+
+#icon-posters {
+	position						:	absolute;
+	right							:	0;
+	bottom						:	-34px;
+	width							:	103px;
+	height							:	111px;
+	background				:	url('../../images/icon-posters.png') no-repeat left top;
+}
+
+#icon-quote {
+position							:	absolute;
+top									:	30px;
+right								:	10px;
+width								:	100px;
+height								:	100px;
+background					:	url('../../images/icon-quote.gif') no-repeat left top;
+}
+
+#quote p {
+padding-bottom			:	15px;
+}
+
+#quote a {
+color								:	white;
+}
+
+a#btn-quote {
+position							:	absolute;
+right								:	10px;
+top									:	145px;
+background					:	url('../../images/btn-quote.gif') no-repeat left top;
+width								:	99px;
+height								:	30px;
+display							:	block;
+line-height						:	30px;
+display							:	block;
+text-align						:	center;
+font-weight					:	bold;
+}
+
+h3.bg-color {
+padding-bottom			:	10px;
+font-size						:	1.5em;
+background					:	#312619 url('../../images/star.jpg') no-repeat 20px 5px;
+padding-left					:	50px;
+margin-top						:	-10px;
+font-family						:	Georgia, Arial, 'Times New Roman' serif;
+font-style						:	italic;
+}
+
+#customer-details {
+width								:	240px;
+margin							:	25px auto 0;
+}
+
+#btn-slide {
+position							:	relative;
+}
+
+ol, ul {
+list-style							:	none;
+}
+
+#customer-details li {
+margin							:	0 72px;
+}
+
+#customer-details p {
+margin-top						:	10px;
+color								:	#9B8A54;
+text-align						:	center;
+font-size						:	1.2em;
+font-weight					:	bold;
+line-height						:	1;
+}
+
+a#btn-prev, a#btn-next {
+display							:	block;
+width								:	28px;
+height								:	18px;
+text-indent						:	-9999em;
+top									:	40px;
+position							:	absolute;
+background					:	url('../../images/btn-prev.png') no-repeat left top;
+}
+
+a#btn-prev {
+left									:	0;
+}
+
+a#btn-next {
+right								:	0;
+background					:	url('../../images/btn-next.png') no-repeat left top;
+}
+
+#main-col {
+width: 570px;
+padding: 0 17px;
+float: left;
+margin: 0 17px;
+}
+
+#main-col h2, #keep-touch h2 {
+font-size: 2.5em;
+font-weight: bold;
+font-style: italic;
+font-family: Georgia, Arial, 'Times New Roman' serif;
+line-height: 1.2;
+margin-bottom: 20px;
+}
+
+p.home-content {
+font-size: 1.25em;
+color: black;
+}
+
+ul#specialist {
+background: url('../../images/bg-bottom-banner.gif') repeat-x center bottom;
+padding-bottom: 20px;
+margin-bottom: 20px;
+}
+
+ul#specialist li {
+background: url('../../images/bullet1.png') no-repeat left center;
+color: #547C0B;
+padding-left: 30px;
+font-size: 1.2em;
+font-weight: bold;
+}
+
+ul#specialist li {
+margin-bottom: 10px;
+}
+
+.row {
+margin: 0 0 30px 0;
+}
+
+.row h3 {
+font-size: 1.5em;
+font-family: Georgia, Arial, 'Times New Roman' serif;
+color: #221E15;
+font-style: italic;
+font-weight: bold;
+}
+
+.row p {
+color: #221E15;
+}
+
+.row a {
+color: #547C0B;
+text-decoration: underline;
+font-weight: bold;
+font-size: 1.1em;
+}
+
+.row img {
+margin: 0 20px;
+float: left;
+}
+
+.details {
+float: left;
+width: 430px;
+}
+
+#resourses h3 {
+padding-left: 38px;
+background-position: 10px 5px;
+}
+
+.resourses-col {
+border-bottom: 1px dashed #9B8A54;
+}
+
+.resourses-col h5 {
+font-size: 1.1em;
+color: #221E15;
+font-weight: bold;
+margin: 10px 0 5px 10px;
+font-family: Georgia, Arial, 'Times New Roman' serif;
+}
+
+.resourses-col h5 a {
+color: #537B0B;
+text-decoration: underline;
+}
+
+.resourses-col p {
+margin: 0 0 0 75px;
+color: black;
+}
+
+.resourses-col img {
+float: left;
+margin: 5px 10px;
+border: 3px solid #403422;
+}
+
+#testimonials {
+margin-top: 20px;
+}
+
+#testimonials h3 {
+margin-bottom: 15px;
+background-image: url('../../images/icon-testimonial.gif');
+}
+
+#testimonials p {
+font-family: Georgia, Arial, 'Times New Roman' serif;
+font-style: italic;
+font-size: 1.1em;
+color: black;
+margin: 0 15px;
+}
+
+#testimonials p.author {
+color: #C50900;
+font-style: normal;
+text-align: right;
+border-bottom: 1px dashed #9B8A54;
+padding-bottom: 10px;
+margin-bottom: 10px;
+}
+
