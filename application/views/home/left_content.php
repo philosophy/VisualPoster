@@ -38,7 +38,10 @@
                 <a href="#" id="btn-next">Next</a>
             </div>
             <ul>
-                <li><a href="#"><img src="assets/images/customer1.png" width="93" height="93" alt="PA Logo" /></a></li>
+                <li><a href="#">
+                        <?php echo image_asset('customer1.png', '', array('width'=>93, 'height'=>93, 'alt'=>'PA Logo')); ?>
+                    </a>
+                </li>
             </ul>
             <p id="all-companies">we've worked with all these fine companies</p>
         </div>

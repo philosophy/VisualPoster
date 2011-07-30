@@ -34,6 +34,14 @@
                     }
                 ?>
             </div>
+
+            <div class="clearfix"></div>
+
+            <div id="footer">
+                <?php
+                    $this->load->view('layout/application/footer');
+                ?>
+            </div>
         </div>
     </body>
 </html>

@@ -90,7 +90,7 @@ h3, h4, h5 {
 }
 
 body {
-	background			:	url('../images/bg-repeat-body.jpg') repeat center top;
+	background			:	url('../image/bg-repeat-body.jpg') repeat center top;
 	font-family				:	Trebuchet MS, sans-serif;
 	font-size				:	.82em;
 	line-height				:	1.4;
@@ -105,7 +105,7 @@ body {
 	position					:	relative;
 	display					:	block;
 	text-align				:	left;
-	background			:	url('../images/bg-wrapper.png') no-repeat center top;
+	background			:	url('../image/bg-wrapper.png') no-repeat center top;
 }
 
 #header {
@@ -124,7 +124,7 @@ body {
 }
 
 #logo h1 a {
-	background			:  	url('../images/logo.png') no-repeat center top;
+	background			:  	url('../image/logo.png') no-repeat center top;
 	width						: 	256px;
 	height						: 	145px;
 	display					: 	block;
@@ -156,7 +156,7 @@ body {
 	color						:	#fff;
 	height						: 	46px;
 	padding					: 	0 20px 0 30px;
-	background			:	url("../images/bg-repeat-callus-heading.png") repeat-x scroll center top transparent;
+	background			:	url("../image/bg-repeat-callus-heading.png") repeat-x scroll center top transparent;
 	font-size				: 	2.1em;
 	font-weight			: 	bold;
 	float						: 	right;
@@ -164,7 +164,7 @@ body {
 }
 
 #call-us h2 span {
-	 background			:	url("../images/icon-call.png") no-repeat scroll left 3px transparent;
+	 background			:	url("../image/icon-call.png") no-repeat scroll left 3px transparent;
     padding					:   0 0 4px 40px;
 }
 
@@ -219,12 +219,12 @@ ul#header-nav li a {
 ul#header-nav li a:hover, ul#header-nav li a.active {
 	color						:   white;
 	text-decoration		: 	none;
-	background			:	url('../images/bg-repeat-navhover.png') repeat-x center top;
+	background			:	url('../image/bg-repeat-navhover.png') repeat-x center top;
 }
 
 #banner {
 	padding					:	0 15px;
-	background			:	url('../images/bg-bottom-banner.gif') repeat-x center bottom;
+	background			:	url('../image/bg-bottom-banner.gif') repeat-x center bottom;
 	overflow				: 	hidden;
 	position					: 	relative;
 }
@@ -232,6 +232,19 @@ ul#header-nav li a:hover, ul#header-nav li a.active {
 #content-wrapper {
 	margin					: 	25px 0 20px;
 }
+
+#main-col {
+    width: 570px;
+    padding: 0 17px;
+    float: left;
+    margin: 0 17px;
+}
+
+#main-col .img-desc {
+    width   : 97px;
+    height  : 90px;
+}
+
 
 #left-col, #right-col{
 	width						:	275px;
@@ -297,7 +310,7 @@ color								:	#9B8A54;
 
 a#btn-top {
 float								:	left;
-background					:	url('../images/btn-top.gif') no-repeat left top;
+background					:	url('../image/btn-top.gif') no-repeat left top;
 display							:	block;
 height								:	54px;
 text-indent						:	-9999em;

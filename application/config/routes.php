@@ -39,6 +39,7 @@
 */
 
 $route['default_controller'] = "home";
+$route['pricing'] = 'pricing';
 $route['404_override'] = '';
 
 

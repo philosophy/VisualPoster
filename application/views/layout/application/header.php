@@ -17,45 +17,46 @@
     <form action="#" method="post"> <!-- additional feature when search is available -->
         <ul id="menu">
             <li>
-                <a href="#">Printing Information</a>
+                <?php echo anchor('printing', 'Printing Information'); ?>
             </li>
             <li class="pipe">|</li>
             <li>
-                <a href="#">Extra Effects</a>
+                <?php echo anchor('effects', 'Extra Effects'); ?>
             </li>
             <li class="pipe">|</li>
             <li>
-                <a href="#">Rush Deliveries</a>
+                <?php echo anchor('deliveries', 'Rush Deliveries'); ?>
             </li>
             <li class="pipe">|</li>
             <li>
+                <?php echo anchor('faq', 'FAQ'); ?>
                 <a href="#">FAQ</a>
             </li>
             <li class="pipe">|</li>
             <li>
-                <a href="#">Payment Terms</a>
+                <?php echo anchor('payment', 'Payment Terms'); ?>
             </li>
         </ul>
     </form>
 
     <ul id='header-nav'>
         <li>
-            <a href="#" class="active">HOME</a>
+            <?php echo anchor('home', 'HOME', array('title'=>"Home Page", 'class'=>(isset($homelink) ? 'active' : ''))); ?>
         </li>
         <li>
-            <a href="#">PRICING</a>
+            <?php echo anchor('pricing', 'PRICING', array('title'=>"Pricing Page", 'class'=>(isset($pricinglink) ? 'active' : ''))); ?>
         </li>
         <li>
-            <a href="#">WORK</a>
+            <?php echo anchor('work', 'WORK', array('title'=>"Work Page", 'class'=>(isset($worklink) ? 'active' : ''))); ?>
         </li>
         <li>
-            <a href="#">DISTRIBUTION</a>
+            <?php echo anchor('distribution', 'DISTRIBUTION', array('title'=>"Distribution Page", 'class'=>(isset($distributionlink) ? 'active' : ''))); ?>
         </li>
         <li>
-            <a href="#">ABOUT</a>
+            <?php echo anchor('about', 'ABOUT', array('title'=>"About Page", 'class'=>(isset($aboutlink) ? 'active' : ''))); ?>
         </li>
         <li>
-            <a href="#">CONTACT</a>
+            <?php echo anchor('contact', 'CONTACT', array('title'=>"Contact Page", 'class'=>(isset($contactlink) ? 'active' : ''))); ?>
         </li>
     </ul>
 </div>

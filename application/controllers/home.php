@@ -10,6 +10,7 @@
             $data['title'] = 'Visual Posters';
             $data['content'] = 'home/index';
             $data['banner'] = 'home/banner';
+            $data['homelink'] = true;
 
             $this->load->helper('asset');
             $this->load->library('parser');
