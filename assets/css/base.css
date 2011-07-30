@@ -82,255 +82,255 @@ a:hover {
 
 p {
     color               :   #9b8a54;
-    margin-bottom		:	20px;
+    margin-bottom       :   20px;
 }
 
 h3, h4, h5 {
-	color						:	#cbb87c;
+    color               :   #cbb87c;
 }
 
 body {
-	background			:	url('../image/bg-repeat-body.jpg') repeat center top;
-	font-family				:	Trebuchet MS, sans-serif;
-	font-size				:	.82em;
-	line-height				:	1.4;
-	text-align				:	center;
-	color						:	#221e15;
-	width					 	: 	1220px;
-    text-align				:	 center;
-	margin					: 	0 auto;
+    background          :   url('../image/bg-repeat-body.jpg') repeat center top;
+    font-family         :   Trebuchet, MS, sans-serif;
+    font-size           :   .82em;
+    line-height         :   1.4;
+    text-align          :   center;
+    color               :   #221e15;
+    width               :   1220px;
+    text-align          :   center;
+    margin              :   0 auto;
 }
 
 #wrapper {
-	position					:	relative;
-	display					:	block;
-	text-align				:	left;
-	background			:	url('../image/bg-wrapper.png') no-repeat center top;
+    position            :   relative;
+    display             :   block;
+    text-align          :   left;
+    background          :   url('../image/bg-wrapper.png') no-repeat center top;
 }
 
 #header {
-	min-height				: 	145px;
-	border-bottom		: 6px solid #221E15;
-	padding					:	0 15px;
+    min-height          :   145px;
+    border-bottom       :   6px solid #221E15;
+    padding             :   0 15px;
 }
 
 #logo {
-	display					: 	block;
-	float						: 	left;
+    display             :   block;
+    float               :   left;
 }
 
 #logo h1{
-	margin					: 	0px;
+    margin              :   0px;
 }
 
 #logo h1 a {
-	background			:  	url('../image/logo.png') no-repeat center top;
-	width						: 	256px;
-	height						: 	145px;
-	display					: 	block;
+    background          :   url('../image/logo.png') no-repeat center top;
+    width               :   256px;
+    height              :   145px;
+    display             :   block;
 }
 
 #header-right {
-	float						: 	left;
-	display					: 	block;
-	position					: 	relative;
-	width						: 	934px;					// remember to add 2px when you remove the border
+    float               :   left;
+    display             :   block;
+    position            :   relative;
+    width               :   934px;					/* remember to add 2px when you remove the border*/
 }
 
 #header-right #call-us {
-	float						: 	right;
-	width						: 	420px;
-	margin					: 	0;
+    float               :   right;
+    width               :   420px;
+    margin              :   0;
 }
 
 #call-us p {
-	font-style				:  	italic;
-	font-size				: 	1.5em;
-	margin					: 	0;
-	padding-top			:	10px;
-	font-weight			: 	bold;
-	float						: 	left;
+    font-style          :   italic;
+    font-size           :   1.5em;
+    margin              :   0;
+    padding-top         :   10px;
+    font-weight         :   bold;
+    float               :   left;
 }
 
 #call-us h2 {
-	color						:	#fff;
-	height						: 	46px;
-	padding					: 	0 20px 0 30px;
-	background			:	url("../image/bg-repeat-callus-heading.png") repeat-x scroll center top transparent;
-	font-size				: 	2.1em;
-	font-weight			: 	bold;
-	float						: 	right;
-	margin					: 	0;
+    color               :   #fff;
+    height              :   46px;
+    padding             :   0 20px 0 30px;
+    background          :   url("../image/bg-repeat-callus-heading.png") repeat-x scroll center top transparent;
+    font-size           :   2.1em;
+    font-weight         :   bold;
+    float               :   right;
+    margin              :   0;
 }
 
 #call-us h2 span {
-	 background			:	url("../image/icon-call.png") no-repeat scroll left 3px transparent;
-    padding					:   0 0 4px 40px;
+    background         :   url("../image/icon-call.png") no-repeat scroll left 3px transparent;
+    padding             :   0 0 4px 40px;
 }
 
 #menu {
-	float						: 	right;
-	margin-top				: 	15px;
-	float						: 	right;
+    float               :   right;
+    margin-top          :   15px;
+    float               :   right;
 }
 
 #menu li {
-	display					: 	inline;
-	padding					: 	0 5px;
+    display             :   inline;
+    padding             :   0 5px;
 }
 
 li.pipe {
-	color						:  #ccc;
+    color               :  #ccc;
 }
 
 #menu li a {
-	color						:	#010101;
-    font-size				: 	0.9em;
-    font-style				:	italic;
-    font-weight			:   bold;
-	font-family				:	Georgia, Arial, 'Times New Roman' serif;
+    color               :   #010101;
+    font-size           :   0.9em;
+    font-style          :   italic;
+    font-weight         :   bold;
+    font-family         :   Georgia, Arial, 'Times New Roman', serif;
 }
 
 #menu li a:active, #menu li a:hover {
-	color						:	#C50900;
-	text-decoration		: 	none;
+    color               :   #C50900;
+    text-decoration     :   none;
 }
 
 #header-nav {
-	clear						: 	both;
-	float						: 	right;
-	margin-top				:	-36px;
+    clear               :   both;
+    float               :   right;
+    margin-top          :   -36px;
 }
 
 #header-nav li {
-	display					: inline-block;
+    display             : inline-block;
 }
 
 ul#header-nav li a {
-	font-size				:	1.4em;
-	padding					:	0 18px;
-	height						:	41px;
-	line-height				:	45px;
-	text-transform		:	uppercase;
-	display					: 	block;
-	color						:	#1C1811;
+    font-size           :   1.4em;
+    padding             :   0 18px;
+    height              :   41px;
+    line-height         :   45px;
+    text-transform      :   uppercase;
+    display             :   block;
+    color               :   #1C1811;
 }
 
 ul#header-nav li a:hover, ul#header-nav li a.active {
-	color						:   white;
-	text-decoration		: 	none;
-	background			:	url('../image/bg-repeat-navhover.png') repeat-x center top;
+    color               :   white;
+    text-decoration     :   none;
+    background          :   url('../image/bg-repeat-navhover.png') repeat-x center top;
 }
 
 #banner {
-	padding					:	0 15px;
-	background			:	url('../image/bg-bottom-banner.gif') repeat-x center bottom;
-	overflow				: 	hidden;
-	position					: 	relative;
+    padding             :   0 15px;
+    background          :   url('../image/bg-bottom-banner.gif') repeat-x center bottom;
+    overflow            :   hidden;
+    position            :   relative;
 }
 
 #content-wrapper {
-	margin					: 	25px 0 20px;
+    margin              :   25px 0 20px;
 }
 
 #main-col {
-    width: 570px;
-    padding: 0 17px;
-    float: left;
-    margin: 0 17px;
+    width               : 570px;
+    padding             : 0 17px;
+    float               : left;
+    margin              : 0 17px;
 }
 
 #main-col .img-desc {
-    width   : 97px;
-    height  : 90px;
+    width               : 97px;
+    height              : 90px;
 }
 
 
 #left-col, #right-col{
-	width						:	275px;
-	float						:	left;
+    width               :   275px;
+    float               :   left;
 }
 
 #footer {
-	border-top					:	5px solid #221E15;
+    border-top          :   5px solid #221E15;
 }
 
 #footer-top {
-	padding-top				:	15px;
-	background-color		:	#312619;
+    padding-top         :   15px;
+    background-color    :   #312619;
 }
 
 #f-left {
-width								:	660px;
-margin-left						:	20px;
-float								:	left;
+    width               :   660px;
+    margin-left         :   20px;
+    float               :   left;
 }
 
 #footer ul {
-clear								:	both;
+    clear               :   both;
 }
 
 #footer li {
-float								:	left;
-margin-top						:	6px;
-margin-right					:	10px;
+    float               :   left;
+    margin-top          :   6px;
+    margin-right        :   10px;
 }
 
 #footer li a {
-color								:	#9B8A54;
-float								:	left;
+    color               :   #9B8A54;
+    float               :   left;
 }
 
 #footer li a:hover, #footer li a.active {
-color								:	white;
-text-decoration				:	underline;
+    color               :   white;
+    text-decoration     :   underline;
 }
 
 ul#f-mainnav li {
-margin-top						:	0;
+    margin-top          :   0;
 }
 
 ul#f-mainnav a {
-font-weight					:	bold;
+    font-weight         :   bold;
 }
 
 #f-center {
-width								:	435px;
-float								:	left;
+    width               :   435px;
+    float               :   left;
 }
 
 #f-center p {
-margin-bottom				:	0;
-font-weight					:	bold;
+    margin-bottom       :   0;
+    font-weight         :   bold;
 }
 
 #f-center address {
-color								:	#9B8A54;
+    color               :   #9B8A54;
 }
 
 a#btn-top {
-float								:	left;
-background					:	url('../image/btn-top.gif') no-repeat left top;
-display							:	block;
-height								:	54px;
-text-indent						:	-9999em;
-width								:	88px;
+    float               :   left;
+    background          :   url('../image/btn-top.gif') no-repeat left top;
+    display             :   block;
+    height              :   54px;
+    text-indent         :   -9999em;
+    width               :   88px;
 }
 
 #copyright {
-text-align						:	center;
-margin-top						:	15px;
+    text-align          :   center;
+    margin-top          :   15px;
 }
 
 .clearfix {
-	clear							: 	both;
+    clear               :   both;
 }
 #xml-data {
-	overflow					:	hidden;
-	margin-top					:	50px;
+    overflow            :   hidden;
+    margin-top          :   50px;
 }
 #xml-data textarea {
-	width							:	100%;
-	min-height					: 	200px;
+    width               :   100%;
+    min-height          :   200px;
 }
 
