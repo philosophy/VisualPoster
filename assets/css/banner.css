@@ -17,3 +17,24 @@
     margin-right    :   15px;
 }
 
+#banner-left h2 {
+    font-size       :   3.5em;
+    font-weight     :   bold;
+    font-style      :   italic;
+    font-family     :   Georgia, Arial, 'Times New Roman', serif;
+    text-shadow     :   white 0 1px;
+    color           :   #9B8A54;
+    line-height     :   1;
+    margin-top      :   20px;
+}
+
+#banner-left p {
+    color           :   #221E15;
+    font-size       :   1.2em;
+    font-weight     :   bold;
+    margin          :   20px 0;
+}
+
+#banner-left a {
+    color           :   #537B0B;
+}

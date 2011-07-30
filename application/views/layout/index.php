@@ -2,13 +2,19 @@
 <html>
     <head>
         <title><?php if(isset($title)){echo $title;} ?></title>
-        <link rel="stylesheet" type ="text/css" href="http://localhost/visualposter/assets/css/base.css" />
-        <link rel="stylesheet" type ="text/css" href="http://localhost/visualposter/assets/css/banner.css" />
-        <link rel="stylesheet" type="text/css" href="http://localhost/visualposter/assets/css/banner/home_banner.css" />
-        <link rel="stylesheet" type="text/css" href="http://localhost/visualposter/assets/css/content/home_content.css" />
+        <?php
+            echo css_asset('base.css');
+            echo css_asset('banner.css');
+            echo css_asset('banner/home_banner.css');
+            echo css_asset('content/home_content.css');
+            echo css_asset('pricing/index.css');
+        ?>
     </head>
     <body>
-        <div id="wrapper">
+        <?php
+            $classname = basename($_SERVER['PHP_SELF']).PHP_EOL;
+        ?>
+        <div id="wrapper" class=<?php echo $classname ?>>
             <div id="header-wrapper">
                 <?php
                     if(isset($header)) {
@@ -26,7 +32,7 @@
                 ?>
             </div>
 
-            <div class="clearfix"></div>"
+            <div class="clearfix"></div>
 
             <div id="content_wrapper">
                 <?php

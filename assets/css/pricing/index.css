@@ -1,0 +1,45 @@
+/*
+    Document   : index
+    Created on : Jul 30, 2011, 12:18:10 PM
+    Author     : marc
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root {
+    display: block;
+}
+
+#banner-left h2{
+    color               :   #221E15;
+    margin-bottom       :   18px;
+}
+
+ul#b-menu li a {
+    background: url('../../image/banner-menu.png') no-repeat left top;
+    height: 43px;
+    width: 274px;
+    display: block;
+    text-indent: -9999em;
+}
+
+ul#b-menu li #for-poster a {
+    background-position: 0 0;
+}
+
+ul#b-menu #for-poster a.active{
+    background-position: 0 -129px;
+}
+
+ul#b-menu #for-flyer a {
+    background-position: 0 -43px;
+}
+
+ul#b-menu #for-flyer a.active{
+    background-position: 0 -172px;
+}
