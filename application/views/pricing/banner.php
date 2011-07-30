@@ -6,5 +6,5 @@
     </ul>
 </div>
 <div id="banner-right">
-    <?php echo image_asset('banner-pricing.png', '', array('width'=>900, 'height'=>225, 'alt'=>'Banner Pricing Page')) ?>
+    <?php echo image_asset('lib/banner-pricing.png', '', array('width'=>900, 'height'=>225, 'alt'=>'Banner Pricing Page')) ?>
 </div>

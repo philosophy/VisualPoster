@@ -39,7 +39,7 @@
             </div>
             <ul>
                 <li><a href="#">
-                        <?php echo image_asset('customer1.png', '', array('width'=>93, 'height'=>93, 'alt'=>'PA Logo')); ?>
+                        <?php echo image_asset('lib/customer1.png', '', array('width'=>93, 'height'=>93, 'alt'=>'PA Logo')); ?>
                     </a>
                 </li>
             </ul>

@@ -15,31 +15,31 @@ root {
     display: block;
 }
 
-#banner-left h2{
+.pricing #banner-left h2{
     color               :   #221E15;
     margin-bottom       :   18px;
 }
 
-ul#b-menu li a {
-    background: url('../../image/banner-menu.png') no-repeat left top;
+.pricing ul#b-menu li a {
+    background: url('../../image/lib/banner-menu.png') no-repeat left top;
     height: 43px;
     width: 274px;
     display: block;
     text-indent: -9999em;
 }
 
-ul#b-menu li #for-poster a {
+.pricing ul#b-menu li #for-poster a {
     background-position: 0 0;
 }
 
-ul#b-menu #for-poster a.active{
+.pricing ul#b-menu #for-poster a.active{
     background-position: 0 -129px;
 }
 
-ul#b-menu #for-flyer a {
+.pricing ul#b-menu #for-flyer a {
     background-position: 0 -43px;
 }
 
-ul#b-menu #for-flyer a.active{
+.pricing ul#b-menu #for-flyer a.active{
     background-position: 0 -172px;
 }

@@ -13,5 +13,5 @@
     <a href="#" id="btn-prices">See Prices + Poster Sizes &#187;</a>
 </div>
 <div id="banner-right">
-    <?php echo image_asset('banner-home.png', '', array('width'=>900, 'height'=>436, 'alt'=>'Banner Home Page')); ?>
+    <?php echo image_asset('lib/banner-home.png', '', array('width'=>900, 'height'=>436, 'alt'=>'Banner Home Page')); ?>
 </div>

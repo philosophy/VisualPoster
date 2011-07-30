@@ -90,7 +90,7 @@ h3, h4, h5 {
 }
 
 body {
-    background          :   url('../image/bg-repeat-body.jpg') repeat center top;
+    background          :   url('../image/lib/bg-repeat-body.jpg') repeat center top;
     font-family         :   Trebuchet, MS, sans-serif;
     font-size           :   .82em;
     line-height         :   1.4;
@@ -105,7 +105,7 @@ body {
     position            :   relative;
     display             :   block;
     text-align          :   left;
-    background          :   url('../image/bg-wrapper.png') no-repeat center top;
+    background          :   url('../image/lib/bg-wrapper.png') no-repeat center top;
 }
 
 #header {
@@ -124,7 +124,7 @@ body {
 }
 
 #logo h1 a {
-    background          :   url('../image/logo.png') no-repeat center top;
+    background          :   url('../image/lib/logo.png') no-repeat center top;
     width               :   256px;
     height              :   145px;
     display             :   block;
@@ -156,7 +156,7 @@ body {
     color               :   #fff;
     height              :   46px;
     padding             :   0 20px 0 30px;
-    background          :   url("../image/bg-repeat-callus-heading.png") repeat-x scroll center top transparent;
+    background          :   url("../image/lib/bg-repeat-callus-heading.png") repeat-x scroll center top transparent;
     font-size           :   2.1em;
     font-weight         :   bold;
     float               :   right;
@@ -164,7 +164,7 @@ body {
 }
 
 #call-us h2 span {
-    background         :   url("../image/icon-call.png") no-repeat scroll left 3px transparent;
+    background         :   url("../image/lib/icon-call.png") no-repeat scroll left 3px transparent;
     padding             :   0 0 4px 40px;
 }
 
@@ -219,12 +219,12 @@ ul#header-nav li a {
 ul#header-nav li a:hover, ul#header-nav li a.active {
     color               :   white;
     text-decoration     :   none;
-    background          :   url('../image/bg-repeat-navhover.png') repeat-x center top;
+    background          :   url('../image/lib/bg-repeat-navhover.png') repeat-x center top;
 }
 
 #banner {
     padding             :   0 15px;
-    background          :   url('../image/bg-bottom-banner.gif') repeat-x center bottom;
+    background          :   url('../image/lib/bg-bottom-banner.gif') repeat-x center bottom;
     overflow            :   hidden;
     position            :   relative;
 }
@@ -310,7 +310,7 @@ ul#f-mainnav a {
 
 a#btn-top {
     float               :   left;
-    background          :   url('../image/btn-top.gif') no-repeat left top;
+    background          :   url('../image/lib/btn-top.gif') no-repeat left top;
     display             :   block;
     height              :   54px;
     text-indent         :   -9999em;
