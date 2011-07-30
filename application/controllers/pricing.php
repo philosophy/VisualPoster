@@ -11,8 +11,7 @@
             $data['banner'] = 'pricing/banner';
             $data['pricinglink'] = true;
 
-            $this->load->library('parser');
-            $this->parser->parse('layout/index', $data);
+            $this->load->view('layout/index', $data);
         }
 
         function testing() {

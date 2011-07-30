@@ -1,48 +1,42 @@
-#banner-left {
-	width								:	275px;
-	float								:	left;
-	margin-right					:	15px;
-}
-
 #banner-left h2 {
-	font-size						:	3.5em;
-	font-weight					:	bold;
-	font-style						:	italic;
-	font-family						:	Georgia, Arial, 'Times New Roman' serif;
-	text-shadow					:	white 0 1px;
-	color								:	#9B8A54;
-	line-height						:	1;
-	margin-top						:	20px;
+    font-size       :   3.5em;
+    font-weight     :   bold;
+    font-style      :   italic;
+    font-family     :   Georgia, Arial, 'Times New Roman' serif;
+    text-shadow     :   white 0 1px;
+    color           :   #9B8A54;
+    line-height     :   1;
+    margin-top      :   20px;
 }
 
 #banner-left p {
-	color								:	#221E15;
-	font-size						:	1.2em;
-	font-weight					:	bold;
-	margin							:	20px 0;
+    color           :   #221E15;
+    font-size       :   1.2em;
+    font-weight     :   bold;
+    margin          :   20px 0;
 }
 
 #banner-left a {
-	color								:	#537B0B;
+    color           :   #537B0B;
 }
 
 a#btn-prices {
-	color								:	white;
-	background					:	url('../../image/btn-prices.png') no-repeat left top;
-	width								:	243px;
-	height								:	46px;
-	text-align						:	center;
-	line-height						:	40px;
-	display							:	block;
-	text-decoration				:	none;
-	font-size						:	1.2em;
+    color           :   white;
+    background      :   url('../../image/btn-prices.png') no-repeat left top;
+    width           :   243px;
+    height          :   46px;
+    text-align      :   center;
+    line-height     :   40px;
+    display         :   block;
+    text-decoration :   none;
+    font-size       :   1.2em;
 }
 
 a#btn-prices:hover {
-	text-decoration				:	underline;
+    text-decoration :   underline;
 }
 
 #banner-right {
-	width								:	900px;
-	float								:	left;
+    width           :   900px;
+    float           :   left;
 }

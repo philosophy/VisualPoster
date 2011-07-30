@@ -12,8 +12,6 @@
             $data['banner'] = 'home/banner';
             $data['homelink'] = true;
 
-            $this->load->helper('asset');
-            $this->load->library('parser');
             $this->parser->parse('layout/index', $data);
         }
 

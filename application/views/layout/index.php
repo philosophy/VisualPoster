@@ -1,8 +1,9 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>{title}</title>
+        <title><?php if(isset($title)){echo $title;} ?></title>
         <link rel="stylesheet" type ="text/css" href="http://localhost/visualposter/assets/css/base.css" />
+        <link rel="stylesheet" type ="text/css" href="http://localhost/visualposter/assets/css/banner.css" />
         <link rel="stylesheet" type="text/css" href="http://localhost/visualposter/assets/css/banner/home_banner.css" />
         <link rel="stylesheet" type="text/css" href="http://localhost/visualposter/assets/css/content/home_content.css" />
     </head>
