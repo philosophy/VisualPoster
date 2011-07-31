@@ -141,3 +141,39 @@ root {
     background-position :   -260px -564px;
 }
 
+#right-col .box-cream {
+    background-color    :   #FFFAE2;
+}
+
+#right-col .bg-top-box-cream {
+    background          :   url('../../image/lib/bg-top-box-brown.gif') repeat-x center top;
+    height              :   5px;
+}
+
+#right-col .box-cream h3 {
+    background-color    :   #9B8A54;
+    padding             :   10px 0;
+    padding-left        :   20px;
+    color               :   white;
+    font-style          :   italic;
+    font-size           :   1.4em;
+    font-family         :   Georgia,serif;
+    border-bottom       :   1px dashed #FFFAE2;
+}
+
+#save p, #which-size p {
+background: url('../../image/lib/bg-save.jpg') no-repeat left top;
+min-height: 80px;
+margin: 15px 20px;
+padding: 0 0 0 95px;
+color: #221E15;
+}
+
+#which-size p {
+    background-image: url('../../image/lib/bg-size.jpg');
+}
+
+#save p a, #which-size p a {
+text-decoration: underline;
+font-weight: bold;
+}
