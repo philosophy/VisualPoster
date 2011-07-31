@@ -5,6 +5,8 @@
         <?php
             echo css_asset('base.css');
             echo css_asset('banner.css');
+            echo css_asset('content.css');
+            echo css_asset('form.css');
             echo css_asset('banner/home_banner.css');
             echo css_asset('content/home_content.css');
             echo css_asset('pricing/index.css');
@@ -34,7 +36,7 @@
 
             <div class="clearfix"></div>
 
-            <div id="content_wrapper">
+            <div id="content-wrapper">
                 <?php
                     if(isset($content)) {
                         $this->load->view($content);

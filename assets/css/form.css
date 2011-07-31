@@ -1,0 +1,21 @@
+/*
+    Document   : form
+    Created on : Jul 31, 2011, 11:36:49 AM
+    Author     : marc
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.color-white {
+    color           :   #fff;
+}
+
+.font-bold {
+    font-weight     :   bold;
+}
+

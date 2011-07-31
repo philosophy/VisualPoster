@@ -1,3 +1,3 @@
 <?php
-//    $this->load->view('pricing/left_content');
+    $this->load->view('pricing/left_content');
 ?>
