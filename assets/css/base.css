@@ -240,11 +240,69 @@ ul#header-nav li a:hover, ul#header-nav li a.active {
     margin              : 0 17px;
 }
 
+#main-col h2, #keep-touch h2 {
+    font-size           :   2.5em;
+    font-weight         :   bold;
+    font-style          :   italic;
+    font-family         :   Georgia, Arial, 'Times New Roman', serif;
+    line-height         :   1.2;
+    margin-bottom       :   20px;
+}
+
 #main-col .img-desc {
     width               : 97px;
     height              : 90px;
 }
 
+#main-col .print {
+    width               :   260px;
+    height              :   262px;
+    float               :   left;
+    margin-right        :   15px;
+    margin-bottom       :   15px;
+    text-align          :   center;
+    color               :   white;
+    padding             :   10px 0;
+}
+
+#main-col .print p {
+    color               :   #E1D985;
+    margin-bottom       :   0;
+}
+
+#main-col .print p.starting {
+    font-family         :   Arial, Arial, Helvetica, sans-serif;
+    font-size           :   1.1em;
+}
+
+#main-col .print p.min-order {
+    font-size           :   .9em;
+    margin-top          :   -3px;
+}
+
+#main-col .print p.excludes {
+    font-size           :   .8em;
+    margin              :   14px 0 5px;
+}
+
+#main-col .print h2.smallsize {
+    font-size           :   2.5em;
+    font-weight         :   bold;
+    margin              :   5px 0;
+    line-height         :   .9em;
+}
+
+#main-col .print a {
+    width               :   139px;
+    height              :   31px;
+    line-height         :   28px;
+    color               :   white;
+    display             :   block;
+    text-align          :   center;
+    margin              :   0 auto;
+    font-weight         :   bold;
+    background          :   url('../image/lib/btn-specification.png') no-repeat left top;
+}
 
 #left-col, #right-col{
     width               :   275px;

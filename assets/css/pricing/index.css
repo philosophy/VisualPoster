@@ -75,3 +75,69 @@ root {
     font-weight         :   bold;
     margin-top          :   20px;
 }
+
+#main-col h4#flyer-price {
+    font-family         :   Georgia,serif;
+    font-style          :   italic;
+    font-size           :   1.5em;
+    font-weight         :   bold;
+    color               :   #221E15;
+    margin-bottom       :   20px;
+    margin-top          :   -10px;
+}
+
+#main-col h4#flyer-price a {
+    color               :   #C50900;
+    text-decoration     :   underline;
+}
+
+#main-col .print h2 {
+    font-size           :   6em;
+    margin-bottom       :   0;
+    line-height         :   1;
+    font-weight         :   normal;
+    margin-top          :   -10px;
+}
+
+#main-col .print h3 {
+    font-size           :   1.6em;
+    color               :   white;
+}
+
+#main-col .print h4 {
+    font-size           :   2.4em;
+    font-weight         :   bold;
+    color               :   white;
+    font-family         :   Georgia, Arial, 'Times New Roman' serif;
+    margin-top          :   -10px;
+}
+
+#main-col .print h5 {
+    color               :   white;
+    font-size           :   1.6em;
+}
+
+#bg-a1, #bg-a2, #bg-a3, #fluro-print1, #fluro-print2, #pole-poster {
+    background          :   url('../../image/lib/bg-print.jpg') no-repeat 0 0;
+}
+
+#bg-a2 {
+    background-position :   -260px 0;
+}
+
+#bg-a3 {
+    background-position :   0 -282px;
+}
+
+#fluro-print1 {
+    background-position :   -260px -282px;
+}
+
+#fluro-print2 {
+    background-position :   0 -564px;
+}
+
+#pole-poster {
+    background-position :   -260px -564px;
+}
+
