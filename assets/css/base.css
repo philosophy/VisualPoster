@@ -292,6 +292,9 @@ ul#header-nav li a:hover, ul#header-nav li a.active {
     font-weight         :   bold;
     margin              :   5px 0;
     line-height         :   .9em;
+    padding             :   0 30px;
+    text-align          :   center;
+    
 }
 
 #main-col .print a {

@@ -1,10 +1,10 @@
 <div id="main-col">
     <h2>Choose your poster type</h2>
     <h4 id="flyer-price">Or show me <a href="#">Flyer Pricing</a></h4>
-    <div class="print" id="bg-<?php echo strtolower($poster);?>">
+    <div class="print" id="bg-<?php echo isset($poster_size) ? $poster_id : strtolower($poster);?>">
         <h3>I want to print</h3>
-        <h2>{poster}</h2>
-        <h5>POSTERS</h5>
+        <h2 class=<?php echo isset($poster_size) ? 'smallsize' : '' ?> >{poster}</h2>
+        <h5><?php echo isset($poster_size) ? $poster_size : 'POSTERS' ?></h5>
         <p class="starting">Starting from</p>
         <h4>${price}</h4>
         <p class="min-order">Min.order {min_order} pieces</p>

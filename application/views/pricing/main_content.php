@@ -37,20 +37,20 @@
         <?php echo anchor('pricing/show?poster=a3', 'View Specifications')/**/ ?>
     </div>
 
-    <div class="print" id="fluro-print1">
+    <div class="print" id="bg-fluro-print1">
         <h3>I want to print</h3>
-        <h2 class="smallsize">Fluro <br/>Prints 1</h2>
+        <h2 class="smallsize">Fluro Prints 1</h2>
         <h5>688mm &times; 1000mm</h5>
-        <p class="starting">Starting from</p>
+        <p class="starting">688mmStarting from</p>
         <h4>$830</h4>
         <p class="min-order">Min.order 500 pieces</p>
         <p class="excludes">PRICING EXCLUDES GST AND DELIVERY</p>
         <?php echo anchor('pricing/show?poster=fluro_print1', 'View Specifications')/**/ ?>
     </div>
 
-    <div class="print" id="fluro-print2">
+    <div class="print" id="bg-fluro-print2">
         <h3>I want to print</h3>
-        <h2 class="smallsize">Fluro <br/>Prints 2</h2>
+        <h2 class="smallsize">Fluro Prints 2</h2>
         <h5>1350mm &times; 1960mm</h5>
         <p class="starting">Starting from</p>
         <h4>$830</h4>
@@ -59,9 +59,9 @@
         <?php echo anchor('pricing/show?poster=fluro_print2', 'View Specifications')/**/ ?>
     </div>
 
-    <div class="print" id="pole-poster">
+    <div class="print" id="bg-pole-poster">
         <h3>I want to print</h3>
-        <h2 class="smallsize">Pole <br/>Posters</h2>
+        <h2 class="smallsize">Pole Posters</h2>
         <h5>688mm &times; 1000mm</h5>
         <p class="starting">Starting from</p>
         <h4>$830</h4>

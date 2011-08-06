@@ -31,9 +31,32 @@
                     $min_order = 500;
                     $price = 100.00;
                     break;
+                case 'fluro_print1':
+                    $poster = 'Fluro Prints 1';
+                    $poster_size = '688mm × 1000mm';
+                    $poster_id = 'fluro-print1';
+                    $min_order = 500;
+                    $price = 100.00;
+                    break;
+                case 'fluro_print2':
+                    $poster = 'Fluro Prints 2';
+                    $poster_size = '1350mm × 1960mm';
+                    $poster_id = 'fluro-print2';
+                    $min_order = 500;
+                    $price = 100.00;
+                    break;
+                case 'pole_poster':
+                    $poster = 'Pole Posters';
+                    $poster_size = '688mm × 1000mm';
+                    $poster_id = 'pole-poster';
+                    $min_order = 500;
+                    $price = 100.00;
+                    break;
             }
 
             $data['poster'] = $poster;
+            $data['poster_size'] = isset($poster_size) ? $poster_size : null;
+            $data['poster_id'] = isset($poster_id) ? $poster_id : null;
             $data['min_order'] = $min_order;
             $data['price'] = $price;
             $data['banner'] = 'pricing/banner';
