@@ -13,14 +13,14 @@
             echo js_asset('vendor/jquery-1.6.2.js');
             echo js_asset('vendor/jquery.qtip.js');
             echo css_asset('vendor/jquery.qtip.css');
-            echo css_asset('lib/tooltip.css');  
+            echo css_asset('lib/tooltip.css');
         ?>
     </head>
     <body>
         <?php
-            $classname = basename($_SERVER['PHP_SELF']).PHP_EOL;
+            $classname = $this->router->class . ' ' . $this->router->method ;
         ?>
-        <div id="wrapper" class=<?php echo $classname ?>>
+        <div id="wrapper" class="<?php echo $classname ?>">
             <div id="header-wrapper">
                 <?php
                     if(isset($header)) {
