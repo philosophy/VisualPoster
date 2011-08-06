@@ -14,7 +14,8 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/visualposter/';
+$config['base_url']	= 'http://localhost/visualposter/';             // base url in dev
+//$config['base_url']	= 'http://visualposter.byethost24.com/';             // base url in prod
 
 /*
 |--------------------------------------------------------------------------

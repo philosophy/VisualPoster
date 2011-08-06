@@ -10,7 +10,9 @@
         <h4>$830</h4>
         <p class="min-order">Min.order 500 pieces</p>
         <p class="excludes">PRICING EXCLUDES GST AND DELIVERY</p>
-        <?php echo anchor('pricing/show?poster=a1', 'View Specifications'); ?>
+<!--        <input type="hidden" value="a1" name="poster"/>-->
+<!--            <input type="submit" value="View Specifications" />-->
+        <?php echo anchor('pricing/show?poster=a1', 'View Specifications')/**/ ?>
     </div>
 
     <div class="print" id="bg-a2">
@@ -21,7 +23,7 @@
         <h4>$395</h4>
         <p class="min-order">Min.order 500 pieces</p>
         <p class="excludes">PRICING EXCLUDES GST AND DELIVERY</p>
-        <a href="#">View Specifications</a>
+        <?php echo anchor('pricing/show?poster=a2', 'View Specifications')/**/ ?>
     </div>
 
     <div class="print" id="bg-a3">
@@ -32,7 +34,7 @@
         <h4>$100</h4>
         <p class="min-order">Min.order 500 pieces</p>
         <p class="excludes">PRICING EXCLUDES GST AND DELIVERY</p>
-        <a href="#">View Specifications</a>
+        <?php echo anchor('pricing/show?poster=a3', 'View Specifications')/**/ ?>
     </div>
 
     <div class="print" id="fluro-print1">
@@ -43,7 +45,7 @@
         <h4>$830</h4>
         <p class="min-order">Min.order 500 pieces</p>
         <p class="excludes">PRICING EXCLUDES GST AND DELIVERY</p>
-        <a href="#">View Specifications</a>
+        <?php echo anchor('pricing/show?poster=fluro_print1', 'View Specifications')/**/ ?>
     </div>
 
     <div class="print" id="fluro-print2">
@@ -54,7 +56,7 @@
         <h4>$830</h4>
         <p class="min-order">Min.order 500 pieces</p>
         <p class="excludes">PRICING EXCLUDES GST AND DELIVERY</p>
-        <a href="#">View Specifications</a>
+        <?php echo anchor('pricing/show?poster=fluro_print2', 'View Specifications')/**/ ?>
     </div>
 
     <div class="print" id="pole-poster">
@@ -65,7 +67,7 @@
         <h4>$830</h4>
         <p class="min-order">Min.order 500 pieces</p>
         <p class="excludes">PRICING EXCLUDES GST AND DELIVERY</p>
-        <a href="#">View Specifications</a>
+        <?php echo anchor('pricing/show?poster=pole_poster', 'View Specifications')/**/ ?>
     </div>
 
 </div>

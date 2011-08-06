@@ -283,7 +283,7 @@ p.bubble a {
 }
 
 #total-price p {
-    background: url('../images/bg-star.png') no-repeat left center;
+    background: url('../../image/lib/bg-star.png') no-repeat left center;
     text-transform: uppercase;
     color: #221E15;
     padding-left: 25px;

@@ -1,15 +1,15 @@
 <div id="main-col">
     <h2>Choose your poster type</h2>
     <h4 id="flyer-price">Or show me <a href="#">Flyer Pricing</a></h4>
-    <div class="print" id="bg-a1">
+    <div class="print" id="bg-<?php echo strtolower($poster);?>">
         <h3>I want to print</h3>
-        <h2>A1</h2>
+        <h2>{poster}</h2>
         <h5>POSTERS</h5>
         <p class="starting">Starting from</p>
-        <h4>$830</h4>
-        <p class="min-order">Min.order 500 pieces</p>
+        <h4>${price}</h4>
+        <p class="min-order">Min.order {min_order} pieces</p>
         <p class="excludes">PRICING EXCLUDES GST AND DELIVERY</p>
-        <a href="#">View Specifications</a>
+<!--        <a href="#">View Specifications</a>-->
     </div>
 
     <div id="form-item">
@@ -23,22 +23,23 @@
                 <div class="hide tooltip-content">
                     In how many places do you want the stuff delivered?
                 </div>
-<!--                <br class="clear1" />-->
             </div>
+
             <div class="f-row">
                 <label>Paper type?</label>
                 <p class="bubble">
                     <select>
-                        <option value="type1">type1</option>
-                        <option value="type2">type2</option>
+                        <option value="150gsm">150 gsm</option>
+                        <option value="200gsm">200 gsm</option>
+                        <option value="300gsm">300 gsm</option>
                     </select>
                     <a href="#" class="static-tooltip">link</a>
                 </p>
                 <div class="hide tooltip-content">
                     In how many places do you want the stuff delivered?
                 </div>
-<!--                <br class="clear1">-->
             </div>
+
             <div class="f-row">
                 <label>Delivery points?</label>
                 <p class="bg-input bubble">
@@ -48,18 +49,19 @@
                 <div class="hide tooltip-content">
                     In how many places do you want the stuff delivered?
                 </div>
-
-<!--                <br class="clear1">-->
             </div>
+
             <div id="total-price">
                 <p>Charge per delivery:35</p>
                 <h5 class="price-gst"><span>Price:</span> $935</h5>
                 <h5><span>Price w/<br>10%GST:</span>$1028.50</h5>
 <!--                <br class="clear">-->
             </div>
+
             <div id="cheaper">
                 <p><span class="highlight">$100 cheaper</span> when you<br> buy these <a href="#">with flyers</a></p>
             </div>
+
             <div class="getquote">
                 <p><input type="button" name="get_quote" value="Get Quote" class="btn-quote"></p>
                 <p class="btn-result"><input type="button" id='btn-addresult' name="add_result" value="Add Results"></p>
