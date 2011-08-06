@@ -232,6 +232,7 @@ ul#header-nav li a:hover, ul#header-nav li a.active {
 #content-wrapper {
     margin              :   25px 0 20px;
     padding             :   0 15px;
+    overflow            :   hidden;
 }
 
 #main-col {
@@ -303,6 +304,16 @@ ul#header-nav li a:hover, ul#header-nav li a.active {
     margin              :   0 auto;
     font-weight         :   bold;
     background          :   url('../image/lib/btn-specification.png') no-repeat left top;
+}
+
+#main-col #poster-1 h2, #main-col #poster-2 h2 {
+    font-size: 3.5em;
+}
+
+#main-col .small-poster h2 {
+color: white;
+margin-bottom: 0;
+margin-top: -10px;
 }
 
 #left-col, #right-col{
@@ -384,6 +395,15 @@ a#btn-top {
 .clearfix {
     clear               :   both;
 }
+
+.hide {
+    display             :   none;
+}
+
+.show {
+    display             :   block;
+}
+
 #xml-data {
     overflow            :   hidden;
     margin-top          :   50px;

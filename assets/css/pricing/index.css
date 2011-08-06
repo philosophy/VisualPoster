@@ -162,18 +162,324 @@ root {
 }
 
 #save p, #which-size p {
-background: url('../../image/lib/bg-save.jpg') no-repeat left top;
-min-height: 80px;
-margin: 15px 20px;
-padding: 0 0 0 95px;
-color: #221E15;
+    background          :   url('../../image/lib/bg-save.jpg') no-repeat left top;
+    min-height          :   80px;
+    margin              :   15px 20px;
+    padding             :   0 0 0 95px;
+    color               :   #221E15;
 }
 
 #which-size p {
-    background-image: url('../../image/lib/bg-size.jpg');
+    background-image    :   url('../../image/lib/bg-size.jpg');
 }
 
 #save p a, #which-size p a {
-text-decoration: underline;
-font-weight: bold;
+    text-decoration     :   underline;
+    font-weight         :   bold;
 }
+
+/* start */
+/* pricing show */
+#left-col.service #service-guarantee h3 {
+    color               :   white;
+    font-style          :   italic;
+    font-size           :   1.4em;
+    font-family         :   Georgia,serif;
+    border-bottom       :   1px dashed #FFFAE2;
+}
+
+.service-col {
+    padding             :   10px;
+    padding-bottom      :   20px;
+    border-bottom       :   1px dashed #9B8A54;
+    background-color    :   #FFFAE2;
+}
+
+.service-col.no-border {
+    border-bottom       :   0;
+}
+
+.service-col h4 {
+    color               :   #221E15;
+    font-size           :   1.15em;
+    font-family         :   Georgia, Arial, 'Times New Roman', serif;
+    font-weight         :   bold;
+    margin              :   10px 0;
+}
+
+.service-col img {
+    margin-right        :   10px;
+    float               :   left;
+}
+
+.service-col p {
+    margin-bottom       :   0;
+}
+
+.service-col p, .service-col h5 {
+    float               :   left;
+    width               :   170px;
+    color               :   #221E15;
+}
+
+.service-col h5 {
+    font-weight         :   bold;
+}
+
+#form-item {
+    position:relative;
+    overflow:hidden;
+}
+
+#form-item label {
+    font-family         :   Georgia, Arial, 'Times New Roman', serif;
+    font-size           :   1.4em;
+    font-weight         :   bold;
+    font-style          :   italic;
+    color               :   #221E15;
+    display             :   block;
+}
+
+.f-row {
+    position            :   relative;
+    z-index             :   1;
+}
+
+p.bubble {
+    position: relative;
+}
+
+p.bubble a {
+    position: absolute;
+    left: 163px;
+    display: block;
+    background: #F1D861 url('../../image/lib/icon-what.png') no-repeat center center;
+    border: 1px solid white;
+    text-indent: -9999em;
+    width: 28px;
+    height: 28px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    top: 0;
+}
+
+.f-row p {
+    margin-bottom: 0;
+}
+
+#form-item select {
+    padding:4px 0;
+    border: 1px solid #BCB38C;
+    width: 155px;
+}
+
+#form-item input {
+    line-height: 15px;
+    padding:4px 3px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+#total-price p {
+    background: url('../images/bg-star.png') no-repeat left center;
+    text-transform: uppercase;
+    color: #221E15;
+    padding-left: 25px;
+}
+
+#total-price h5 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #C50900;
+    font-style: none;
+}
+
+#total-price h5.price-gst {
+    border-bottom: 1px dashed #9B8A54;
+    width: 260px;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+}
+
+#total-price span {
+    font-family: Georgia, Arial, 'Times New Roman', serif;
+    color: #221E15;
+    width: 100px;
+    display: block;
+    float: left;
+    font-style: italic;
+    font-size: .7em;
+}
+
+#cheaper {
+    background-color: #D0E292;
+    border: 1px solid #AFC859;
+    padding: 7px;
+    margin: 10px 0;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    width: 250px;
+}
+
+#cheaper p {
+    color: #221E15;
+    background: url('../../image/lib/icon-cheaper.png') no-repeat left center;
+    padding-left: 45px;
+    margin-bottom: 0;
+}
+
+.getquote p {
+    margin-bottom: 5px;
+}
+
+.getquote input {
+    font-family: Georgia, Arial, 'Times New Roman' serif;
+    font-weight: bold;
+    font-style: italic;
+    border: 0;
+    cursor: pointer;
+    display: block;
+    color: white;
+}
+
+input.btn-quote {
+    font-size: 1.5em;
+    background: url('../../image/lib/btn-quote.png') no-repeat left top;
+    width: 149px;
+    height: 46px;
+}
+
+.btn-result {
+    width: 149px;
+    height: 31px;
+    background: url('../../image/lib/btn-result.png') no-repeat left top;
+    padding-left: 35px;
+}
+
+.getquote .btn-result {
+    padding-left: 0;
+}
+
+.btn-result input {
+    background: url('../../image/lib/icon-add.png') no-repeat 15px center;
+    width: 149px;
+    height: 31px;
+    line-height: 28px;
+    padding-left: 35px;
+    font-size: .85em;
+    text-align: left;
+}
+
+#btn-addresult, #btn-exportresult {
+    padding-left: 32px !important;
+}
+
+table#p-details {
+border: 1px solid #BCB38C;
+margin: 20px 0 0 0;
+border-collapse: collapse;
+}
+
+#p-details th {
+height: 38px;
+background: url('../../image/lib/bg-repeat-th.gif') repeat-x left top;
+font-weight: bold;
+border-left: 1px solid #BCB38C;
+padding: 5px 6px;
+font-weight: 1em;
+}
+
+#p-details th:first-child {
+border: 0;
+}
+
+#p-details td {
+background-color: #FFFAE2;
+border-top: 1px solid #BCB38C;
+padding: 10px 7px;
+}
+
+#p-details td.icon-close {
+background: #FFFAE2 url('../../image/lib/icon-close.gif') no-repeat 72px center;
+}
+
+#p-details tr.odd td {
+background-color: #EFE6C0;
+}
+
+#wrong-one {
+margin-top: 20px;
+}
+
+#wrong-one h3 {
+font-family: Georgia,serif;
+font-size: 1.5em;
+color: #221E15;
+font-style: italic;
+font-weight: bold;
+line-height: 1.2;
+border-bottom: 1px dashed #9B8A54;
+padding: 0 20px 10px;
+padding: 0 20px 10px;
+margin-bottom: 20px;
+}
+
+.small-poster {
+width: 125px;
+height: 96px;
+float: left;
+margin: 0 8px 15px;
+background: url('../../image/lib/bg-print-smallsize.jpg') no-repeat 0 0;
+text-align: center;
+padding-top: 10px;
+}
+
+#poster-1 {
+background-position: 0 0;
+}
+
+.small-poster h4, .small-poster h5 {
+color: white;
+}
+
+.small-poster h4 {
+font-size: 1.25em;
+}
+
+.small-poster h5 {
+font-size: .95em;
+}
+
+#main-col #poster-1 h5, #main-col #poster-2 h5 {
+font-size: 1.3em;
+margin-top: -7px;
+}
+
+#main-col #poster-3 h2, #main-col #poster-4 h2, #main-col #poster-5 h2 {
+font-size: 1.7em;
+padding-bottom: 3px;
+margin-top: 0px;
+line-height: 1;
+}
+
+#poster-2 {
+background-position: -125px 0;
+}
+
+#poster-3 {
+background-position: -250px 0;
+}
+
+#poster-4 {
+background-position: -375px 0;
+}
+
+#poster-5 {
+background-position: -500px 0;
+}
+
+
+/* end of pricing show */

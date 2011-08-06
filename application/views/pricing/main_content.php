@@ -1,7 +1,7 @@
 <div id="main-col">
     <h2>Choose your poster type</h2>
     <h4 id="flyer-price">Or show me <a href="#">Flyer Pricing</a></h4>
-    
+
     <div class="print" id="bg-a1">
         <h3>I want to print</h3>
         <h2>A1</h2>
@@ -10,7 +10,7 @@
         <h4>$830</h4>
         <p class="min-order">Min.order 500 pieces</p>
         <p class="excludes">PRICING EXCLUDES GST AND DELIVERY</p>
-        <a href="#">View Specifications</a>
+        <?php echo anchor('pricing/show?poster=a1', 'View Specifications'); ?>
     </div>
 
     <div class="print" id="bg-a2">

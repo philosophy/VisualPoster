@@ -48,3 +48,8 @@
     background          :   url('../image/lib/bg-bottom-box.gif') repeat-x center bottom;
 }
 
+.bg-bottom-box-cream {
+    background          :   url('../image/lib/bg-bottom-box-cream.gif') repeat-x center top;
+    height              :   5px;
+}
+

@@ -14,9 +14,14 @@
             $this->load->view('layout/index', $data);
         }
 
-        function testing() {
-            echo 'testestinasflasjdf';
-        }
+        function show() {
+            $data['poster'] = 'A1';
+            $data['min_order'] = 500;
+            $data['price'] = 830.00;
+            $data['banner'] = 'pricing/banner';
+            $data['content'] = 'pricing/show';
 
+            $this->load->view('layout/index', $data);
+        }
     }
 ?>

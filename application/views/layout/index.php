@@ -10,6 +10,10 @@
             echo css_asset('banner/home_banner.css');
             echo css_asset('content/home_content.css');
             echo css_asset('pricing/index.css');
+            echo js_asset('vendor/jquery-1.6.2.js');
+            echo js_asset('vendor/jquery.qtip.js');
+            echo css_asset('vendor/jquery.qtip.css');
+            echo css_asset('lib/tooltip.css');  
         ?>
     </head>
     <body>
@@ -52,5 +56,6 @@
                 ?>
             </div>
         </div>
+        <?php echo js_asset('views/vp_pricing_ui.js'); ?>
     </body>
 </html>
