@@ -17,7 +17,7 @@
             <div class="f-row">
                 <label>How many?</label>
                 <p class="bg-input bubble">
-                    <input type="text" name="how-many" id="how-many" />
+                    <input type="text" name="poster-num" id="poster-num" value="1" data-poster-price="{price}" />
                     <a href="#" class="static-tooltip">link</a>
                 </p>
                 <div class="hide tooltip-content">
@@ -51,10 +51,16 @@
                 </div>
             </div>
 
-            <div id="total-price">
+            <div id="pricing-container">
                 <p>Charge per delivery:35</p>
-                <h5 class="price-gst"><span>Price:</span> $935</h5>
-                <h5><span>Price w/<br>10%GST:</span>$1028.50</h5>
+                <h5 class="price-gst">
+                    <span class="price-label">Price:</span>
+                    <span id="total-price">$0</span>
+                </h5>
+                <h5>
+                    <span class="price-label">Price w/ 10%GST:</span>
+                    <span id="total-price-gst">$1028.50</span>
+                </h5>
 <!--                <br class="clear">-->
             </div>
 

@@ -247,94 +247,93 @@ root {
 }
 
 p.bubble {
-    position: relative;
+    position            :   relative;
 }
 
 p.bubble a {
-    position: absolute;
-    left: 163px;
-    display: block;
-    background: #F1D861 url('../../image/lib/icon-what.png') no-repeat center center;
-    border: 1px solid white;
-    text-indent: -9999em;
-    width: 28px;
-    height: 28px;
-    border-radius: 10px;
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
-    top: 0;
+    position            :   absolute;
+    left                :   163px;
+    display             :   block;
+    background          :   #F1D861 url('../../image/lib/icon-what.png') no-repeat center center;
+    border              :   1px solid white;
+    text-indent         :   -9999em;
+    width               :   28px;
+    height              :   28px;
+    border-radius       :   10px;
+    -moz-border-radius  :   10px;
+    -webkit-border-radius:  10px;
+    top                 :   0;
 }
 
 .f-row p {
-    margin-bottom: 0;
+    margin-bottom       :   0;
 }
 
 #form-item select {
-    padding:4px 0;
-    border: 1px solid #BCB38C;
-    width: 155px;
+    padding             :   4px 0;
+    border              :   1px solid #BCB38C;
+    width               :   155px;
 }
 
 #form-item input {
-    line-height: 15px;
-    padding:4px 3px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px;
+    line-height         :   15px;
+    padding             :   4px 3px;
+    -webkit-border-radius:  8px;
+    -moz-border-radius  :   8px;
+    border-radius       :   8px;
 }
 
-#total-price p {
-    background: url('../../image/lib/bg-star.png') no-repeat left center;
-    text-transform: uppercase;
-    color: #221E15;
-    padding: 10px 0 0 25px;;
+#pricing-container p {
+    background          :   url('../../image/lib/bg-star.png') no-repeat left center;
+    text-transform      :   uppercase;
+    color               :   #221E15;
+    padding             :   10px 0 0 25px;;
 }
 
-#total-price h5 {
-    font-size: 2em;
-    font-weight: bold;
-    color: #C50900;
-    font-style: none;
-    padding-bottom:10px;
+#pricing-container h5 {
+    font-size           :   2em;
+    font-weight         :   bold;
+    color               :   #C50900;
+    font-style          :   none;
+    padding-bottom      :   10px;
 }
 
-#total-price h5.price-gst {
-    border-bottom: 1px dashed #9B8A54;
-    width: 260px;
-    margin-bottom: 8px;
-    padding-bottom: 8px;
+#pricing-container h5.price-gst {
+    border-bottom       :   1px dashed #9B8A54;
+    width               :   260px;
+    margin-bottom       :   8px;
+    padding-bottom      :   8px;
 }
 
-#total-price span {
-    font-family: Georgia, Arial, 'Times New Roman', serif;
-    color: #221E15;
-    width: 100px;
-    display: block;
-    float: left;
-    font-style: italic;
-    font-size: .7em;
+#pricing-container span.price-label {
+    font-family         :   Georgia, Arial, 'Times New Roman', serif;
+    color               :   #221E15;
+    width               :   90px;
+    display             :   inline-block;
+    font-style          :   italic;
+    font-size           :   .7em;
 }
 
 #cheaper {
-    background-color: #D0E292;
-    border: 1px solid #AFC859;
-    padding: 7px;
-    margin: 10px 0;
-    border-radius: 8px;
-    -moz-border-radius: 8px;
-    -webkit-border-radius: 8px;
-    width: 250px;
+    background-color    :   #D0E292;
+    border              :   1px solid #AFC859;
+    padding             :   7px;
+    margin              :   10px 0;
+    border-radius       :   8px;
+    -moz-border-radius  :   8px;
+    -webkit-border-radius:  8px;
+    width               :   250px;
 }
 
 #cheaper p {
-    color: #221E15;
-    background: url('../../image/lib/icon-cheaper.png') no-repeat left center;
-    padding-left: 45px;
-    margin-bottom: 0;
+    color               :   #221E15;
+    background          :   url('../../image/lib/icon-cheaper.png') no-repeat left center;
+    padding-left        :   45px;
+    margin-bottom       :   0;
 }
 
 .getquote p {
-    margin-bottom: 5px;
+    margin-bottom       :   5px;
 }
 
 .getquote input {
