@@ -43,15 +43,15 @@ root {
 
 .pricing ul#b-menu #for-flyer a.active,
 .pricing ul#b-menu #for-flyer a:hover {
-    background-position :    0 -172px !important;
+    background-position :    0 -172px;
 }
 
 .pricing ul#b-menu li#price-grid a {
     background-position :   0 -86px;
 }
 
-.pricing ul#b-menu li#price-grid a:hover,
-.pricing ul#b-menu li#price-grid a.active {
+.pricing ul#b-menu li#price-grid a.active,
+.pricing ul#b-menu li#price-grid a:hover {
     background-position :   0 -215px;
 }
 
