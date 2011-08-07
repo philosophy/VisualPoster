@@ -40,6 +40,7 @@
 
 $route['default_controller'] = "home";
 $route['pricing'] = 'pricing';
+$route['contact_us'] = 'contactus';
 $route['404_override'] = '';
 
 

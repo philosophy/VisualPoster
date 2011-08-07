@@ -128,6 +128,10 @@ root {
     font-size           :   1.6em;
 }
 
+#main-col div.print {
+    cursor              :   pointer;
+}
+
 #bg-a1, #bg-a2, #bg-a3, #bg-fluro-print1, #bg-fluro-print2, #bg-pole-poster {
     background          :   url('../../image/lib/bg-print.jpg') no-repeat 0 0;
 }
