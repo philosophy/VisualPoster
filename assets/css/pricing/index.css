@@ -32,7 +32,8 @@ root {
     background-position :    0 0;
 }
 
-.pricing ul#b-menu #for-poster a.active{
+.pricing ul#b-menu #for-poster a.active,
+.pricing ul#b-menu #for-poster a:hover {
     background-position :    0 -129px;
 }
 
@@ -40,8 +41,18 @@ root {
     background-position :    0 -43px;
 }
 
-.pricing ul#b-menu #for-flyer a.active{
-    background-position :    0 -172px;
+.pricing ul#b-menu #for-flyer a.active,
+.pricing ul#b-menu #for-flyer a:hover {
+    background-position :    0 -172px !important;
+}
+
+.pricing ul#b-menu li#price-grid a {
+    background-position :   0 -86px;
+}
+
+.pricing ul#b-menu li#price-grid a:hover
+.pricing ul#b-menu li#price-grid a.active {
+    background-position :   0 -215px;
 }
 
 #bg-service, #bg-need, #bg-even {
@@ -379,107 +390,107 @@ input.btn-quote {
 }
 
 table#p-details {
-border: 1px solid #BCB38C;
-margin: 20px 0 0 0;
-border-collapse: collapse;
+    border: 1px solid #BCB38C;
+    margin: 20px 0 0 0;
+    border-collapse: collapse;
 }
 
 #p-details th {
-height: 38px;
-background: url('../../image/lib/bg-repeat-th.gif') repeat-x left top;
-font-weight: bold;
-border-left: 1px solid #BCB38C;
-padding: 5px 6px;
-font-weight: 1em;
+    height: 38px;
+    background: url('../../image/lib/bg-repeat-th.gif') repeat-x left top;
+    font-weight: bold;
+    border-left: 1px solid #BCB38C;
+    padding: 5px 6px;
+    font-weight: 1em;
 }
 
 #p-details th:first-child {
-border: 0;
+    border: 0;
 }
 
 #p-details td {
-background-color: #FFFAE2;
-border-top: 1px solid #BCB38C;
-padding: 10px 7px;
+    background-color: #FFFAE2;
+    border-top: 1px solid #BCB38C;
+    padding: 10px 7px;
 }
 
 #p-details td.icon-close {
-background: #FFFAE2 url('../../image/lib/icon-close.gif') no-repeat 72px center;
+    background: #FFFAE2 url('../../image/lib/icon-close.gif') no-repeat 72px center;
 }
 
 #p-details tr.odd td {
-background-color: #EFE6C0;
+    background-color: #EFE6C0;
 }
 
 #wrong-one {
-margin-top: 20px;
+    margin-top: 20px;
 }
 
 #wrong-one h3 {
-font-family: Georgia,serif;
-font-size: 1.5em;
-color: #221E15;
-font-style: italic;
-font-weight: bold;
-line-height: 1.2;
-border-bottom: 1px dashed #9B8A54;
-padding: 0 20px 10px;
-padding: 0 20px 10px;
-margin-bottom: 20px;
+    font-family: Georgia,serif;
+    font-size: 1.5em;
+    color: #221E15;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 1.2;
+    border-bottom: 1px dashed #9B8A54;
+    padding: 0 20px 10px;
+    padding: 0 20px 10px;
+    margin-bottom: 20px;
 }
 
 .small-poster {
-width: 125px;
-height: 96px;
-float: left;
-margin: 0 8px 15px;
-background: url('../../image/lib/bg-print-smallsize.jpg') no-repeat 0 0;
-text-align: center;
-padding-top: 10px;
+    width: 125px;
+    height: 96px;
+    float: left;
+    margin: 0 8px 15px;
+    background: url('../../image/lib/bg-print-smallsize.jpg') no-repeat 0 0;
+    text-align: center;
+    padding-top: 10px;
 }
 
 #poster-1 {
-background-position: 0 0;
+    background-position: 0 0;
 }
 
 .small-poster h4, .small-poster h5 {
-color: white;
+    color: white;
 }
 
 .small-poster h4 {
-font-size: 1.25em;
+    font-size: 1.25em;
 }
 
 .small-poster h5 {
-font-size: .95em;
+    font-size: .95em;
 }
 
 #main-col #poster-1 h5, #main-col #poster-2 h5 {
-font-size: 1.3em;
-margin-top: -7px;
+    font-size: 1.3em;
+    margin-top: -7px;
 }
 
 #main-col #poster-3 h2, #main-col #poster-4 h2, #main-col #poster-5 h2 {
-font-size: 1.7em;
-padding-bottom: 3px;
-margin-top: 0px;
-line-height: 1;
+    font-size: 1.7em;
+    padding-bottom: 3px;
+    margin-top: 0px;
+    line-height: 1;
 }
 
 #poster-2 {
-background-position: -125px 0;
+    background-position: -125px 0;
 }
 
 #poster-3 {
-background-position: -250px 0;
+    background-position: -250px 0;
 }
 
 #poster-4 {
-background-position: -375px 0;
+    background-position: -375px 0;
 }
 
 #poster-5 {
-background-position: -500px 0;
+    background-position: -500px 0;
 }
 
 

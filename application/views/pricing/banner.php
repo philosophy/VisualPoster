@@ -2,7 +2,8 @@
     <h2>Pricing</h2>
     <ul id="b-menu">
         <li id="for-poster"><a href="#" class="active">For Posters</a></li>
-        <li id="for-flyer"><a href="#">For Flyers</a></li>
+        <li id="for-flyer"><a href="#" >For Flyers</a></li>
+        <li id="price-grid"><a href="#" >Price Grid</a></li>
     </ul>
 </div>
 <div id="banner-right">
