@@ -1,0 +1,125 @@
+.posters.show #file-header {
+    background: url("../../image/lib/bg-bottom-banner.gif") repeat-x scroll center bottom transparent;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    overflow: auto;
+}
+
+.posters.show #file-header h2 {
+    color: #221E15;
+    float: left;
+    font-family: Georgia,serif;
+    font-size: 3em;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 10px;
+    text-shadow: 0 1px #FFFFFF;
+}
+
+.posters.show #file-header a {
+    float: right;
+    margin-top: 20px;
+}
+
+.posters.show .slide {
+    background: url("../../image/lib/btn-slide.png") no-repeat scroll right top transparent;
+    color: #FFFFFF;
+    display: block;
+    font-family: Georgia,serif;
+    font-size: 1.3em;
+    font-style: italic;
+    height: 41px;
+    line-height: 38px;
+}
+
+.posters.show .slide span {
+    background: url("../../image/lib/btn-slide.png") no-repeat scroll left top transparent;
+    display: block;
+    height: 41px;
+    margin-left: -192px;
+    margin-right: 10px;
+    padding: 0 10px;
+}
+
+.posters.show .specification-row {
+    border-bottom: 1px dashed #9B8A54;
+    margin-bottom: 15px;
+    padding-bottom: 25px;
+}
+
+.posters.show h3 {
+    color: #221E15;
+    font-family: Georgia,serif;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.posters.show .specification-row h3 span {
+    font-weight: normal;
+}
+
+.posters.show .specification-row a {
+    text-decoration: underline;
+}
+
+.posters.show p {
+    color: #221E15;
+    margin-bottom: 15px;
+}
+
+.specification-row li {
+    margin-bottom: 10px;
+}
+
+.specification-row li a {
+    background: url("../../image/lib/bullet.gif") no-repeat scroll left 5px transparent;
+    color: #547C0B;
+    font-weight: bold;
+    margin-left: 15px;
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+.specification-row li span {
+    color: #9B8A54;
+    padding-left: 10px;
+}
+
+.posters.show #left-col {
+    width: 550px;
+}
+
+.posters.show #left-col #poster-img {
+    width: 550px;
+    height: 622px;
+}
+
+.posters.show #a1-template {
+    position: relative;
+}
+
+.posters.show #a1-template img {
+    border: 5px solid #FFFFFF;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    width: 160px;
+    height: 175px;
+}
+
+#a1-template a {
+    background: url("../../image/lib/btn-download.png") no-repeat scroll left top transparent;
+    color: #FFFFFF;
+    display: block;
+    font-weight: bold;
+    height: 31px;
+    left: 35px;
+    line-height: 30px;
+    padding-left: 15px;
+    position: absolute;
+    top: 80px;
+    width: 99px;
+}

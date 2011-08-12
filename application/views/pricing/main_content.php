@@ -12,7 +12,7 @@
         <p class="excludes">PRICING EXCLUDES GST AND DELIVERY</p>
 <!--        <input type="hidden" value="a1" name="poster"/>-->
 <!--            <input type="submit" value="View Specifications" />-->
-        <?php echo anchor('specification/poster=a1', 'View Specifications')/**/ ?>
+        <?php echo anchor('posters/show?poster=a1', 'View Specifications')/**/ ?>
     </div>
 
     <div class="print" id="bg-a2" data-url='pricing/show?poster=a2'>

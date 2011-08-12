@@ -294,7 +294,7 @@ ul#header-nav li a:hover, ul#header-nav li a.active {
     line-height         :   .9em;
     padding             :   0 30px;
     text-align          :   center;
-    
+
 }
 
 #main-col .print a {
@@ -405,6 +405,10 @@ a#btn-top {
 
 .show {
     display             :   block;
+}
+
+.no-border {
+    border              :   0 !important;
 }
 
 #xml-data {

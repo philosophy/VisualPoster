@@ -14,6 +14,7 @@
             echo js_asset('vendor/jquery.qtip.js');
             echo css_asset('vendor/jquery.qtip.css');
             echo css_asset('lib/tooltip.css');
+            echo css_asset('posters/index.css');
         ?>
     </head>
     <body>
