@@ -76,8 +76,8 @@
             $data['min_delivery_charge'] = isset($min_delivery_charge) ? $min_delivery_charge : null;
             $data['delivery_charge'] = isset($delivery_charge) ? $delivery_charge : null;
 
-            $this->load->model('Poster_model');
-            $posters = $this->Poster_model->get_posters();
+//            $this->load->model('Poster_model');
+//            $posters = $this->Poster_model->get_posters();
 
             $this->parser->parse('layout/index', $data);
         }
