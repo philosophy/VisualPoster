@@ -38,7 +38,7 @@
 |
 */
 
-$route['default_controller'] = "home";
+$route['default_controller'] = "home/home";
 $route['pricing'] = 'pricing';
 $route['contact_us'] = 'contactus';
 $route['posters'] = 'posters';

@@ -6,7 +6,7 @@
         <h2 class=<?php echo isset($poster_size) ? 'smallsize' : '' ?> >{poster}</h2>
         <h5><?php echo isset($poster_size) ? $poster_size : 'POSTERS' ?></h5>
         <p class="starting">Starting from</p>
-        <h4>${price}</h4>
+        <h4>${min_order_price}</h4>
         <p class="min-order">Min.order {min_order} pieces</p>
         <p class="excludes">PRICING EXCLUDES GST AND DELIVERY</p>
 <!--        <a href="#">View Specifications</a>-->
@@ -17,7 +17,9 @@
             <div class="f-row">
                 <label>How many?</label>
                 <p class="bg-input bubble">
-                    <input type="text" name="poster-num" id="poster-num" value="1" data-poster-price="{price}" />
+                    <input type="text" name="poster-num" id="poster-num" value="1" data-poster-price="{price}" data-setup-fee="{setup_fee}"
+                           data-min-delivery="{min_delivery}" data-min-delivery-charge="{min_delivery_charge}" data-delivery-charge="{delivery_charge}"
+                           data-min-order="{min_order}" data-min-order-price="{min_order_price}"/>
                     <a href="#" class="static-tooltip">link</a>
                 </p>
                 <div class="hide tooltip-content">
@@ -43,7 +45,7 @@
             <div class="f-row">
                 <label>Delivery points?</label>
                 <p class="bg-input bubble">
-                    <input type="text" name="delivery-point" />
+                    <input id="delivery-points" type="text" name="delivery-points" value="1" />
                     <a href="#" class="static-tooltip">link</a>
                 </p>
                 <div class="hide tooltip-content">
