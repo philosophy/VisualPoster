@@ -1,0 +1,26 @@
+.pricing.price_grid .price-menu h2 {
+    color: #221E15;
+    font-family: Georgia,serif;
+    font-size: 2.2em;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.pricing.price_grid .price-menu h3 {
+    color: #537B0B;
+    font-family: Georgia,serif;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.pricing.price_grid .price-menu ul {
+    margin-bottom: 15px;
+}
+
+.pricing.price_grid .price-menu li {
+    border-top: 1px solid #BCB38C;
+    position: relative;
+}

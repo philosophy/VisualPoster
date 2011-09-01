@@ -1,5 +1,5 @@
 <?php
-    $this->load->view('pricing/left_content');
-    $this->load->view('pricing/main_content');
-    $this->load->view('pricing/right_content');
+    $this->load->view('contact_us/left_content');
+    $this->load->view('contact_us/main_content');
+    $this->load->view('contact_us/right_content');
 ?>

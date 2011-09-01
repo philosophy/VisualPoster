@@ -39,3 +39,20 @@ define('FOPEN_READ_WRITE_CREATE_STRICT',		'x+b');
 define('SMARTY_DIR', 'C:\xampp\htdocs\visualposter\system\libraries\Smarty-3.0.8\libs\\');
 /* End of file constants.php */
 /* Location: ./application/config/constants.php */
+
+define('ERROR_LOG', 1);
+define('INFO_LOG', 2);
+
+/* LIST OF HTTP STATUS */
+/* Request is Ok - fetch or get is good */
+define('HTTP_OK', 200);
+/* Created - post or successfully created */
+define('HTTP_CREATED', 201);
+/* General Bad Request - fail request or missing arguments */
+define('HTTP_BAD_REQUEST', 400);
+/* Forbidden */
+define('HTTP_FORBIDDEN', 403);
+/* Not Found - record/resource not found */
+define('HTTP_NOT_FOUND', 404);
+/* Precondition Failed - fail in condition, invalid post arg format, fail in validation */
+define('HTTP_FAIL_PRECON', 412);

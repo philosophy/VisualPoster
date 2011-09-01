@@ -1,0 +1,126 @@
+.contactus #banner {
+    background              : url("../../image/lib/bg-bottom-banner.gif") repeat-x scroll center bottom transparent;
+    padding                 : 0 15px;
+    width                   : auto;
+}
+
+.contactus #banner-left {
+    float                   : left;
+    margin-right            : 15px;
+    width                   : 255px;
+    margin-right            : 0;
+}
+
+.contactus #faq ol {
+    list-style-position     : outside;
+    list-style-type         : decimal;
+    margin-left             : 15px;
+    margin-top              : 15px;
+    padding                 : 0 15px;
+}
+
+.contactus #faq li {
+    border-bottom           : 1px dashed #9B8A54;
+    margin-bottom           : 15px;
+    padding-bottom          : 15px;
+}
+
+.contactus #faq li.active {
+    color                   : #537B0B;
+}
+
+.contactus #faq p {
+    margin                  : 0 15px 30px 0;
+    text-align              : right;
+}
+
+.contactus #faq p a {
+    font-weight             : bold;
+    text-decoration         : underline;
+}
+
+.contactus #main-col h2,
+.contactus #keep-touch h2 {
+    font-size               : 2.5em;
+    font-style              : italic;
+    font-weight             : bold;
+    line-height             : 1.2;
+    margin-bottom           : 20px;
+}
+
+.contactus #c-form p {
+    background              : url("../../image/lib/bg-input-contactform.png") no-repeat scroll right top transparent;
+    height                  : 28px;
+    margin-bottom           : 10px;
+    width                   : 475px;
+}
+
+.contactus #c-form label {
+    color                   : #221E15;
+    float                   : left;
+    font-size               : 1.5em;
+    font-style              : italic;
+    font-weight             : bold;
+    text-align              : right;
+    width                   : 140px;
+}
+
+.contactus p#mandatory span,
+.contactus #c-form label span {
+    color                   : #C50900;
+}
+
+.contactus #c-form input, #c-form textarea {
+    background-color        : transparent;
+    border                  : 0 none;
+    float                   : right;
+    font-size               : 1.1em;
+    margin-right            : 7px;
+    padding-top             : 5px;
+    width                   : 300px;
+}
+
+.contactus p#txt-mobile label {
+    text-align              : left;
+    text-indent             : 50px;
+}
+
+.contactus p#your-message {
+    background              : url("../../image/lib/bg-textarea-contactform.png") no-repeat scroll right top transparent;
+    height                  : 178px;
+}
+
+.contactus p#mandatory, p#btn-submit {
+    background-image        : none !important;
+    color                   : #72603F;
+    font-weight             : bold;
+    margin                  : 0 0 0 155px;
+}
+
+.contactus p#btn-submit input {
+    background              : url("../../image/lib/btn-quote.png") no-repeat scroll left top transparent;
+    color                   : #FFFFFF;
+    cursor                  : pointer;
+    float                   : left;
+    font-size               : 1.5em;
+    font-style              : italic;
+    height                  : 46px;
+    line-height             : 46px;
+    padding                 : 0;
+    width                   : 149px;
+}
+
+.contactus #keep-touch h2 {
+    margin-bottom           : 0;
+}
+
+.contactus #keep-touch h3 {
+    color                   : #221E15;
+    font-size               : 1.3em;
+    margin-top              : 25px;
+}
+
+.contactus #keep-touch p, #keep-touch address {
+    color                   : #221E15;
+    font-size               : 1.2em;
+}

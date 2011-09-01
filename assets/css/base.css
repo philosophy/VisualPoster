@@ -229,6 +229,12 @@ ul#header-nav li a:hover, ul#header-nav li a.active {
     position            :   relative;
 }
 
+#header, #banner, #content-wrapper {
+    margin          :   0 auto;
+    padding         :   0 15px;
+    width           :   1190px;
+}
+
 #content-wrapper {
     margin              :   25px 0 20px;
     padding             :   0 15px;

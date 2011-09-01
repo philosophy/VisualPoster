@@ -1,0 +1,148 @@
+#wrapper.about #banner h2 {
+    color: #221E15;
+    margin-bottom: 18px;
+}
+
+.about #banner {
+    width: auto;
+    padding: 0 0 0 15px;
+}
+
+.about ul#banner-menu li#for-philosophy a.active,
+.about ul#banner-menu li#for-philosophy a:hover {
+    background-position: 0 -344px;
+}
+
+.about ul#banner-menu li#for-team a.active,
+.about ul#banner-menu li#for-team a:hover {
+    background-position: 0 -387px;
+}
+
+.about ul#banner-menu li#for-philosophy a {
+    background-position: 0 -258px;
+}
+
+.about ul#banner-menu li#for-team a {
+    background-position: 0 -301px;
+}
+
+.about ul#banner-menu li a {
+    background: url("../../image/lib/banner-menu.png") no-repeat scroll left top transparent;
+    display: block;
+    height: 43px;
+    text-indent: -9999em;
+    width: 274px;
+}
+
+.about #main-col {
+    float: left;
+    margin: 0 0 0 55px;
+    padding: 0;
+    width: 860px;
+}
+
+.about  #customer-details img {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about .about-content h3 {
+    border-bottom: 1px dashed #9B8A54;
+    color: #221E15;
+    font-family: Georgia,serif;
+    font-size: 1.8em;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+.about .our-philosophy p {
+    color: #221E15;
+    font-size: 1.15em;
+}
+
+.about-content a {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.about .core-values {
+    margin-bottom: 20px;
+}
+
+.about .core-values h4,
+.about .core-values p,
+.about .member p,
+.about .member h4 {
+    color: #221E15;
+}
+
+.about .core-values img,
+.about .member img {
+    float: left;
+    margin-right: 20px;
+}
+
+.about .core-values div,
+.about .member {
+    float: left;
+}
+
+.about .member p {
+    margin-bottom: 15px;
+}
+
+.about .member div {
+    margin-left: 120px;
+}
+
+.about .core-values h4 {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* our team */
+
+.about .our-team {
+    background: url("../../image/lib/repeat-td.png") repeat scroll left top transparent;
+    float: left;
+    margin-bottom: 30px;
+    margin-right: 15px;
+    padding: 10px;
+    width: 180px;
+}
+
+.about .our-team div {
+    background: url("../../image/lib/bg-img.jpg") no-repeat scroll left top transparent;
+    height: 183px;
+    margin-bottom: 10px;
+    width: 183px;
+}
+
+.about .our-team img {
+    padding: 10px;
+}
+
+.about .about-content .our-team h3 {
+    font-size: 1.2em;
+    font-style: normal;
+}
+
+.about .about-content .our-team h3 span {
+    display: block;
+    font-size: 0.85em;
+    font-style: italic;
+}
+
+.about .our-team h5 {
+    color: #000000;
+    font-size: 1.15em;
+    font-weight: bold;
+}
+
+.about .our-team p {
+    color: #000000;
+}

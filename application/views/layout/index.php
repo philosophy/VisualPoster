@@ -10,6 +10,9 @@
             echo css_asset('banner/home_banner.css');
             echo css_asset('content/home_content.css');
             echo css_asset('pricing/index.css');
+            echo css_asset('pricing/price_grid.css');
+            echo css_asset('contact_us/index.css');
+            echo css_asset('about/index.css');
             echo js_asset('vendor/jquery-1.6.2.js');
             echo js_asset('vendor/jquery.qtip.js');
             echo css_asset('vendor/jquery.qtip.css');
@@ -57,6 +60,10 @@
                 ?>
             </div>
         </div>
-        <?php echo js_asset('views/vp_pricing_ui.js'); ?>
+        <?php
+            echo js_asset('views/vp_pricing_ui_revise.js');
+            echo js_asset('views/vp_pricing.js');
+            echo js_asset('lib/vp_ajax.js');
+        ?>
     </body>
 </html>

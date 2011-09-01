@@ -124,5 +124,5 @@ VP.Pricing.UI = function() {
 }();
 
 $(document).ready(function() {
-    VP.Pricing.UI.init();
+//    VP.Pricing.UI.init();
 });

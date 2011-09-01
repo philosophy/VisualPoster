@@ -53,7 +53,7 @@ $autoload['packages'] = array(APPPATH.'third_party');
 */
 
 //$autoload['libraries'] = array('parser', 'database');
-$autoload['libraries'] = array('parser');   //remove db in prod for the meantime
+$autoload['libraries'] = array('parser', 'database', 'functions');   //remove db in prod for the meantime
 
 
 /*

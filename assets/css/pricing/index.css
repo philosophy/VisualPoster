@@ -15,11 +15,6 @@ root {
     display: block;
 }
 
-.pricing #banner-left h2{
-    color               :   #221E15;
-    margin-bottom       :   18px;
-}
-
 .pricing ul#b-menu li a {
     background          :   url('../../image/lib/banner-menu.png') no-repeat left top;
     height              :   43px;
@@ -128,7 +123,7 @@ root {
     font-size           :   1.6em;
 }
 
-#main-col div.print {
+.pricing.index #main-col div.print {
     cursor              :   pointer;
 }
 
@@ -266,6 +261,7 @@ p.bubble {
 }
 
 p.bubble a {
+    cursor              :   none;
     position            :   absolute;
     left                :   163px;
     display             :   block;

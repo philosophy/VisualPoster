@@ -56,7 +56,7 @@
             <?php echo anchor('about', 'ABOUT', array('title'=>"About Page", 'class'=>(isset($aboutlink) ? 'active' : ''))); ?>
         </li>
         <li>
-            <?php echo anchor('contact', 'CONTACT', array('title'=>"Contact Page", 'class'=>(isset($contactlink) ? 'active' : ''))); ?>
+            <?php echo anchor('contactus', 'CONTACT', array('title'=>"Contact Page", 'class'=>(isset($contactlink) ? 'active' : ''))); ?>
         </li>
     </ul>
 </div>

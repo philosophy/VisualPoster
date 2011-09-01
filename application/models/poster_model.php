@@ -2,27 +2,25 @@
 
     class Poster_model extends CI_Model {
 
-    function get_posters() {
-        $query = $this->db->get('posters');
-        $records = array();
-        $i = 0;
-        if ($query->num_rows() > 0) {
-            foreach ($query->result() as $row) {
-                $records[$i] = array(
-                    'id' => $row->id,
-                    'name' => $row->name,
-                    'min_order' => $row->min_order,
-                    'price' => $row->price
-                );
-                $i++;
+        function get_posters($poster) {
+            $query = $this->db->get_where('posters', array('name' => $poster));
+            $records = array();
+            if ($query->num_rows() > 0) {
+                foreach ($query->result() as $row) {
+                    $records = array(
+                        'id' => $row->id,
+                        'name' => $row->name,
+                        'price' => $row->price,
+                        'delivery_charge' => $row->delivery_charge
+                    );
+                }
+                return $records;
+            } else {
+                echo 'no data';
+                return null;
             }
-            return $records;
-        } else {
-            echo 'no data';
-            return null;
         }
-    }
 
-}
+    }
 
 ?>

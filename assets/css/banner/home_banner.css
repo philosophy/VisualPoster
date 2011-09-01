@@ -1,4 +1,4 @@
-a#btn-prices {
+.pricing a#btn-prices {
     color           :   white;
     background      :   url('../../image/lib/btn-prices.png') no-repeat left top;
     width           :   243px;
@@ -10,11 +10,11 @@ a#btn-prices {
     font-size       :   1.2em;
 }
 
-a#btn-prices:hover {
+.pricing a#btn-prices:hover {
     text-decoration :   underline;
 }
 
-#banner-right {
+.pricing #banner-right {
     width           :   900px;
     float           :   left;
 }
