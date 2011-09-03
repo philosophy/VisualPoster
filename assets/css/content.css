@@ -16,6 +16,7 @@
     background-color    :   #312619;
     margin              :   0 0 25px 0;
     position            :   relative;
+    display             :   block;
 }
 
 .box h3, .box h4, .box h5, .box p, .box h2 {

@@ -5,7 +5,6 @@
         <h3>I want to print</h3>
         <h2 class=<?php echo isset($poster_size) ? 'smallsize' : '' ?> >{poster}</h2>
         <h5><?php echo isset($poster_size) ? $poster_size : 'POSTERS' ?></h5>
-<!--        <p class="starting">Starting from</p>-->
 <!--        <h4>${min_order_price}</h4>-->
 <!--        <p class="min-order">Min.order {min_order} pieces</p>-->
 <!--        <p class="excludes">PRICING EXCLUDES GST AND DELIVERY</p>-->
@@ -18,7 +17,7 @@
                 <label>How many?</label>
                 <p class="bg-input bubble">
                     <input type="text" name="poster-num" id="poster-num" value="1" data-poster-price="{price}" data-delivery-charge="{delivery_charge}"
-                           data-poster="{poster}"/>
+                           data-poster="{poster}" data-type="{type}"/>
                     <a href="#" class="static-tooltip">link</a>
                 </p>
                 <div class="hide tooltip-content">
@@ -62,7 +61,7 @@
                 </h5>
                 <h5>
                     <span class="price-label">Price w/ 10%GST:</span>
-                    <span id="total-price-gst">$1028.50</span>
+                    <span id="total-price-gst">$0</span>
                 </h5>
 <!--                <br class="clear">-->
             </div>
@@ -74,12 +73,15 @@
             <div class="getquote">
                 <p><input type="button" name="get_quote" value="Get Quote" class="btn-quote"></p>
                 <p class="btn-result"><input type="button" id='btn-addresult' name="add_result" value="Add Results"></p>
-                <p class="btn-result icon-export"><input type="button" id='btn-exportresult' name="export_result" value="Export Results"></p>
+                <p class="btn-result icon-export">
+<!--                    <input type="button" id='btn-exportresult' name="export_result" value="Export Results" data-ajax-url='export_data'>-->
+                    <a id='export-data-link' href="export_data" target='_blank'>Export Results</a>
+                </p>
             </div>
         </form>
     </div>
 
-    <table id="p-details">
+    <table id="result-details">
         <tbody><tr>
                 <th>Type</th>
                 <th>Products</th>
@@ -90,7 +92,7 @@
                 <th>Price</th>
                 <th>Price w/10% GST</th>
             </tr>
-            <tr>
+<!--             <tr>
                 <td>Poster</td>
                 <td>A1</td>
                 <td>Standard</td>
@@ -119,7 +121,7 @@
                 <td>500</td>
                 <td>$935</td>
                 <td class="icon-close">$1028.50</td>
-            </tr>
+            </tr>-->
         </tbody></table>
     <div id="wrong-one">
         <h3>Chose the wrong one?</h3>

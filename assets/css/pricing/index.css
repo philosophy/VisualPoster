@@ -343,6 +343,11 @@ p.bubble a {
     margin-bottom       :   0;
 }
 
+#btn-compute {
+    margin-left: 100px;
+    display: block;
+}
+
 .getquote p {
     margin-bottom       :   5px;
 }
@@ -380,22 +385,34 @@ input.btn-quote {
     width: 149px;
     height: 31px;
     line-height: 28px;
-    padding-left: 35px;
+    padding-left: 37px !important;
     font-size: .85em;
     text-align: left;
 }
 
-#btn-addresult, #btn-exportresult {
-    padding-left: 32px !important;
+.btn-result.icon-export a {
+    font-size: .85em;
+    display: block;
+    line-height: 30px;
+    color: white;
+    font-family: Georgia, Arial, 'Times New Roman' serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    background: url('../../image/lib/icon-export.png') no-repeat left top;
+    background-position: 10px 6px;
+    padding-left: 15px;
 }
 
-table#p-details {
+table#result-details {
     border: 1px solid #BCB38C;
     margin: 20px 0 0 0;
     border-collapse: collapse;
+    display: block;
+    position: relative;
 }
 
-#p-details th {
+#result-details th {
     height: 38px;
     background: url('../../image/lib/bg-repeat-th.gif') repeat-x left top;
     font-weight: bold;
@@ -404,22 +421,44 @@ table#p-details {
     font-weight: 1em;
 }
 
-#p-details th:first-child {
+#result-details th:first-child {
     border: 0;
 }
 
-#p-details td {
+#result-details td {
     background-color: #FFFAE2;
     border-top: 1px solid #BCB38C;
     padding: 10px 7px;
 }
 
-#p-details td.icon-close {
+#result-details td.icon-close {
     background: #FFFAE2 url('../../image/lib/icon-close.gif') no-repeat 72px center;
 }
 
-#p-details tr.odd td {
+#result-details tr.odd td {
     background-color: #EFE6C0;
+}
+
+#result-details tr td span.value {
+    left: 0;
+    position: relative;
+    display: inline-block;
+    padding-right: 20px;
+    min-width: 40px;
+}
+
+#result-details tr td a.delete-link {
+    color: red;
+    top: -10px;
+    position: relative;
+    /*
+    right: -25px;
+    top: -12px;*/
+}
+
+#result-details tr td a.delete-link:hover {
+    font-weight: bold;
+    text-decoration: none;
 }
 
 #wrong-one {

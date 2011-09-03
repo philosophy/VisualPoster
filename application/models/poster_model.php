@@ -11,14 +11,20 @@
                         'id' => $row->id,
                         'name' => $row->name,
                         'price' => $row->price,
-                        'delivery_charge' => $row->delivery_charge
+                        'delivery_charge' => $row->delivery_charge,
+                        'type' => $row->type
                     );
                 }
                 return $records;
             } else {
-                echo 'no data';
                 return null;
             }
+        }
+
+        function get_poster_id($poster) {
+            $query = $this->db->get_where('posters', array('name' => $poster));
+            $row = $query->first_row('array');
+            return $row['id'];
         }
 
     }

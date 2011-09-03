@@ -15,6 +15,7 @@
             echo css_asset('about/index.css');
             echo js_asset('vendor/jquery-1.6.2.js');
             echo js_asset('vendor/jquery.qtip.js');
+            echo js_asset('vendor/jquery.cookie.js');
             echo css_asset('vendor/jquery.qtip.css');
             echo css_asset('lib/tooltip.css');
             echo css_asset('posters/index.css');
