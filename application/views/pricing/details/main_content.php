@@ -132,10 +132,10 @@
         </div>
         <div id="poster-2" class="small-poster">
             <h4>I want to print</h4>
-            <h2>A2</h2>
+            <h2>A3</h2>
             <h5>POSTERS</h5>
         </div>
-        <div id="poster-3" class="small-poster">
+<!--        <div id="poster-3" class="small-poster">
             <h4>I want to print</h4>
             <h2>fluro Prints 1</h2>
             <h5>688mm x 1000mm</h5>
@@ -149,6 +149,6 @@
             <h4>I want to print</h4>
             <h2>Pole Posters</h2>
             <h5>688mm x 1000mm</h5>
-        </div>
+        </div>-->
     </div>
 </div>

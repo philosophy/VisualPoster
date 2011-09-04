@@ -313,6 +313,7 @@ ul#header-nav li a:hover, ul#header-nav li a.active {
     margin              :   0 auto;
     font-weight         :   bold;
     background          :   url('../image/lib/btn-specification.png') no-repeat left top;
+    margin-top          :   50px;
 }
 
 #main-col #poster-1 h2, #main-col #poster-2 h2 {
