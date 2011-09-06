@@ -14,7 +14,6 @@
         }
 
         function show() {
-            $this->load->model('Poster_model');
             $result = $this->Poster_model->get_posters($_GET['poster']);
             $poster = $result['name'];
             $price = $result['price'];
@@ -40,22 +39,16 @@
         }
 
         public function get_price() {
-
-            $this->load->model('Poster_model');
+            $posterModel = $this->Poster_model;
 
             $poster = $_POST['poster'];
             $num    = $_POST['num'];
 
-            $id = $this->Poster_model->get_poster_id($poster);
-            $sql = "SELECT * FROM poster_range WHERE poster_id = ? AND min_range >= ? AND max_range <= ?";
-            $query = $this->db->query($sql, array($id, $num, $num));
-            if ($query->num_rows() > 0) {
-                foreach ($query->result_array() as $row) {
-                   $data['price'] = $row['price'];
-                }
+            $id = $posterModel->get_poster_id($poster);
+            $data['poster'] = $poster;
 
-                $data['poster'] = $poster;
-
+            $data['price'] = $posterModel->get_poster_price($id, $num);
+            if (isset($data['price'])) {
                 CI_Functions::send_json_response(INFO_LOG, HTTP_OK, 'testing response', $data);
              } else {
                 CI_Functions::send_json_response('test', HTTP_BAD_REQUEST, 'no data found');
@@ -66,27 +59,10 @@
             $this->load->library('excel_xml');
 
             $title = array('Type', 'Products', 'Paper Type', 'Charge per Delivery', 'Delivery Points', 'No. of copies', 'Price', 'Price w/ 10% GST');
-
-            $test = array(
-                0 => array('Nr.', 'Name', 'E-Mail'),
-                array(1, 'Oliver Schwarz', 'oliver.schwarz@gmail.com'),
-                array(2, 'Hasematzel', 'hasematzel@gmail.com')
-            );
-
-//            print_r($test);
-//            echo '<br /><br />';
-
-//            print_r($title);
-//            echo '<br /><br />';
-//            $data[] = $title;
-//            print_r($data);
             $list = $_GET['list'];
 
             $data = json_decode($list, true);
             array_unshift($data, $title);
-//            print_r($data);
-//            echo '<br /><br />';
-//            print_r($data);
             $xls = new CI_Excel_XML;
             $xls->addWorksheet('Posters', $data);
             $xls->sendWorkbook('Poster_Details.xls');

@@ -16,6 +16,7 @@ VP.Pricing.UI = function() {
 
     /* element classes */
     var printClass = 'print';
+    var elemRedirectClass = 'redirect';
     var deleteLinkClass = 'delete-link';
     var productDetailsClass = 'product-details';
 
@@ -47,7 +48,7 @@ VP.Pricing.UI = function() {
                 });
             });
 
-            $('.pricing.index .' + printClass).live('click', self.redirect);
+            $('.pricing .' + elemRedirectClass).live('click', self.redirect);
 
             // get cookie result_details and append to table
             var previousResults = $.cookie('result_details');
@@ -226,7 +227,7 @@ VP.Pricing.UI = function() {
                 if (target.hasClass('print')) {
                     container = target;
                 } else {
-                    container = target.closest('div.print');
+                    container = target.closest('div.redirect');
                 }
 
                 window.location = container.data('url');

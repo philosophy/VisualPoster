@@ -27,6 +27,18 @@
             return $row['id'];
         }
 
+        function get_poster_price($id, $range) {
+            $sql = "SELECT * FROM poster_range WHERE poster_id = ? AND (? >= min_range AND ? <= max_range)";
+            $query = $this->db->query($sql, array($id, $range, $range));
+            if ($query->num_rows() > 0) {
+                foreach ($query->result_array() as $row) {
+                   $price = $row['price'];
+                }
+                return $price;
+            } else {
+                return null;
+            }
+        }
     }
 
 ?>

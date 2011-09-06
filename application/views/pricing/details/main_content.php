@@ -5,9 +5,6 @@
         <h3>I want to print</h3>
         <h2 class=<?php echo isset($poster_size) ? 'smallsize' : '' ?> >{poster}</h2>
         <h5><?php echo isset($poster_size) ? $poster_size : 'POSTERS' ?></h5>
-<!--        <h4>${min_order_price}</h4>-->
-<!--        <p class="min-order">Min.order {min_order} pieces</p>-->
-<!--        <p class="excludes">PRICING EXCLUDES GST AND DELIVERY</p>-->
         <a href="#">View Specifications</a>
     </div>
 
@@ -125,12 +122,12 @@
         </tbody></table>
     <div id="wrong-one">
         <h3>Chose the wrong one?</h3>
-        <div id="poster-1" class="small-poster">
+        <div id="poster-1" class="small-poster redirect" data-url='/visualposter/index.php/pricing/show?poster=a2'>
             <h4>I want to print</h4>
             <h2>A2</h2>
             <h5>POSTERS</h5>
         </div>
-        <div id="poster-2" class="small-poster">
+        <div id="poster-2" class="small-poster redirect" data-url='/visualposter/index.php/pricing/show?poster=a3'>
             <h4>I want to print</h4>
             <h2>A3</h2>
             <h5>POSTERS</h5>

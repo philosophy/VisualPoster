@@ -2,7 +2,7 @@
     <h2>Choose your poster type</h2>
     <h4 id="flyer-price">Or show me <a href="#">Flyer Pricing</a></h4>
 
-    <div class="print" id="bg-a1" data-url='pricing/show?poster=a1'>
+    <div class="print redirect" id="bg-a1" data-url='pricing/show?poster=a1'>
         <h3>I want to print</h3>
         <h2>A1</h2>
         <h5>POSTERS</h5>
@@ -15,7 +15,7 @@
         <?php echo anchor('posters/show?poster=a1', 'View Specifications')/**/ ?>
     </div>
 
-    <div class="print" id="bg-a2" data-url='pricing/show?poster=a2'>
+    <div class="print redirect" id="bg-a2" data-url='pricing/show?poster=a2'>
         <h3>I want to print</h3>
         <h2>A2</h2>
         <h5>POSTERS</h5>
@@ -26,7 +26,7 @@
         <?php echo anchor('pricing/show?poster=a2', 'View Specifications')/**/ ?>
     </div>
 
-    <div class="print" id="bg-a3" data-url='pricing/show?poster=a3'>
+    <div class="print redirect" id="bg-a3" data-url='pricing/show?poster=a3'>
         <h3>I want to print</h3>
         <h2>A3</h2>
         <h5>POSTERS</h5>
