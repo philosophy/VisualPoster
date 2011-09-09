@@ -53,8 +53,14 @@ $autoload['packages'] = array(APPPATH.'third_party');
 */
 
 //$autoload['libraries'] = array('parser', 'database');
-$autoload['libraries'] = array('parser', 'database', 'functions');   //remove db in prod for the meantime
+$autoload['libraries'] = array('parser', 'database', 'functions', 'encrypt', 'session', 'form_validation',
+        'ion_auth');   //remove db in prod for the meantime
 
+
+/*
+ * Auto-load sparks
+ */
+//$autoload['sparks'] = array('php');
 
 /*
 | -------------------------------------------------------------------
@@ -65,7 +71,7 @@ $autoload['libraries'] = array('parser', 'database', 'functions');   //remove db
 |	$autoload['helper'] = array('url', 'file');
 */
 
-$autoload['helper'] = array('url', 'asset', 'file');
+$autoload['helper'] = array('url', 'asset', 'file', 'form');
 
 
 /*
@@ -110,7 +116,7 @@ $autoload['language'] = array();
 |
 */
 
-$autoload['model'] = array('Poster_model');
+$autoload['model'] = array('Poster_model', 'User_model', 'Ion_auth_model');
 
 
 /* End of file autoload.php */

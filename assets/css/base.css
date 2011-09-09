@@ -239,6 +239,7 @@ ul#header-nav li a:hover, ul#header-nav li a.active {
     margin              :   25px 0 20px;
     padding             :   0 15px;
     overflow            :   hidden;
+    min-height          :   250px;
 }
 
 #main-col {

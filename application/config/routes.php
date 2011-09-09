@@ -40,10 +40,14 @@
 
 $route['default_controller'] = "home/home";
 $route['pricing'] = 'pricing';
-$route['contact_us'] = 'contactus';
+$route['contactus'] = 'contactus';
 $route['posters'] = 'posters';
 $route['about'] = 'about';
+$route['work'] = 'works';
 $route['404_override'] = '';
+$route['users'] = 'users';
+
+$route['admin'] = 'admin';
 
 
 /* End of file routes.php */

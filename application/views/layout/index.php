@@ -62,8 +62,7 @@
             </div>
         </div>
         <?php
-            echo js_asset('views/vp_pricing_ui_revise.js');
-            echo js_asset('views/vp_pricing.js');
+            echo js_asset('views/vp_pricing_ui.js');
             echo js_asset('lib/vp_ajax.js');
         ?>
     </body>
