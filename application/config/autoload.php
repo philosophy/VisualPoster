@@ -116,7 +116,7 @@ $autoload['language'] = array();
 |
 */
 
-$autoload['model'] = array('Poster_model', 'User_model', 'Ion_auth_model');
+$autoload['model'] = array('Poster_model', 'User_model', 'Ion_auth_model', 'Poster_range_model');
 
 
 /* End of file autoload.php */

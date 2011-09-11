@@ -364,3 +364,5 @@ $config['proxy_ips'] = '';
 $config['DB_SALT'] = 'visualposter1234';
 $config['passPrefix'] = 'EVENTS_';
 $config['passSuffix'] = '_REST';
+
+$config['default_layout'] = 'layout/index';

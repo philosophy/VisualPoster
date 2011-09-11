@@ -1,0 +1,43 @@
+/*
+    Document   : table
+    Created on : Sep 9, 2011, 8:54:57 PM
+    Author     : marc
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root {
+    display: block;
+}
+
+.datatable {
+    border: 2px solid #BCB38C;
+    margin: 20px 0 0 0;
+    border-collapse: collapse;
+    overflow: hidden;
+    position: relative;
+}
+
+.datatable th:first-child {
+    border: 0;
+}
+
+.datatable th {
+    height: 38px;
+    background: url('../../image/lib/bg-repeat-th.gif') repeat-x left top;
+    font-weight: bold;
+    border-left: 1px solid #BCB38C;
+    padding: 5px 6px;
+    font-weight: 1em;
+}
+
+.datatable td {
+    background-color: #FFFAE2;
+    border-top: 1px solid #BCB38C;
+    padding: 10px 7px;
+}

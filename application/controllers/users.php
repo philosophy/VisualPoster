@@ -43,6 +43,7 @@ class Users extends CI_Controller {
                 //redirect to details page
                 redirect('/admin');
             } else {
+                $this->session->set_flashdata('message', 'You must be an admin to view this page');
                 redirect(current_url());
             }
         }

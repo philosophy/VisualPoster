@@ -48,6 +48,10 @@ $route['404_override'] = '';
 $route['users'] = 'users';
 
 $route['admin'] = 'admin';
+$route['admin/table/:num'] = 'admin/show';
+$route['admin/table/:num/add'] = 'admin/show';
+$route['admin/posters/add'] = 'adminposter/add';
+$route['admin/poster_range/add'] = 'adminposterrange/add';
 
 
 /* End of file routes.php */
