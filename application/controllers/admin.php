@@ -42,19 +42,32 @@ class Admin extends CI_Controller {
         $table_id = $this->uri->segment(3, 0);
         $table_action = $this->uri->segment(4, 0);
 
-        if ($table_action && in_array($table_action, $this->actions)) {
-            $data['action'] = $table_action;
-        }
-
         $data['current_table'] = isset($this->tables[$table_id-1]) ? $this->tables[$table_id -1]['table'] : show_404();
         $data['table_id'] = $table_id;
+
+        $model = $this->tables[$table_id-1]['model'];
+        if ($table_action && in_array($table_action, $this->actions)) {
+            $data['action'] = $table_action;
+
+            if ($table_action == 'edit') {
+                $dataId = $this->uri->segment(5,0);
+
+                if ($data['current_table']=='posters') {
+                    $data['poster'] = $this->$model->get_data(array('id'=>$dataId, 'status'=>0));
+                } else {
+                    $data['poster_range'] = $this->$model->get_data(array('range_id'=>$dataId, 'status'=>0));
+                }
+//                die(print_r($data['data']));
+            }
+        }
 
         $data['title'] = 'Admin';
         $data['content'] = 'admin/index';
         $data['tables'] = $this->tables;
 
-        $model = $this->tables[$table_id-1]['model'];
-        $data['data'] = $this->$model->get_data();
+        if (!isset($data['data'])) {
+            $data['data'] = $this->$model->get_data(array('status'=>0));
+        }
 
         $this->load->view($this->config->item('default_layout'), $data);
     }

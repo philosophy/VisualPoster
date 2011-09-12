@@ -4,7 +4,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-    class AdminPoster extends CI_Controller {
+    class AdminPoster extends CI_controller {
 
         private $tables = array(array('id'=>1, 'title'=>'Posters', 'link'=>'', 'table'=>'posters', 'model'=>'Poster_model'),
                              array('id'=>2,'title' => 'Poster Price Range', 'link' => '', 'table'=>'poster_range', 'model'=>'Poster_range_model'));
@@ -20,7 +20,7 @@
 
         // add posters
         function add() {
-
+            $data['action'] = 'add';
             // Load dependencies
             $this->form_validation->set_rules('name', 'Poster Name', 'trim|required');
 
@@ -30,13 +30,13 @@
                 $poster_id = $this->Poster_model->add_poster($_POST);
 
                 if(!isset($poster_id)) {
-                    $this->loadAddForm();
+                    $this->loadForm($data);
                 } else {
                     redirect('/admin');
                 }
 
             } else {
-                $this->loadAddForm();
+                $this->loadForm($data);
 
             }
 
@@ -44,17 +44,43 @@
 
         // update posters
         function edit() {
+            $data['action'] = 'edit';
+            $posterId = $this->uri->segment(4);
+            $data['data'] = $this->Poster_model->get_data(array('id'=>$posterId));
 
+            // Load dependencies
+            $this->form_validation->set_rules('name', 'Poster Name', 'trim|required');
+
+            if ($this->form_validation->run()) {
+                // validation passed
+                $_POST['id'] = $posterId;
+                if($this->Poster_model->update_poster($_POST)) {
+                    redirect('/admin');
+                } else {
+
+                }
+            } else {
+                $this->loadForm($data);
+
+            }
+
+            $this->loadForm($data);
         }
 
         // delete posters
         function delete() {
+            $data['action'] = 'delete';
+            $posterId = $this->uri->segment(4);
 
+            if (isset($posterId)) {
+                if($this->Poster_model->update_poster(array('status'=>1, 'id'=>$posterId))){
+                    redirect('/admin');
+                }
+            }
         }
 
-        private function loadAddForm() {
+        private function loadForm($data=array()) {
             $data['current_table'] = 'posters';
-            $data['action'] = 'add';
 
             $data['title'] = 'Admin';
             $data['content'] = 'admin/index';

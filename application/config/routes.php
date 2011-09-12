@@ -50,8 +50,15 @@ $route['users'] = 'users';
 $route['admin'] = 'admin';
 $route['admin/table/:num'] = 'admin/show';
 $route['admin/table/:num/add'] = 'admin/show';
+$route['admin/table/:num/edit/:num'] = 'admin/show';
+
 $route['admin/posters/add'] = 'adminposter/add';
+$route['admin/posters/edit/:num'] =   'adminposter/edit/$1';
+$route['admin/posters/delete/:num'] = 'adminposter/delete/$1';
+
 $route['admin/poster_range/add'] = 'adminposterrange/add';
+$route['admin/poster_range/edit/:num'] = 'adminposterrange/edit/$1';
+$route['admin/poster_range/delete/:num'] = 'adminposterrange/delete/$1';
 
 
 /* End of file routes.php */

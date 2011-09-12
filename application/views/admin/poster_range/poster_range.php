@@ -9,15 +9,19 @@
             <th>Minimum Range</th>
             <th>Maximum Range</th>
             <th>Price</th>
+            <th>Edit</th>
+            <th>Delete</th>
         </tr>
 
         <?php if(isset($data) && is_array($data) && count($data)>0) { ?>
             <?php foreach($data as $poster_range) {?>
                 <tr>
-                    <td><?php print_r($poster_range->name) ?></td>
-                    <td><?php print_r($poster_range->min_range) ?></td>
-                    <td><?php print_r($poster_range->max_range) ?></td>
-                    <td><?php print_r($poster_range->poster_price) ?></td>
+                    <td><?php echo $poster_range->name ?></td>
+                    <td><?php echo $poster_range->min_range ?></td>
+                    <td><?php echo $poster_range->max_range ?></td>
+                    <td><?php echo $poster_range->poster_price ?></td>
+                    <td><?php echo anchor(base_url().'admin/table/'.$table_id.'/edit/'.$poster_range->range_id, 'Edit'); ?></td>
+                    <td><?php echo anchor(base_url().'admin/poster_range/delete/'.$poster_range->range_id, 'Delete'); ?></td>
                 </tr>
             <?php } ?>
         <?php }else { ?>

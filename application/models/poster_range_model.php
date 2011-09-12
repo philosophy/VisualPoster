@@ -30,23 +30,48 @@
          * price
          */
         function update_poster_range($options=array()) {
+             if (!$this->_required(array('id'), $options)) { return false;}
 
+            if (isset($options['id'])) {
+                $this->db->where('id', $options['id']);
+            }
+            if (isset($options['min_range'])) {
+                $this->db->set('min_range', $options['min_range']);
+            }
+            if (isset($options['max_range'])) {
+                $this->db->set('max_range', $options['max_range']);
+            }
+            if (isset($options['price'])) {
+                $this->db->set('price', $options['price']);
+            }
+    //        $options = $this->_default(array('created_at' => ''), $options);
+            $this->db->update('poster_range');
+            return $this->db->affected_rows();
+        }
+
+        function delete_poster_range($options=array()) {
+            if (isset($options['id'])) {
+                $this->db->where('id', $options['id']);
+            }
+
+            $this->db->delete('poster_range');
+
+            return $this->db->affected_rows();
         }
 
         /**
          * Retrieve poster range
          */
         function get_data($options=array()) {
-            if(isset($options['poster_id'])) {
-                $this->db->set('poster_id', $options['poster_id']);
+            if(isset($options['range_id'])) {
+                $this->db->where('poster_range.id', $options['range_id']);
             }
 
-            $this->db->select('*, posters.name as name, poster_range.price as poster_price');
+            $this->db->select('poster_range.id as range_id, min_range, max_range, poster_range.price as poster_price, posters.name as name, poster_range.price as poster_price');
             $this->db->from('poster_range');
             $this->db->join('posters', 'posters.id = poster_range.poster_id');
             $this->db->order_by("name asc, min_range asc");
             $query = $this->db->get();
-
             return $query->result();
         }
 

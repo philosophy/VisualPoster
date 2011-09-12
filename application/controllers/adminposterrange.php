@@ -40,12 +40,36 @@
 
         // update posters
         function edit() {
+            $data['action'] = 'edit';
+            $rangeId = $this->uri->segment(4);
+            $data['data'] = $this->Poster_range_model->get_data(array('range_id'=>$rangeId));
 
+            // Load dependencies
+            $this->form_validation->set_rules('name', 'Poster Name', 'trim|required');
+
+            if ($this->form_validation->run()) {
+                // validation passed
+                if($this->Poster_range_model->update_poster_range($_POST)) {
+                    redirect('/admin');
+                } else {
+
+                }
+            } else {
+                $this->loadForm($data);
+
+            }
+
+            $this->loadForm($data);
         }
 
         // delete posters
         function delete() {
 
+             $rangeId = $this->uri->segment(4);
+            if($this->Poster_range_model->delete_poster_range(array('id' => $rangeId))) {
+                redirect('/admin');
+            } else {
+            }
         }
 
         private function loadAddForm() {
@@ -57,7 +81,7 @@
             $data['tables'] = $this->tables;
 
 
-            $model = 'Poster_model';
+            $model = 'Poster_range_model';
             $data['data'] = $this->$model->get_data();
 
             $this->load->view($this->config->item('default_layout'), $data);

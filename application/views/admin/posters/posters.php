@@ -25,7 +25,7 @@
                     <td><?php print_r($poster->delivery_charge) ?></td>
                     <td><?php print_r($poster->type) ?></td>
                     <td><?php echo anchor(base_url().'admin/table/'.$table_id.'/edit/'.$poster->id, 'Edit'); ?></td>
-                    <td><?php echo anchor(base_url().'admin/table/'.$table_id.'/delete/'.$poster->id, 'Delete'); ?></td>
+                    <td><?php echo anchor(base_url().'admin/posters/delete/'.$poster->id, 'Delete'); ?></td>
                 </tr>
             <?php } ?>
         <?php }else { ?>

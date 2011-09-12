@@ -31,10 +31,13 @@ class Poster_model extends CI_Model {
 
     function get_data($options=array()) {
         if (isset($options['id'])) {
-            $this->db->set('id', $options['id']);
+            $this->db->where('id', $options['id']);
         }
         if (isset($options['name'])) {
-            $this->db->set('name', $options['name']);
+            $this->db->where('name', $options['name']);
+        }
+        if (isset($options['status'])) {
+            $this->db->where('status', $options['status']);
         }
 
         $query = $this->db->get('posters');
@@ -45,7 +48,42 @@ class Poster_model extends CI_Model {
 
     // update poster
     function update_poster($options=array()) {
+        if (!$this->_required(array('id'), $options)) { return false;}
 
+        if (isset($options['id'])) {
+            $this->db->where('id', $options['id']);
+        }
+        if (isset($options['name'])) {
+            $this->db->set('name', $options['name']);
+        }
+        if (isset($options['min_order'])) {
+            $this->db->set('min_order', $options['min_order']);
+        }
+        if (isset($options['price'])) {
+            $this->db->set('price', $options['price']);
+        }
+        if (isset($options['size'])) {
+            $this->db->set('size', $options['size']);
+        }
+        if  (isset($options['min_order_price'])) {
+            $this->db->set('min_order_price', $options['min_order_price']);
+        }
+        if  (isset($options['setup_fee'])) {
+            $this->db->set('setup_fee', $options['setup_fee']);
+        }
+        if  (isset($options['delivery_charge'])) {
+            $this->db->set('delivery_charge', $options['delivery_charge']);
+        }
+        if  (isset($options['type'])) {
+            $this->db->set('type', $options['type']);
+        }
+        if (isset($options['status'])) {
+            $this->db->set('status', $options['status']);
+        }
+
+//        $options = $this->_default(array('created_at' => ''), $options);
+        $this->db->update('posters');
+        return $this->db->affected_rows();
     }
 
     // delete poster
