@@ -40,12 +40,15 @@
 
 $route['default_controller'] = "home/home";
 $route['pricing'] = 'pricing';
-$route['contactus'] = 'contactus';
+
 $route['posters'] = 'posters';
 $route['about'] = 'about';
 $route['work'] = 'works';
 $route['404_override'] = '';
 $route['users'] = 'users';
+
+$route['contactus'] = 'contactus';
+$route['contactus/send_comment'] = 'contactus/send_comment';
 
 $route['admin'] = 'admin';
 $route['admin/table/:num'] = 'admin/show';

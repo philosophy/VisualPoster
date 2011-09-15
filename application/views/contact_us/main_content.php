@@ -1,7 +1,14 @@
+<?php
+    if ($this->session->flashdata('message')) {
+        echo 'got here';
+        echo '<div>'.$this->session->flashdata('message').'</div>';
+    }
+?>
+
 <div id="main-col">
     <h2>Send us a message</h2>
     <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit. Curabitur mollis ornare nisi, non scelerisque nisi pellentesque nec.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed varius tincidunt tristique.</p>
-    <form id="c-form" method="post" action="#">
+    <form id="c-form" method="post" action="contactus/send_comment">
         <p>
             <label for="c-name">Yourname <span>*</span></label>
             <input type="text" id="c-name" value="enter your name" name="yourname">
