@@ -48,14 +48,14 @@
     margin-bottom           : 20px;
 }
 
-.contactus #c-form p {
+.contactus #contact-us-form p {
     background              : url("../../image/lib/bg-input-contactform.png") no-repeat scroll right top transparent;
     height                  : 28px;
     margin-bottom           : 10px;
     width                   : 475px;
 }
 
-.contactus #c-form label {
+.contactus #contact-us-form label {
     color                   : #221E15;
     float                   : left;
     font-size               : 1.5em;
@@ -66,11 +66,11 @@
 }
 
 .contactus p#mandatory span,
-.contactus #c-form label span {
+.contactus #contact-us-form label span {
     color                   : #C50900;
 }
 
-.contactus #c-form input, #c-form textarea {
+.contactus #contact-us-form input, #contact-us-form textarea {
     background-color        : transparent;
     border                  : 0 none;
     float                   : right;
@@ -83,6 +83,10 @@
 .contactus p#txt-mobile label {
     text-align              : left;
     text-indent             : 50px;
+}
+
+.contactus #c-message {
+    height                  : 160px;
 }
 
 .contactus p#your-message {

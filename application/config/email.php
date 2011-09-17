@@ -17,5 +17,6 @@ $config['smtp_user']='marclambertagas@gmail.com';
 $config['smtp_pass']='theflyinga123*';
 $config['charset']='utf-8';
 $config['newline']="\r\n";
+$config['mailtype']="html";
 
 ?>
