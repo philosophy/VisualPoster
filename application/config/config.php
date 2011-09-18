@@ -366,3 +366,5 @@ $config['passPrefix'] = 'EVENTS_';
 $config['passSuffix'] = '_REST';
 
 $config['default_layout'] = 'layout/index';
+
+$config['poster_type'] = array(0 => 'Poster');

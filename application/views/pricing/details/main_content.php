@@ -14,7 +14,7 @@
                 <label>How many?</label>
                 <p class="bg-input bubble">
                     <input type="text" name="poster-num" id="poster-num" value="1" data-poster-price="{price}" data-delivery-charge="{delivery_charge}"
-                           data-poster="{poster}" data-type="{type}"/>
+                           data-poster="{poster}" data-type=<?php $poster_type = $this->config->item('poster_type'); echo $poster_type[$type]?> />
                     <a href="#" class="static-tooltip">link</a>
                 </p>
                 <div class="hide tooltip-content">
