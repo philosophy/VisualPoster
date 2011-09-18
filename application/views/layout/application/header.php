@@ -49,9 +49,9 @@
         <li>
             <?php echo anchor('work', 'WORK', array('title'=>"Work Page", 'class'=>(isset($worklink) ? 'active' : ''))); ?>
         </li>
-        <li>
+<!--        <li>
             <?php echo anchor('distribution', 'DISTRIBUTION', array('title'=>"Distribution Page", 'class'=>(isset($distributionlink) ? 'active' : ''))); ?>
-        </li>
+        </li>-->
         <li>
             <?php echo anchor('about', 'ABOUT', array('title'=>"About Page", 'class'=>(isset($aboutlink) ? 'active' : ''))); ?>
         </li>

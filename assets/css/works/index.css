@@ -1,0 +1,77 @@
+.works.index #main-col {
+    width: 860px;
+    padding: 0 0 0 17px;
+}
+
+.works.index #main-col section {
+    margin-top: 30px;
+    border-bottom: 1px dashed;
+    overflow: hidden;
+    padding-bottom: 26px;
+    border-color: #9B8A54;
+    display: block;
+}
+
+.works.index #main-col section.last {
+    border: none;
+}
+
+.works.index #main-col .left-image-container {
+    display: block;
+    float: left;
+}
+
+.works.index #main-col .right-image-container {
+    display: block;
+    float: right;
+}
+
+.works.index #main-col .left-image-container img,
+.works.index #main-col .right-image-container img{
+    width: 258px;
+    height: 360px;
+}
+
+.works.index #main-col .work-context {
+    display: block;
+    overflow: hidden;
+    padding-left: 25px;
+}
+
+.works.index #main-col .work-context.right-context {
+    padding-left: 0;
+    padding-right: 25px;
+}
+
+.works.index #main-col .work-context h4 {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+.works.index #main-col .work-context .brief {
+    padding-top: 30px;
+}
+
+.works.index #main-col .work-context .brief p,
+.works.index #main-col .work-context .results p{
+    margin-top: 10px;
+}
+
+.works.index #main-col .work-context h4,
+.works.index #main-col .work-context .brief p,
+.works.index #main-col .work-context .results p,
+.works.index #main-col .work-context .brief h4,
+.works.index #main-col .work-context .brief h5,
+.works.index #main-col .work-context .results h4,
+.works.index #main-col .work-context .results h5{
+    color: #000;
+}
+
+.works.index #main-col .context h4 {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 10px;
+    font-style: italic;
+}

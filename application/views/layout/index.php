@@ -22,6 +22,7 @@
             echo css_asset('vendor/jquery.qtip.css');
             echo css_asset('lib/tooltip.css');
             echo css_asset('posters/index.css');
+            echo css_asset('works/index.css');
             echo js_asset('app.js');
         ?>
     </head>

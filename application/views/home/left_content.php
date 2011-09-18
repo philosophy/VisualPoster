@@ -12,13 +12,7 @@
         <div class="bg-bottom-box"></div>
     </div>
 
-    <div id="lifetime" class="box">
-        <div class="bg-top-box"></div>
-        <div id="icon-posters"></div>
-        <h2>1,873,485</h2>
-        <p>of lifetime posters <br /> printed</p>
-        <div class="bg-bottom-box"></div>
-    </div>
+    <?php $this->load->view('common/lifetime_posters'); ?>
 
     <div id="quote" class="box">
         <div class="bg-top-box"></div>
@@ -29,22 +23,6 @@
         <div class="bg-bottom-box"></div>
     </div>
 
-    <div id="customers">
-        <div class="bg-top-box"></div>
-        <h3 class="bg-color">customers</h3>
-        <div id="customer-details">
-            <div id="btn-slide">
-                <a href="#" id="btn-prev">Previous</a>
-                <a href="#" id="btn-next">Next</a>
-            </div>
-            <ul>
-                <li><a href="#">
-                        <?php echo image_asset('lib/customer1.png', '', array('width'=>93, 'height'=>93, 'alt'=>'PA Logo')); ?>
-                    </a>
-                </li>
-            </ul>
-            <p id="all-companies">we've worked with all these fine companies</p>
-        </div>
-    </div>
+    <?php $this->load->view('common/customers_pa'); ?>
 
 </div>

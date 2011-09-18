@@ -1,6 +1,6 @@
 <div id="banner">
     <div id="banner-left">
-        <h2>Pricing</h2>
+        <h2>About</h2>
         <ul id="banner-menu">
             <li id="for-philosophy">
                 <?php

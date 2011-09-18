@@ -12,7 +12,7 @@ class Works extends CI_Controller {
         $data['banner'] = 'works/banner';
         $data['worklink'] = true;
 
-        $category = isset($_GET['category']) ? $_GET['category'] : 'philosophy';
+        $category = isset($_GET['category']) ? $_GET['category'] : 'hall_of_fame';
         $data['category'] = $category;
 
         $this->load->view('layout/index', $data);
