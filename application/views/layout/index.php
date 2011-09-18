@@ -15,7 +15,7 @@
             echo css_asset('about/index.css');
             echo css_asset('admin/index.css');
             echo css_asset('table.css');
-            echo css_asset('flash.css');
+            echo css_asset('lib/flash.css');
             echo js_asset('vendor/jquery-1.6.2.js');
             echo js_asset('vendor/jquery.qtip.js');
             echo js_asset('vendor/jquery.cookie.js');
@@ -23,6 +23,7 @@
             echo css_asset('lib/tooltip.css');
             echo css_asset('posters/index.css');
             echo css_asset('works/index.css');
+            echo css_asset('lib/coming_soon.css');
             echo js_asset('app.js');
         ?>
     </head>
@@ -66,10 +67,16 @@
                 ?>
             </div>
         </div>
+
+        <?php $this->load->view('common/coming_soon'); ?>
+
+        <?php $this->load->view('layout/page_specific_javascript'); ?>
+
         <?php
             echo js_asset('views/vp_pricing_ui.js');
             echo js_asset('lib/vp_ajax.js');
             echo js_asset('lib/vp_flash.js');
+            echo js_asset('lib/vp_coming_soon.js');
         ?>
     </body>
 </html>

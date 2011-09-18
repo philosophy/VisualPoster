@@ -5,7 +5,6 @@ $(function() {
     com.visualposter.widgets.flash = {
 
         activate: function() {
-            console.log('was activated');
             if( $('div#flash div.content > p').size() > 0) {
                 var timeout = $('div#flash div.content > p').data('timeout') || 30000;
                 $('div#flash').delay(500).slideDown('fast', function() {
@@ -41,5 +40,4 @@ $(function() {
     com.visualposter.widgets.flash.activate();
     $('div#flash').bind('content-updated', com.visualposter.widgets.flash.activate);
     $('div#flash a.close').live('click', com.visualposter.widgets.flash.deactivate);
-    console.log('was initialized');
 });

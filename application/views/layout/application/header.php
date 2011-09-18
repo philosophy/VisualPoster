@@ -17,24 +17,24 @@
     <form action="#" method="post"> <!-- additional feature when search is available -->
         <ul id="menu">
             <li>
-                <?php echo anchor('printing', 'Printing Information'); ?>
+                <?php echo anchor('#', 'Printing Information', array('class'=>'coming_soon')); ?>
             </li>
             <li class="pipe">|</li>
             <li>
-                <?php echo anchor('effects', 'Extra Effects'); ?>
+                <?php echo anchor('#', 'Extra Effects', array('class'=>'coming_soon')); ?>
             </li>
             <li class="pipe">|</li>
             <li>
-                <?php echo anchor('deliveries', 'Rush Deliveries'); ?>
+                <?php echo anchor('#', 'Rush Deliveries', array('class'=>'coming_soon')); ?>
             </li>
             <li class="pipe">|</li>
             <li>
-                <?php echo anchor('faq', 'FAQ'); ?>
+                <?php echo anchor('#', 'FAQ', array('class'=>'coming_soon')); ?>
                 <a href="#">FAQ</a>
             </li>
             <li class="pipe">|</li>
             <li>
-                <?php echo anchor('payment', 'Payment Terms'); ?>
+                <?php echo anchor('#', 'Payment Terms', array('class'=>'coming_soon')); ?>
             </li>
         </ul>
     </form>

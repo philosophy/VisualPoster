@@ -1,0 +1,30 @@
+/*
+    Document   : coming_soon
+    Created on : Sep 18, 2011, 11:51:05 AM
+    Author     : marc
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+#coming_soon_info {
+    font-weight: bold;
+    color: #fff;
+    display: none;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    position: fixed;
+    top: 0px;
+    right: 37px;
+    width: 246px;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.699219);
+    padding: 10px;
+    text-align: center;
+    z-index: 10;
+}

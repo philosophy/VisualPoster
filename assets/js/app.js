@@ -4,6 +4,7 @@ com = {
     views   : {},
     widgets : {},
     init: function() {
+        this.widgets.comingSoon.init();
     }
   }
 };
@@ -14,5 +15,3 @@ if(window.innerShiv === undefined) {
     return html;
   };
 }
-
-console.log('got here on apps');
