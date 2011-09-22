@@ -28,7 +28,8 @@ class ContactUs extends CI_Controller {
         if ($this->form_validation->run()) {
             $this->load->library('email');
 
-            $email_to = 'marclambertagas@gmail.com';
+//            $email_to = 'marclambertagas@gmail.com';                // settings in dev
+            $email_to = 'michael@visualposters.com.au';             // settings in prod
             $email_from = $_POST['email'];
             $message = $_POST['message'].'<br /><br /><br /><br />Mobile: '.$_POST['number'].
                         '<br />Email: '.$email_from;

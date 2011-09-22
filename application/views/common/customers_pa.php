@@ -3,11 +3,11 @@
     <h3 class="bg-color">customers</h3>
     <div id="customer-details">
         <div id="btn-slide">
-            <a href="#" id="btn-prev">Previous</a>
-            <a href="#" id="btn-next">Next</a>
+            <a href="#" class="coming_soon" id="btn-prev">Previous</a>
+            <a href="#" class="coming_soon" id="btn-next">Next</a>
         </div>
         <ul>
-            <li><a href="#">
+            <li><a href="#" class="coming_soon">
                     <?php echo image_asset('lib/customer1.png', '', array('width' => 93, 'height' => 93, 'alt' => 'PA Logo')); ?>
                 </a>
             </li>

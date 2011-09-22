@@ -10,22 +10,28 @@
             $data['content'] = 'pricing/index';
             $data = $this->default_details($data);
 
+            $data['posters'] = $this->Poster_model->get_data(array('status' => 0));
+
             $this->load->view('layout/index', $data);
         }
 
         function show() {
-            $result = $this->Poster_model->get_posters($_GET['poster']);
-            $poster = $result['name'];
-            $price = $result['price'];
-            $delivery_charge = $result['delivery_charge'];
-            $type = $result['type'];
+            $name = $_GET['poster'];
+            $poster = $this->Poster_model->get_data(array('status' => 0, 'name' => $name));
+            $otherPosters = $this->Poster_model->get_data(array('status' => 0, 'notname' => $name));
 
-            $data['poster'] = $poster;
-            $data['poster_size'] = isset($poster_size) ? $poster_size : null;
-            $data['poster_id'] = isset($poster_id) ? $poster_id : null;
-            $data['delivery_charge'] = isset($delivery_charge) ? $delivery_charge : null;
-            $data['type'] = isset($type) ? $type : null;
-            $data['price'] = $price;
+            $data['posters'] = $poster;
+            $data['otherPosters'] = $otherPosters;
+//            $poster = $result->name;
+//            $price = $result->price;
+//            $delivery_charge = $result->delivery_charge;
+//            $type = $result->type;
+
+//            $data['poster_size'] = isset($poster_size) ? $poster_size : null;
+//            $data['poster_id'] = isset($poster_id) ? $poster_id : null;
+//            $data['delivery_charge'] = isset($delivery_charge) ? $delivery_charge : null;
+//            $data['type'] = isset($type) ? $type : null;
+//            $data['price'] = $price;
             $data['content'] = 'pricing/show';
             $data = $this->default_details($data);
 

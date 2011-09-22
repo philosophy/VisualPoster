@@ -1,20 +1,23 @@
 <div id="main-col">
     <h2>Choose your poster type</h2>
     <h4 id="flyer-price">Or show me <a href="#">Flyer Pricing</a></h4>
-    <div class="print" id="bg-<?php echo isset($poster_size) ? $poster_id : strtolower($poster);?>">
-        <h3>I want to print</h3>
-        <h2 class=<?php echo isset($poster_size) ? 'smallsize' : '' ?> >{poster}</h2>
-        <h5><?php echo isset($poster_size) ? $poster_size : 'POSTERS' ?></h5>
-        <a href="#">View Specifications</a>
-    </div>
+
+    <?php
+        $this->load->view('common/poster/large_poster_info');
+        $posterPrice = $posters[0]->price;
+        $posterSize = $posters[0]->size;
+        $name = $posters[0]->name;
+        $deliveryCharge = $posters[0]->delivery_charge;
+        $posterType = $posters[0]->type
+    ?>
 
     <div id="form-item">
         <form action="#" method="post">
             <div class="f-row">
                 <label>How many?</label>
                 <p class="bg-input bubble">
-                    <input type="text" name="poster-num" id="poster-num" value="1" data-poster-price="{price}" data-delivery-charge="{delivery_charge}"
-                           data-poster="{poster}" data-type=<?php $poster_type = $this->config->item('poster_type'); echo $poster_type[$type]?> />
+                    <input type="text" name="poster-num" id="poster-num" value="1" data-poster-price="<?php echo $posterPrice; ?>" data-delivery-charge="<?php echo $deliveryCharge; ?>"
+                           data-poster="<?php echo $name; ?>" data-type="<?php $poster_type = $this->config->item('poster_type'); echo $poster_type[$posterType]; ?>" />
                     <a href="#" class="static-tooltip">link</a>
                 </p>
                 <div class="hide tooltip-content">
@@ -89,63 +92,12 @@
                 <th>Price</th>
                 <th>Price w/10% GST</th>
             </tr>
-<!--             <tr>
-                <td>Poster</td>
-                <td>A1</td>
-                <td>Standard</td>
-                <td>$35</td>
-                <td>3</td>
-                <td>500</td>
-                <td>$935</td>
-                <td class="icon-close">$1028.50</td>
-            </tr>
-            <tr class="odd">
-                <td>Poster</td>
-                <td>A1</td>
-                <td>Standard</td>
-                <td>$35</td>
-                <td>3</td>
-                <td>500</td>
-                <td>$935</td>
-                <td class="icon-close">$1028.50</td>
-            </tr>
-            <tr>
-                <td>Poster</td>
-                <td>A1</td>
-                <td>Standard</td>
-                <td>$35</td>
-                <td>3</td>
-                <td>500</td>
-                <td>$935</td>
-                <td class="icon-close">$1028.50</td>
-            </tr>-->
         </tbody></table>
+
+
     <div id="wrong-one">
         <h3>Chose the wrong one?</h3>
-        <div id="poster-1" class="small-poster redirect" data-url='/visualposter/index.php/pricing/show?poster=a2'>
-            <h4>I want to print</h4>
-            <h2>A2</h2>
-            <h5>POSTERS</h5>
-        </div>
-        <div id="poster-2" class="small-poster redirect" data-url='/visualposter/index.php/pricing/show?poster=a3'>
-            <h4>I want to print</h4>
-            <h2>A3</h2>
-            <h5>POSTERS</h5>
-        </div>
-<!--        <div id="poster-3" class="small-poster">
-            <h4>I want to print</h4>
-            <h2>fluro Prints 1</h2>
-            <h5>688mm x 1000mm</h5>
-        </div>
-        <div id="poster-4" class="small-poster">
-            <h4>I want to print</h4>
-            <h2>Fluro Prints 2</h2>
-            <h5>1350mm x 1960mm</h5>
-        </div>
-        <div id="poster-5" class="small-poster">
-            <h4>I want to print</h4>
-            <h2>Pole Posters</h2>
-            <h5>688mm x 1000mm</h5>
-        </div>-->
+        <?php $this->load->view('common/poster/small_poster_info'); ?>
     </div>
+    
 </div>

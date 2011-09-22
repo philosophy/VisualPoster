@@ -97,7 +97,7 @@ root {
     text-decoration     :   underline;
 }
 
-#main-col .print h2 {
+#main-col .poster-print h2 {
     font-size           :   6em;
     margin-bottom       :   0;
     line-height         :   1;
@@ -105,12 +105,12 @@ root {
     margin-top          :   -10px;
 }
 
-#main-col .print h3 {
+#main-col .poster-print h3 {
     font-size           :   1.6em;
     color               :   white;
 }
 
-#main-col .print h4 {
+#main-col .poster-print h4 {
     font-size           :   2.4em;
     font-weight         :   bold;
     color               :   white;
@@ -118,24 +118,24 @@ root {
     margin-top          :   -10px;
 }
 
-#main-col .print h5 {
+#main-col .poster-print h5 {
     color               :   white;
     font-size           :   1.6em;
 }
 
-.pricing.index #main-col div.print {
+.pricing.index #main-col div.poster-print {
     cursor              :   pointer;
 }
 
-#bg-a1, #bg-a2, #bg-a3, #bg-fluro-print1, #bg-fluro-print2, #bg-pole-poster {
+div.poster-print {
     background          :   url('../../image/lib/bg-print.jpg') no-repeat 0 0;
 }
 
-#bg-a2 {
+div.poster-print.green {
     background-position :   -260px 0;
 }
 
-#bg-a3 {
+div.poster-print.orange {
     background-position :   0 -282px;
 }
 
@@ -488,8 +488,12 @@ table#result-details {
     padding-top: 10px;
 }
 
-#poster-1 {
+.small-poster.green {
     background-position: 0 0;
+}
+
+.small-poster:hover {
+    cursor: pointer;
 }
 
 .small-poster h4, .small-poster h5 {
@@ -516,11 +520,11 @@ table#result-details {
     line-height: 1;
 }
 
-#poster-2 {
+.pricing.show .small-poster.red {
     background-position: -125px 0;
 }
 
-#poster-3 {
+.pricing.show .small-poster.orange {
     background-position: -250px 0;
 }
 

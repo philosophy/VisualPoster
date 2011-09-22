@@ -973,7 +973,7 @@ class CI_Loader {
 		{
 			include_once(APPPATH.'config/autoload'.EXT);
 		}
-		
+
 
 		if ( ! isset($autoload))
 		{

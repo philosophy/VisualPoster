@@ -25,7 +25,7 @@
             </li>
             <li>
                 <?php echo form_label('Type', 'type');?>
-                <?php echo form_dropdown('type', array(0 => 'poster'), 0); ?>
+                <?php echo form_dropdown('type', $this->config->item('poster_type'), 0); ?>
             </li>
             <li>
                 <?php //echo form_button(array('id' => 'add-poster-btn', 'type' => 'submit', 'content' => 'Add Poster')); ?>

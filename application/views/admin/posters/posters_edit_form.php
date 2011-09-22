@@ -25,7 +25,11 @@
             </li>
             <li>
                 <?php echo form_label('Type', 'type');?>
-                <?php echo form_dropdown('type', array(0 => 'poster'), set_value(0, $poster[0]->type)); ?>
+                <?php echo form_dropdown('type', $this->config->item('poster_type'), set_value(0, $poster[0]->type)); ?>
+            </li>
+            <li>
+                <?php echo form_label('Color', 'poster_color');?>
+                <?php echo form_dropdown('poster_color', $this->config->item('poster_colors'), set_value(0, $poster[0]->poster_color)); ?>
             </li>
             <li>
                 <?php //echo form_button(array('id' => 'add-poster-btn', 'type' => 'submit', 'content' => 'Add Poster')); ?>

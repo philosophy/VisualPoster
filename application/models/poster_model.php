@@ -33,6 +33,9 @@ class Poster_model extends CI_Model {
         if (isset($options['id'])) {
             $this->db->where('id', $options['id']);
         }
+        if (isset($options['notname'])) {
+            $this->db->where('name !=', $options['notname']);
+        }
         if (isset($options['name'])) {
             $this->db->where('name', $options['name']);
         }
@@ -79,6 +82,9 @@ class Poster_model extends CI_Model {
         }
         if (isset($options['status'])) {
             $this->db->set('status', $options['status']);
+        }
+        if (isset($options['poster_color'])) {
+            $this->db->set('poster_color', $options['poster_color']);
         }
 
 //        $options = $this->_default(array('created_at' => ''), $options);

@@ -15,7 +15,7 @@
 |
 */
 $config['base_url']	= 'http://localhost/visualposter/';             // base url in dev
-//$config['base_url']	= 'http://visualposter.byethost24.com/';             // base url in prod
+//$config['base_url']	= 'http://www.naruto.byethost2.com/';             // base url in prod
 
 /*
 |--------------------------------------------------------------------------
@@ -367,4 +367,5 @@ $config['passSuffix'] = '_REST';
 
 $config['default_layout'] = 'layout/index';
 
-$config['poster_type'] = array(0 => 'Poster');
+$config['poster_type'] = array(0 => 'Poster', 1 => 'Sheeter');
+$config['poster_colors'] = array(0 => 'red', 1 => 'orange', 2 => 'green');

@@ -263,7 +263,7 @@ ul#header-nav li a:hover, ul#header-nav li a.active {
     height              : 90px;
 }
 
-#main-col .print {
+#main-col .poster-print {
     width               :   260px;
     height              :   262px;
     float               :   left;
@@ -274,27 +274,27 @@ ul#header-nav li a:hover, ul#header-nav li a.active {
     padding             :   10px 0;
 }
 
-#main-col .print p {
+#main-col .poster-print p {
     color               :   #E1D985;
     margin-bottom       :   0;
 }
 
-#main-col .print p.starting {
+#main-col .poster-print p.starting {
     font-family         :   Arial, Arial, Helvetica, sans-serif;
     font-size           :   1.1em;
 }
 
-#main-col .print p.min-order {
+#main-col .poster-print p.min-order {
     font-size           :   .9em;
     margin-top          :   -3px;
 }
 
-#main-col .print p.excludes {
+#main-col .poster-print p.excludes {
     font-size           :   .8em;
     margin              :   14px 0 5px;
 }
 
-#main-col .print h2.smallsize {
+#main-col .poster-print h2.smallsize {
     font-size           :   2.5em;
     font-weight         :   bold;
     margin              :   5px 0;
@@ -304,7 +304,7 @@ ul#header-nav li a:hover, ul#header-nav li a.active {
 
 }
 
-#main-col .print a {
+#main-col .poster-print a {
     width               :   139px;
     height              :   31px;
     line-height         :   28px;

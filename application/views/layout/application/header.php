@@ -30,7 +30,6 @@
             <li class="pipe">|</li>
             <li>
                 <?php echo anchor('#', 'FAQ', array('class'=>'coming_soon')); ?>
-                <a href="#">FAQ</a>
             </li>
             <li class="pipe">|</li>
             <li>
