@@ -71,7 +71,7 @@
             </div>
 
             <div class="getquote">
-                <p><input type="button" name="get_quote" value="Get Quote" class="btn-quote"></p>
+                <p><input type="button" name="get_quote" value="Get Quote" class="btn-quote coming_soon"></p>
                 <p class="btn-result"><input type="button" id='btn-addresult' name="add_result" value="Add Results"></p>
                 <p class="btn-result icon-export">
 <!--                    <input type="button" id='btn-exportresult' name="export_result" value="Export Results" data-ajax-url='export_data'>-->
@@ -99,5 +99,5 @@
         <h3>Chose the wrong one?</h3>
         <?php $this->load->view('common/poster/small_poster_info'); ?>
     </div>
-    
+
 </div>
