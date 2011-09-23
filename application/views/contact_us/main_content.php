@@ -1,6 +1,6 @@
 <div id="main-col">
     <h2>Send us a message</h2>
-    <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit. Curabitur mollis ornare nisi, non scelerisque nisi pellentesque nec.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed varius tincidunt tristique.</p>
+    <p>We'd like to hear from you! Please send us your message, comment, or any suggestions you would like to share.</p>
     <?php echo form_open('contactus/send_comment', array('id' => 'contact-us-form', 'method' => 'post')); ?>
         <p>
             <label for="c-name">Yourname <span>*</span></label>

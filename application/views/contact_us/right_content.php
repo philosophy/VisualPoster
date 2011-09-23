@@ -7,5 +7,7 @@
         <p>1300 662 502</p>
         <h3>EMAIL:</h3>
         <a href="mailto:info@visualposters.com.au">info@visualposters.com.au</a>
+        <span> or </span>
+        <a href="mailto:support@visualposters.com.au">support@visualposters.com.au</a>
     </div>
 </div>
