@@ -138,7 +138,7 @@ VP.Pricing.UI = function() {
                 '<td>' + deliveryCharge + '</td>' +
                 '<td>' + deliveryPoints + '</td>' +
                 '<td>' + numPoster + '</td>' +
-//                '<td>' + price + '</td>' +
+                '<td>' + price + '</td>' +
                 '<td><span class="value">' + totalPriceGST + '</span><a class="delete-link" href="#"><span>x</span></a></td>';
 
                 //apend elem to result table
