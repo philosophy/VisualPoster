@@ -7,9 +7,10 @@
                 echo anchor('pricing/show?poster=a1', 'Price Grid', array('class'=> $methodName == 'show' ? 'active' : ''));
             ?>
         </li>
-        <li id="for-flyer"><a href="#" >For Flyers</a></li>
+        <li id="for-flyer"><a href="#" class="coming_soon" >For Flyers</a></li>
         <li id="price-grid">
-            <?php echo anchor('pricing/price_grid', 'Price Grid', array('class' => $methodName == 'price_grid' ? 'active' : '')); ?>
+            <?php //echo anchor('pricing/price_grid', 'Price Grid', array('class' => $methodName == 'price_grid' ? 'active' : '')); ?>
+            <?php echo anchor('#', 'Price Grid', array('class' => $methodName == 'price_grid' ? 'active' : 'coming_soon')); ?>
         </li>
     </ul>
 </div>
