@@ -1,4 +1,4 @@
-/* 
+/*
     Document   : index
     Created on : Jul 30, 2011, 12:18:29 PM
     Author     : marc
@@ -6,12 +6,112 @@
         Purpose of the stylesheet follows.
 */
 
-/* 
+/*
    TODO customize this sample style
    Syntax recommendation http://www.w3.org/TR/REC-CSS2/
 */
 
-root { 
+root {
     display: block;
 }
 
+#wrapper.home ul#specialist {
+    margin-bottom: 25px;
+}
+
+#wrapper.home #specialist li {
+    background: url("../../image/lib/bg-fivereason.png") no-repeat scroll left top transparent;
+    color: #221E15;
+    font-size: 1.45em;
+    height: 40px;
+    line-height: 2;
+    margin-bottom: 10px;
+    padding-left: 50px;
+}
+
+#wrapper.home #specialist li#icon-one {
+    background-position: left top;
+}
+
+#wrapper.home #specialist li#icon-second {
+    background-position: left -50px;
+}
+
+#wrapper.home #specialist li#icon-three {
+    background-position: left -100px;
+}
+
+#wrapper.home #specialist li#icon-four {
+    background-position: left -150px;
+}
+
+#wrapper.home #specialist li#icon-five {
+    background-position: left -200px;
+}
+
+#wrapper.home #our-works {
+    background: url("../../image/lib/bg-bottom-banner.gif") repeat-x scroll center top transparent;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+#wrapper.home #resources h3 {
+    padding-left        :   38px;
+    background-position :   10px 5px;
+}
+
+#wrapper.home #resources ul li {
+    background: url("../../image/lib/repeat-td.png") repeat scroll left top transparent;
+    border-bottom: 1px dashed #9B8A54;
+    padding: 0 13px;
+}
+
+#wrapper.home #resources ul li a {
+    color: #312619;
+    display: block;
+    font-size: 1.1em;
+    font-weight: bold;
+    line-height: normal;
+    padding: 11px 0 7px 43px;
+}
+
+#wrapper.home #resources ul li a:hover, #resourses ul li a.active {
+    text-decoration: none;
+    color: #547c0b;
+}
+
+#wrapper.home #resources li#icon-served-one a {
+    background: url("../../image/lib/icon-served-one.png") no-repeat scroll left top transparent;
+}
+
+#wrapper.home #resources li#icon-served-one a.active,
+#wrapper.home #resources li#icon-served-one a:hover {
+    background-position: left bottom;
+}
+
+#wrapper.home #resources li#icon-served-second a {
+    background: url("../../image/lib/icon-served-second.png") no-repeat scroll left top transparent;
+}
+
+#wrapper.home #resources li#icon-served-second a.active,
+#wrapper.home #resources li#icon-served-second a:hover {
+    background-position: left bottom;
+}
+
+#wrapper.home #resources li#icon-served-three a {
+    background: url("../../image/lib/icon-served-three.png") no-repeat scroll left top transparent;
+}
+
+#wrapper.home #resources li#icon-served-three a.active,
+#wrapper.home #resources li#icon-served-three a:hover {
+    background-position: left bottom;
+}
+
+#wrapper.home #resources li#icon-served-four a {
+    background: url("../../image/lib/icon-served-four.png") no-repeat scroll left top transparent;
+}
+
+#wrapper.home #resources li#icon-served-four a.active,
+#wrapper.home #resources li#icon-served-four a:hover {
+    background-position: left bottom;
+}

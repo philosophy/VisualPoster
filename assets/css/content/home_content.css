@@ -133,7 +133,7 @@ p.home-content {
     color               :   black;
 }
 
-ul#specialist {
+/*ul#specialist {
     background          :   url('../../image/lib/bg-bottom-banner.gif') repeat-x center bottom;
     padding-bottom      :   20px;
     margin-bottom       :   20px;
@@ -149,7 +149,7 @@ ul#specialist li {
 
 ul#specialist li {
     margin-bottom       :   10px;
-}
+}*/
 
 .row {
     margin              :   0 0 30px 0;
@@ -184,16 +184,12 @@ ul#specialist li {
     width               :   430px;
 }
 
-#resourses h3 {
-    padding-left        :   38px;
-    background-position :   10px 5px;
-}
 
-.resourses-col {
+.resources-col {
     border-bottom       :   1px dashed #9B8A54;
 }
 
-.resourses-col h5 {
+.resources-col h5 {
     font-size           :   1.1em;
     color               :   #221E15;
     font-weight         :   bold;
@@ -201,17 +197,17 @@ ul#specialist li {
     font-family         :   Georgia, Arial, 'Times New Roman', serif;
 }
 
-.resourses-col h5 a {
+.resources-col h5 a {
     color               :   #537B0B;
     text-decoration     :   underline;
 }
 
-.resourses-col p {
+.resources-col p {
     margin              :   0 0 0 75px;
     color               :   black;
 }
 
-.resourses-col img {
+.resources-col img {
     float               :   left;
     margin              :   5px 10px;
     border              :   3px solid #403422;

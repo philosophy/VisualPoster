@@ -1,5 +1,6 @@
 <div id="right-col">
-    <div id="resourses">
+    <?php $this->load->view('common/industries_saved'); ?>
+<!--    <div id="resourses">
         <div class="bg-top-box"></div>
         <h3 class="bg-color">Free Poster Resourses</h3>
         <div class="resourses-col">
@@ -26,7 +27,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas urna nisl, facilisis eu lacinia eu, accumsan non</p>
             <br class="clear" />
         </div>
-    </div>
+    </div>-->
     <div id="testimonials">
         <div class="bg-top-box"></div>
         <h3 class="bg-color">Testimonials</h3>

@@ -9,6 +9,7 @@
             echo css_asset('form.css');
             echo css_asset('banner/home_banner.css');
             echo css_asset('content/home_content.css');
+            echo css_asset('home/index.css');
             echo css_asset('pricing/index.css');
             echo css_asset('pricing/price_grid.css');
             echo css_asset('contact_us/index.css');
@@ -24,7 +25,9 @@
             echo css_asset('posters/index.css');
             echo css_asset('works/index.css');
             echo css_asset('lib/coming_soon.css');
+            echo css_asset('vendor/slidedeck.skin.css');
             echo js_asset('app.js');
+            echo js_asset('vendor/slidedeck.jquery.lite.js');
         ?>
     </head>
     <body>

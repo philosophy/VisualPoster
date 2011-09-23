@@ -1,5 +1,5 @@
 <div id="main-col">
-    <h2>If you've been putting off <br />poster printing...</h2>
+<!--    <h2>If you've been putting off <br />poster printing...</h2>
     <p class="home-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis ornare nisl, non scelerisque nisi pellentesque nec. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed varius tincidunt tristique. Quisque a diam at velit tempus rhoncus quis nec nibh. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur mollis ornare nisl, non scelerisque nisi peleentesque nec. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed varius tincidunt tristique. Quisque a diam at velit tempus rhoncus quis nec nibh.</p>
     <ul id="specialist">
         <li>Why Specialist Service Counts</li>
@@ -9,7 +9,16 @@
         <li>Recommended Poster Sizes:</li>
         <li>Flyer Pricing - to go with your posters</li>
         <li>What Other Customers say about us</li>
+    </ul>-->
+    <h2>5 Reasons We Love Street Posters</h2>
+    <ul id="specialist">
+        <li id="icon-one">It's Gritty and Outdoor</li>
+        <li id="icon-second">It's part of the urban landscape</li>
+        <li id="icon-three">It talks to people in their everyday setting</li>
+        <li id="icon-four">You can be funny</li>
+        <li id="icon-five">People change the world with this stuff. You can too!</li>
     </ul>
+    <a href="#" id="findoutmore">Find out more about street poster advertising</a>
     <div id="our-works">
         <div class="row">
             <?php echo image_asset('lib/img-deliver.png', '', array('class'=>'img-desc')); ?>
