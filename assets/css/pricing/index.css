@@ -520,11 +520,11 @@ table#result-details {
     line-height: 1;
 }
 
-.pricing.show .small-poster.red {
+.pricing.show .small-poster.orange {
     background-position: -125px 0;
 }
 
-.pricing.show .small-poster.orange {
+.pricing.show .small-poster.red {
     background-position: -250px 0;
 }
 

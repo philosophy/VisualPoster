@@ -10,7 +10,7 @@
 
 
     ?>
-            <div id="<?php echo $posterId; ?>" class="small-poster redirect <?php echo $posterColors[$posterColor]; ?>" data-url="/visualposter/index.php/pricing/show?poster=<?php echo strtolower($name); ?>">
+            <div id="<?php echo $posterId; ?>" class="small-poster redirect <?php echo $posterColors[$posterColor]; ?>" data-url="<?php echo base_url(); ?>pricing/show?poster=<?php echo strtolower($name); ?>">
                 <h4>I want to print</h4>
                 <h2><?php echo strtoupper($name); ?></h2>
                 <h5><?php echo isset($posterSize) ? $posterSize : 'POSTER' ?></h5>
