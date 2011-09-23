@@ -6,5 +6,5 @@
         <li id="icon-served-second"><a href="#" class="coming_soon">Liquor and Drugs <br/>(no, not those kind)</a></li>
         <li id="icon-served-three"><a href="#" class="coming_soon">Leisure, Bar and <br/>Light Entertainment</a></li>
         <li id="icon-served-four"><a href="#" class="coming_soon">Activism and <br/>Social Justice</a></li>
-        </u/>
+    </ul>
 </div>
