@@ -24,3 +24,168 @@
     border-top: 1px solid #BCB38C;
     position: relative;
 }
+
+.pricing.price_grid .price-menu li a{
+    color: #221E15;
+    display: block;
+    font-weight: bold;
+    padding: 10px 0 10px 10px;
+    position: relative;
+}
+
+.pricing.price_grid .price-menu li a:hover,
+.pricing.price_grid .price-menu li a.active {
+    background: url("../../image/lib/bg-hover-pricemenu1.png") repeat-x scroll left top transparent;
+    text-decoration: none;
+}
+
+.pricing.price_grid .price-menu li.change-colr a {
+    color: #C50900;
+}
+
+.pricing.price_grid .price-menu li.b-brd {
+    border-bottom: 1px solid #BCB38C;
+}
+
+.pricing.price_grid .price-menu li a:hover span,
+.pricing.price_grid .price-menu li a.active span {
+    background: url("../../image/lib/bg-hover-pricemenu.png") no-repeat scroll right top transparent;
+    height: 64px;
+    position: absolute;
+    right: -33px;
+    top: -14px;
+    width: 33px;
+}
+
+.pricing.price_grid .price-menu li.b-brd {
+    border-bottom: 1px solid #BCB38C;
+}
+
+/*
+ * main-col
+ */
+.pricing.price_grid #main-col {
+    padding: 0;
+    margin: 0 0 0 55px;
+}
+
+.pricing.price_grid .copy-price {
+    background: url("../../image/lib/repeat-td.png") repeat scroll left top transparent;
+    padding: 10px 30px 0;
+    width: 798px;
+}
+
+.pricing.price_grid .copy-price .price-bg-repeat {
+    padding: 10px 0 5px;
+}
+
+.pricing.price_grid .copy-price .price-bg-repeat .price-row p {
+    color: #221E15;
+    float: left;
+    font-size: 1.2em;
+    font-weight: bold;
+    height: 42px;
+    letter-spacing: -1px;
+    line-height: 42px;
+    margin-bottom: 0;
+    text-align: center;
+    width: 70px;
+}
+
+p.one, p.two, p.three, p.four, p.five, p.six, p.seven {
+    background: url("../../image/lib/bg-one.png") no-repeat scroll center center transparent;
+    padding-top: 10px;
+    text-indent: -9999em;
+}
+
+p.two {
+    background-image: url("../../image/lib/bg-two.png");
+}
+
+p.three {
+    background-image: url("../../image/lib/bg-three.png");
+}
+p.four {
+    background-image: url("../../image/lib/bg-four.png");
+}
+p.five {
+    background-image: url("../../image/lib/bg-five.png");
+}
+p.six {
+    background-image: url("../../image/lib/bg-six.png");
+}
+p.seven {
+    background-image: url("../../image/lib/bg-seven.png");
+}
+
+.pricing.price_grid .copy-price .price-row p {
+    color: #221E15;
+    float: left;
+    font-size: 1.2em;
+    font-weight: bold;
+    height: 42px;
+    letter-spacing: -1px;
+    line-height: 42px;
+    margin-bottom: 0;
+    text-align: center;
+    width: 70px;
+}
+
+.pricing.price_grid .copy-price p.copies {
+    background: url("../../image/lib/bg-copies.png") no-repeat scroll left center transparent;
+    height: 26px;
+    margin-top: 6px;
+    padding-top: 10px;
+    text-indent: -9999em;
+    width: 307px;
+}
+
+
+.pricing.price_grid .copy-price .sheeters {
+    width: 798px;
+}
+
+.pricing.price_grid .copy-price .sheeters p {
+    border-bottom: 1px solid #BCB38C;
+    border-top: 1px solid #BCB38C;
+    color: #221E15;
+    font-family: Georgia,serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    height: 42px;
+    line-height: 42px;
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.pricing.price_grid .copy-price .price-row p.color-mode {
+    text-align: left;
+    text-indent: 6px;
+    width: 168px;
+}
+
+.pricing.price_grid .copy-price .price-row p.p-odd {
+    background: url("../../image/lib/repeat-td2.png") repeat scroll left top transparent;
+}
+.pricing.price_grid .copy-price .price-row p.file-size {
+    width: 140px;
+}
+
+.pricing.price_grid #bg-green span {
+    background: url("../../image/lib/bg-repeat-td-green.png") repeat scroll left top transparent;
+    display: block;
+}
+
+.pricing.price_grid .green {
+    background-color: #C2D76D;
+}
+
+.pricing.price_grid #pricing-excludes {
+    background: url("../../image/lib/bg-red-star.png") no-repeat scroll left center transparent;
+    color: #221E15;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 20px;
+    padding-left: 25px;
+}

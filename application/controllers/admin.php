@@ -59,6 +59,8 @@ class Admin extends CI_Controller {
                 }
 //                die(print_r($data['data']));
             }
+
+            $data['posters'] = $this->Poster_model->get_data();
         }
 
         $data['title'] = 'Admin';

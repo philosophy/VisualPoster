@@ -10,7 +10,7 @@
         <li id="for-flyer"><a href="#" class="coming_soon" >For Flyers</a></li>
         <li id="price-grid">
             <?php //echo anchor('pricing/price_grid', 'Price Grid', array('class' => $methodName == 'price_grid' ? 'active' : '')); ?>
-            <?php echo anchor('#', 'Price Grid', array('class' => $methodName == 'price_grid' ? 'active' : 'coming_soon')); ?>
+            <?php echo anchor('pricing/price_grid', 'Price Grid', array('class' => $methodName == 'price_grid' ? 'active' : '')); ?>
         </li>
     </ul>
 </div>

@@ -17,7 +17,7 @@
             </li>
             <li>
                 <?php echo form_label('Poster', 'poster_id');?>
-                <?php echo form_dropdown('poster_id', array(1 => 'A1', 2 => 'A2'), 1); ?>
+                <?php echo form_dropdown('poster_id', array(1 => 'A1', 2 => 'A2', 3 => 'A3'), 3); ?>
             </li>
             <li>
                 <?php //echo form_button(array('id' => 'add-poster-btn', 'type' => 'submit', 'content' => 'Add Poster')); ?>

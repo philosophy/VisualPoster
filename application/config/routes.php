@@ -40,6 +40,7 @@
 
 $route['default_controller'] = "home/home";
 $route['pricing'] = 'pricing';
+$route['pricing/price_grid'] = 'pricing/price_grid';
 
 $route['posters'] = 'posters';
 $route['about'] = 'about';

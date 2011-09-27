@@ -60,6 +60,10 @@ root {
     background-position :   10px 5px;
 }
 
+#wrapper.home #resources h3 span {
+    text-decoration     : line-through;
+}
+
 #wrapper.home #resources ul li {
     background: url("../../image/lib/repeat-td.png") repeat scroll left top transparent;
     border-bottom: 1px dashed #9B8A54;

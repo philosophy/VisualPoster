@@ -1,0 +1,12 @@
+BEGIN
+
+    DECLARE vi INT DEFAULT 28;
+    WHILE vi < 30 DO
+      /* insert into table... */
+      SET @values = vi;
+      insert into poster_range (min_range, max_range, poster_id, price) values("@values","@values", 1, 450.00);
+
+      SET vi = vi + 1;
+    END WHILE;
+
+END;

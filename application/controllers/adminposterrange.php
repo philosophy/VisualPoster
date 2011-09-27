@@ -50,7 +50,8 @@
             if ($this->form_validation->run()) {
                 // validation passed
                 if($this->Poster_range_model->update_poster_range($_POST)) {
-                    redirect('/admin');
+//                    redirect('/admin');
+                    $this->loadAddForm();
                 } else {
 
                 }
@@ -59,7 +60,7 @@
 
             }
 
-            $this->loadForm($data);
+            redirect('/admin');
         }
 
         // delete posters
@@ -72,9 +73,24 @@
             }
         }
 
-        private function loadAddForm() {
+        function loadAddForm() {
             $data['current_table'] = 'poster_range';
             $data['action'] = 'add';
+
+            $data['title'] = 'Admin';
+            $data['content'] = 'admin/index';
+            $data['tables'] = $this->tables;
+
+
+            $model = 'Poster_range_model';
+            $data['data'] = $this->$model->get_data();
+
+            $this->load->view($this->config->item('default_layout'), $data);
+        }
+
+        function loadForm() {
+            $data['current_table'] = 'poster_range';
+            $data['action'] = 'edit';
 
             $data['title'] = 'Admin';
             $data['content'] = 'admin/index';
