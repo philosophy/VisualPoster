@@ -258,6 +258,10 @@ ul#header-nav li a:hover, ul#header-nav li a.active {
     margin-bottom       :   20px;
 }
 
+#main-col .small-poster h2 {
+    font-size           :   1.4em;
+}
+
 #main-col .img-desc {
     width               : 97px;
     height              : 90px;
@@ -322,9 +326,9 @@ ul#header-nav li a:hover, ul#header-nav li a.active {
 }
 
 #main-col .small-poster h2 {
-color: white;
-margin-bottom: 0;
-margin-top: -10px;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 5px;
 }
 
 #left-col, #right-col{
