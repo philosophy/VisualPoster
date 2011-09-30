@@ -3,7 +3,8 @@
     <h4 id="flyer-price">Or show me <a href="#">Flyer Pricing</a></h4>
 
     <?php
-        $this->load->view('common/poster/large_poster_info');
+        $locals['noRedirect'] = true;
+        $this->load->view('common/poster/large_poster_info', $locals);
         $posterPrice = $posters[0]->price;
         $posterSize = $posters[0]->size;
         $name = $posters[0]->name;
