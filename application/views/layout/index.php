@@ -28,6 +28,7 @@
             echo css_asset('vendor/slidedeck.skin.css');
             echo js_asset('app.js');
             echo js_asset('vendor/slidedeck.jquery.lite.js');
+            echo js_asset('vendor/jquery.tools.min.js');
         ?>
     </head>
     <body>
@@ -80,6 +81,7 @@
             echo js_asset('lib/vp_ajax.js');
             echo js_asset('lib/vp_flash.js');
             echo js_asset('lib/vp_coming_soon.js');
+            echo js_asset('views/pricing.js');
         ?>
     </body>
 </html>

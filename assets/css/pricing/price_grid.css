@@ -1,3 +1,7 @@
+.pricing.price_grid #flyer-pricing {
+    margin-top: 18px !important;
+}
+
 .pricing.price_grid .price-menu h2 {
     color: #221E15;
     font-family: Georgia,serif;
@@ -34,7 +38,7 @@
 }
 
 .pricing.price_grid .price-menu li a:hover,
-.pricing.price_grid .price-menu li a.active {
+.pricing.price_grid .price-menu li a.current {
     background: url("../../image/lib/bg-hover-pricemenu1.png") repeat-x scroll left top transparent;
     text-decoration: none;
 }
@@ -48,7 +52,7 @@
 }
 
 .pricing.price_grid .price-menu li a:hover span,
-.pricing.price_grid .price-menu li a.active span {
+.pricing.price_grid .price-menu li a.current span {
     background: url("../../image/lib/bg-hover-pricemenu.png") no-repeat scroll right top transparent;
     height: 64px;
     position: absolute;
@@ -118,6 +122,15 @@ p.seven {
     background-image: url("../../image/lib/bg-seven.png");
 }
 
+.pricing.price_grid .copy-price .price-row p.range {
+    display: block;
+    font-style: italic;
+    color: #9B8A54;
+    font-family: Georgia, serif;
+    font-size: 1.5em;
+    line-height: 40px;
+}
+
 .pricing.price_grid .copy-price .price-row p {
     color: #221E15;
     float: left;
@@ -132,11 +145,13 @@ p.seven {
 }
 
 .pricing.price_grid .copy-price p.copies {
-    background: url("../../image/lib/bg-copies.png") no-repeat scroll left center transparent;
+/*    background: url("../../image/lib/bg-copies.png") no-repeat scroll left center transparent;*/
+    font-size: 2em !important;
+    line-height: 12px !important;
     height: 26px;
     margin-top: 6px;
     padding-top: 10px;
-    text-indent: -9999em;
+/*    text-indent: -9999em;*/
     width: 307px;
 }
 
@@ -165,9 +180,27 @@ p.seven {
     width: 168px;
 }
 
+.pricing.price_grid .copy-price .price-row p.min-order {
+    font-size: 11px;
+    font-weight: normal;
+}
+
 .pricing.price_grid .copy-price .price-row p.p-odd {
     background: url("../../image/lib/repeat-td2.png") repeat scroll left top transparent;
 }
+
+.pricing.price_grid .copy-price #standard-flyer-content p.standard,
+.pricing.price_grid .copy-price #a5-flyer-content p.standard,
+.pricing.price_grid .copy-price #a6-flyer-content p.standard {
+    width: 130px;
+}
+
+.pricing.price_grid .copy-price #standard-flyer-content p.color-mode,
+.pricing.price_grid .copy-price #a5-flyer-content p.color-mode,
+.pricing.price_grid .copy-price #a6-flyer-content p.color-mode {
+    width: 154px;
+}
+
 .pricing.price_grid .copy-price .price-row p.file-size {
     width: 140px;
 }

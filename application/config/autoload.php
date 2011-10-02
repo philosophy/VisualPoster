@@ -71,7 +71,7 @@ $autoload['libraries'] = array('parser', 'database', 'functions', 'encrypt', 'se
 |	$autoload['helper'] = array('url', 'file');
 */
 
-$autoload['helper'] = array('url', 'asset', 'file', 'form');
+$autoload['helper'] = array('url', 'asset', 'file', 'form', 'text');
 
 
 /*

@@ -102,7 +102,11 @@ root {
     margin-bottom       :   0;
     line-height         :   1;
     font-weight         :   normal;
-    margin-top          :   -10px;
+    margin-top          :   3px;
+}
+
+#main-col .poster-print h2.long-poster-names {
+    font-size: 4em;
 }
 
 #main-col .poster-print h3 {

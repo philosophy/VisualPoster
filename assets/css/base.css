@@ -276,6 +276,7 @@ ul#header-nav li a:hover, ul#header-nav li a.active {
     text-align          :   center;
     color               :   white;
     padding             :   10px 0;
+    position            :   relative;
 }
 
 #main-col .poster-print p {
@@ -319,6 +320,9 @@ ul#header-nav li a:hover, ul#header-nav li a.active {
     font-weight         :   bold;
     background          :   url('../image/lib/btn-specification.png') no-repeat left top;
     margin-top          :   50px;
+    position: absolute;
+    bottom: 40px;
+    left: 63px;
 }
 
 #main-col #poster-1 h2, #main-col #poster-2 h2 {
