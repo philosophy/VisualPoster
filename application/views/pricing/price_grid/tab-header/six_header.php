@@ -1,5 +1,5 @@
 <div class="price-row price-bg-repeat">
-    <p class="copies">How Many Copies?</p>
+    <p class="copies range">How Many Copies?</p>
     <p class="range">1000</p>
     <p class="range">2000</p>
     <p class="range">5000</p>
