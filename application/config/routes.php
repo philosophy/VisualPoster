@@ -73,5 +73,10 @@ $route['extra_effects'] = 'extraeffects';
 $route['payment_terms'] = 'paymentterms';
 $route['faq'] = 'faq';
 
+/*
+ * links from FAQ
+ */
+$route['poster_sizes'] = 'postersizes';
+
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

@@ -1,0 +1,77 @@
+.postersizes.index #main-col {
+    width       : 650px;
+}
+
+.postersizes.index #main-col h3 {
+    font-size   : 2em;
+    color       : black;
+    font-family : Arial, Helvetica, sans-serif;
+}
+
+.postersizes #content {
+    margin      : 30px 0 0;
+}
+
+.postersizes #content p {
+    color       : #000;
+    margin      : 0;
+}
+
+.postersizes #content .title {
+    font-weight : bold;
+    font-size   : 1em;
+}
+
+.postersizes #content .desc-wrapper {
+    margin      : 15px 0 10px 10px;
+    clear       : both;
+    overflow    : hidden;
+}
+
+.postersizes #content .desc-wrapper img {
+    margin-left : 10px;
+    float       : left;
+    display     : block;
+    padding-right : 15px;
+}
+
+.postersizes #content .desc-wrapper img#a2-poster {
+    width       : 100px;
+    height       : 210px;
+}
+
+.postersizes #content .desc-wrapper img#mix-posters {
+    margin-bottom: 20px;
+    width       : 320px;
+    height       : 240px;
+}
+
+.postersizes #content .desc-wrapper p {
+    margin      : 0;
+    padding     : 12px;
+    text-align  : justify;
+}
+
+.postersizes #content .desc-wrapper h3 {
+    font-size   : 1em;
+    margin-left : 10px;
+    font-weight : bold;
+    clear       : both;
+    display     : block;
+    background  : #E0D1B2;
+    text-align  : center;
+}
+
+.postersizes #content h2 {
+    font-size   : 1.5em;
+    margin-top  : 30px;
+}
+
+.postersizes #content h2.send-artwork{
+    margin-left : 20px;
+}
+
+.postersizes #content h2 span {
+    text-decoration : underline;
+    font-style : italic;
+}
