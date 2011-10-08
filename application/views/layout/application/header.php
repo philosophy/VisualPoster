@@ -33,7 +33,7 @@
             </li>
             <li class="pipe">|</li>
             <li>
-                <?php echo anchor('#', 'Payment Terms', array('class'=>'coming_soon')); ?>
+                <?php echo anchor('payment_terms', 'Payment Terms', array('class'=>(isset($paymentTermsLink) ? 'active' : ''))); ?>
             </li>
         </ul>
     </form>

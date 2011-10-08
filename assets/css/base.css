@@ -439,3 +439,9 @@ a#btn-top {
     min-height          :   200px;
 }
 
+a.external-link {
+    color               : #D21600;
+}
+a.external-link:hover {
+    text-decoration     : underline;
+}

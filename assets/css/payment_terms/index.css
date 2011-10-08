@@ -1,0 +1,59 @@
+.paymentterms.index #main-col {
+    width       : 650px;
+}
+
+.paymentterms.index #main-col h3 {
+    font-size   : 2em;
+    color       : black;
+    font-family : Arial, Helvetica, sans-serif;
+}
+
+.paymentterms #content {
+    margin      : 30px 0 0;
+}
+
+.paymentterms #content p {
+    color       : #000;
+    margin      : 0;
+}
+
+.paymentterms #content .title {
+    font-weight : bold;
+    font-size   : 1em;
+}
+
+.paymentterms #content .desc-wrapper {
+    margin      : 15px 0 10px 10px;
+    clear       : both;
+    overflow    : hidden;
+}
+
+.paymentterms #content .desc-wrapper img {
+    float       : left;
+    display     : block;
+    padding-right : 15px;
+    width       : 300px;
+    height       : 300px;
+}
+
+.paymentterms #content .desc-wrapper p {
+    margin      : 0;
+    padding     : 12px;
+}
+
+.paymentterms #content .desc-wrapper h3 {
+    font-size   : 1em;
+    margin-left : 10px;
+    font-weight : bold;
+    clear       : both;
+}
+
+.paymentterms #content h2 {
+    font-size   : 1.5em;
+    margin-top  : 30px;
+}
+
+.paymentterms #content h2 span {
+    text-decoration : underline;
+    font-style : italic;
+}
