@@ -78,6 +78,7 @@ $route['faq'] = 'faq';
  */
 $route['poster_sizes'] = 'postersizes';
 $route['poster_timing'] = 'postertiming';
+$route['music_poster_history'] = 'musicposterhistory';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

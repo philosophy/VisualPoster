@@ -1,40 +1,52 @@
-.postertiming.index #main-col {
+.musicposterhistory.index #main-col {
     width       : 650px;
 }
 
-.postertiming.index #main-col h3 {
+.musicposterhistory.index #main-col h3 {
     font-size   : 2em;
     color       : black;
     font-family : Arial, Helvetica, sans-serif;
 }
 
-.postertiming #content {
+.musicposterhistory #content {
     margin      : 30px 0 0;
 }
 
-.postertiming #content p {
+.musicposterhistory #content p {
     color       : #000;
     margin      : 0;
 }
 
-.postertiming #content .title {
+.musicposterhistory #content .title {
     font-weight : bold;
     font-size   : 1em;
 }
 
-.postertiming #content .desc-wrapper {
+.musicposterhistory #content .desc-wrapper {
     margin      : 15px 0 10px 10px;
     clear       : both;
     overflow    : hidden;
 }
 
-.postertiming #content .desc-wrapper p {
+.musicposterhistory #content .desc-wrapper img {
+    margin-left : 10px;
+    float       : left;
+    display     : block;
+    padding-right : 15px;
+}
+
+.musicposterhistory #content .desc-wrapper img {
+    width       : 222px;
+    height       : 279px;
+}
+
+.musicposterhistory #content .desc-wrapper p {
     margin      : 0;
     padding     : 12px;
     text-align  : justify;
 }
 
-.postertiming #content .desc-wrapper h3 {
+.musicposterhistory #content .desc-wrapper h3 {
     font-size   : 1em;
     margin-left : 10px;
     font-weight : bold;
@@ -44,20 +56,20 @@
     text-align  : center;
 }
 
-.postertiming #content .desc-wrapper span.block {
+.musicposterhistory #content .desc-wrapper span.block {
     padding-left: 10px;
 }
 
-.postertiming #content h2 {
+.musicposterhistory #content h2 {
     font-size   : 1.5em;
     margin-top  : 30px;
 }
 
-.postertiming #content h2.send-artwork{
+.musicposterhistory #content h2.send-artwork{
     margin-left : 20px;
 }
 
-.postertiming #content h2 span {
+.musicposterhistory #content h2 span {
     text-decoration : underline;
     font-style : italic;
 }
