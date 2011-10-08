@@ -1,0 +1,59 @@
+.extraeffects.index #main-col {
+    width       : 650px;
+}
+
+.extraeffects.index #main-col h3 {
+    font-size   : 2em;
+    color       : black;
+    font-family : Arial, Helvetica, sans-serif;
+}
+
+.extraeffects #content {
+    margin      : 30px 0 0;
+}
+
+.extraeffects #content p {
+    color       : #000;
+    margin      : 0;
+}
+
+.extraeffects #content .title {
+    font-weight : bold;
+    font-size   : 1em;
+}
+
+.extraeffects #content .desc-wrapper {
+    margin      : 15px 0 10px 10px;
+    clear       : both;
+    overflow    : hidden;
+}
+
+.extraeffects #content .desc-wrapper img {
+    float       : left;
+    display     : block;
+    padding-right : 15px;
+    width       : 300px;
+    height       : 300px;
+}
+
+.extraeffects #content .desc-wrapper p {
+    margin      : 0;
+    padding     : 12px;
+}
+
+.extraeffects #content .desc-wrapper h3 {
+    font-size   : 1em;
+    margin-left : 10px;
+    font-weight : bold;
+    clear       : both;
+}
+
+.extraeffects #content h2 {
+    font-size   : 1.5em;
+    margin-top  : 30px;
+}
+
+.extraeffects #content h2 span {
+    text-decoration : underline;
+    font-style : italic;
+}

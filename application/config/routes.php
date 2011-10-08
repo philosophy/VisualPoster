@@ -69,6 +69,7 @@ $route['admin/poster_range/delete/:num'] = 'adminposterrange/delete/$1';
  * top menu links
  */
 $route['rush_deliveries'] = 'rushdeliveries';
+$route['extra_effects'] = 'extraeffects';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

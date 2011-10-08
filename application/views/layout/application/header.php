@@ -21,7 +21,7 @@
             </li>
             <li class="pipe">|</li>
             <li>
-                <?php echo anchor('#', 'Extra Effects', array('class'=>'coming_soon')); ?>
+                <?php echo anchor('extra_effects', 'Extra Effects', array('class'=>(isset($extraeffects_link) ? 'active' : ''))); ?>
             </li>
             <li class="pipe">|</li>
             <li>
