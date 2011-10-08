@@ -71,6 +71,7 @@ $route['admin/poster_range/delete/:num'] = 'adminposterrange/delete/$1';
 $route['rush_deliveries'] = 'rushdeliveries';
 $route['extra_effects'] = 'extraeffects';
 $route['payment_terms'] = 'paymentterms';
+$route['faq'] = 'faq';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

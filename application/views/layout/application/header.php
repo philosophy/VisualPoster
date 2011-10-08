@@ -29,7 +29,7 @@
             </li>
             <li class="pipe">|</li>
             <li>
-                <?php echo anchor('#', 'FAQ', array('class'=>'coming_soon')); ?>
+                <?php echo anchor('faq', 'FAQ', array('class'=>(isset($faqLink) ? 'active' : ''))); ?>
             </li>
             <li class="pipe">|</li>
             <li>

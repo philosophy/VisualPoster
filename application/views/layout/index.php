@@ -18,6 +18,7 @@
             echo css_asset('rush_deliveries/index.css');
             echo css_asset('extra_effects/index.css');
             echo css_asset('payment_terms/index.css');
+            echo css_asset('faq/index.css');
             echo css_asset('table.css');
             echo css_asset('lib/flash.css');
             echo js_asset('vendor/jquery-1.6.2.js');
