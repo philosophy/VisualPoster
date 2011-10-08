@@ -7,7 +7,7 @@
     </header>
     <section id="content">
         <div class="title">
-            <p>SEE MORE HELPFUL PRACTICAL STUFF</p>
+            <?php $this->load->view('common/more_practical_stuff'); ?>
         </div>
         <div class="desc-wrapper">
             <p><b>Ahhhh!</b> So you have been paying attention!

@@ -19,3 +19,10 @@
     font-weight     :   bold;
 }
 
+.practical-stuff {
+    font-size           : 0.9em !important;
+}
+
+.block {
+    display             : block;
+}
