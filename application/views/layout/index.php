@@ -32,6 +32,7 @@
             echo css_asset('posters/index.css');
             echo css_asset('works/index.css');
             echo css_asset('music_poster_history/index.css');
+            echo css_asset('fluro_background/index.css');
             echo css_asset('lib/coming_soon.css');
             echo css_asset('vendor/slidedeck.skin.css');
             echo js_asset('app.js');

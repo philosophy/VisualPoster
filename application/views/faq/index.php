@@ -45,7 +45,7 @@
         </div>-->
 
         <div class="desc-wrapper">
-            <b><?php echo anchor('poster_sizes', 'FLURO PREPRINT COLOURS', array('class'=>'external-link')); ?></b>
+            <b><?php echo anchor('fluro_background', 'FLURO PREPRINT COLOURS', array('class'=>'external-link')); ?></b>
             <p>Here are the colours we pre-print.
                 Pre-print Fluros are much cheaper
                 than custom colours.

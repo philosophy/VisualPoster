@@ -1,0 +1,116 @@
+.flurobackground.index #main-col {
+    width       : 650px;
+}
+
+.flurobackground.index #main-col h3 {
+    font-size   : 2em;
+    color       : black;
+    font-family : Arial, Helvetica, sans-serif;
+}
+
+.flurobackground #content {
+    margin      : 30px 0 0;
+}
+
+.flurobackground #content p {
+    color       : #000;
+    margin      : 0;
+}
+
+.flurobackground #content .title {
+    font-weight : bold;
+    font-size   : 1em;
+}
+
+.flurobackground #content .desc-wrapper {
+    margin      : 15px 0 10px 10px;
+    clear       : both;
+    overflow    : hidden;
+}
+
+.flurobackground #content .desc-wrapper p {
+    margin      : 0;
+    padding     : 12px;
+    text-align  : justify;
+}
+
+.flurobackground #content .desc-wrapper h3 {
+    font-size   : 1em;
+    margin-left : 10px;
+    font-weight : bold;
+    clear       : both;
+    display     : block;
+    background  : #E0D1B2;
+    text-align  : center;
+}
+
+.flurobackground #content h2 {
+    font-size   : 1.5em;
+    margin-top  : 30px;
+}
+
+.flurobackground #content h2.send-artwork{
+    margin-left : 20px;
+}
+
+.flurobackground #content h2 span {
+    text-decoration : underline;
+    font-style : italic;
+}
+
+.flurobackground #content #table-colors {
+    border: 1px solid white;
+    width: 350px;
+}
+
+.flurobackground #content #table-colors div {
+    float: left;
+    width: 171px;
+    border: 1px solid #fff;
+}
+
+.flurobackground #content #table-colors span {
+    display: block;
+    border-bottom : 1px solid #fff;
+    position: relative
+}
+
+.flurobackground #content #table-colors span span {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    top: 25px;
+    left: 60px;
+}
+
+.flurobackground #fluro-green span span {
+    background : green;
+}
+
+.flurobackground #fluro-red span span {
+    background : red;
+}
+
+.flurobackground #fluro-pink span span {
+    background : pink;
+}
+
+.flurobackground #fluro-orange span span {
+    background : orange;
+}
+
+.flurobackground #content #table-colors span.text {
+    text-align: center;
+}
+
+.flurobackground #content #table-colors span.color {
+    height: 100px;
+}
+
+.flurobackground #content table td {
+    border : 1px solid #fff;
+    text-align: center;
+    padding : 5px;
+    display: block;
+}
