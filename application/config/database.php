@@ -65,7 +65,7 @@ $db['default']['stricton'] = FALSE;
  */
 //$db['default']['hostname'] = 'localhost';
 //$db['default']['username'] = 'visualpo_poster';
-//$db['default']['password'] = 'visualposter123*';
+//$db['default']['password'] = 'adminposter123*';
 //$db['default']['database'] = 'visualpo_poster';
 //$db['default']['dbdriver'] = 'mysql';
 //$db['default']['dbprefix'] = '';
@@ -78,7 +78,6 @@ $db['default']['stricton'] = FALSE;
 //$db['default']['swap_pre'] = '';
 //$db['default']['autoinit'] = TRUE;
 //$db['default']['stricton'] = FALSE;
-
 
 /* End of file database.php */
 /* Location: ./application/config/database.php */
