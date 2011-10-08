@@ -85,6 +85,7 @@ h3.bg-color {
 #customer-details {
     width               :   240px;
     margin              :   25px auto 0;
+    position            :   relative;
 }
 
 #btn-slide {
@@ -132,24 +133,6 @@ p.home-content {
     font-size           :   1.25em;
     color               :   black;
 }
-
-/*ul#specialist {
-    background          :   url('../../image/lib/bg-bottom-banner.gif') repeat-x center bottom;
-    padding-bottom      :   20px;
-    margin-bottom       :   20px;
-}
-
-ul#specialist li {
-    background          :   url('../../image/lib/bullet1.png') no-repeat left center;
-    color               :   #547C0B;
-    padding-left        :   30px;
-    font-size           :   1.2em;
-    font-weight         :   bold;
-}
-
-ul#specialist li {
-    margin-bottom       :   10px;
-}*/
 
 .row {
     margin              :   0 0 30px 0;

@@ -1,0 +1,62 @@
+.scrollable {
+
+    /* required settings */
+    position:relative;
+    overflow:hidden;
+    width: 240px;
+    height:90px;
+}
+
+/*
+	root element for scrollable items. Must be absolutely positioned
+	and it should have a extremely large width to accommodate scrollable items.
+	it's enough that you set width and height for the root element and
+	not for this element.
+*/
+.scrollable .items {
+    /* this cannot be too large */
+    width:20000em;
+    position:absolute;
+}
+
+.scrollable .items div {
+    background: #312619;
+    width: 240px;
+}
+
+/*
+	a single item. must be floated in horizontal scrolling.
+	typically, this element is the one that *you* will style
+	the most.
+*/
+.items div {
+    float:left;
+}
+
+.items div a {
+    color: #8D8974;
+    border-bottom: 1px solid #28241C;
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.items div a:hover {
+    color: #ece6c5;
+    text-decoration: none;
+    background-color: #28241c;
+}
+
+.items div a:link,
+.items div a:active,
+.items div a:viited {
+    color: #8d8974;
+    border-bottom: 1px solid #28241c;
+    padding: 5px 0;
+}
+
+a.prev.browse, a.next.browse {
+    cursor: pointer;
+}

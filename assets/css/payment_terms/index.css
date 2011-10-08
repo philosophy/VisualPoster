@@ -1,5 +1,9 @@
+.paymentterms #testimonials {
+    margin : 0;
+}
+
 .paymentterms.index #main-col {
-    width       : 650px;
+    width       : 570px;
 }
 
 .paymentterms.index #main-col h3 {

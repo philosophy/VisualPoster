@@ -44,3 +44,7 @@
         </div>
     </section>
 </article>
+
+<div id="right-col">
+    <?php $this->load->view('common/customers_pa');?>
+</div>

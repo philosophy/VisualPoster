@@ -26,6 +26,7 @@
             echo js_asset('vendor/jquery.cookie.js');
             echo css_asset('vendor/jquery.qtip.css');
             echo css_asset('lib/tooltip.css');
+            echo css_asset('lib/scrollable.css');
             echo css_asset('posters/index.css');
             echo css_asset('works/index.css');
             echo css_asset('lib/coming_soon.css');
@@ -86,6 +87,7 @@
             echo js_asset('lib/vp_flash.js');
             echo js_asset('lib/vp_coming_soon.js');
             echo js_asset('views/pricing.js');
+            echo js_asset('lib/vp_scrollable.js');
         ?>
     </body>
 </html>
