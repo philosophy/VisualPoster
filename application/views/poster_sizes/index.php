@@ -3,7 +3,7 @@
 </div>
 <article id="main-col">
     <header>
-        <h3>EXTRA SPECIAL POSTER PRINTING EFFECTS</h3>
+        <h3>POSTER SIZES</h3>
     </header>
     <section id="content">
         <?php $this->load->view('common/more_practical_stuff'); ?>

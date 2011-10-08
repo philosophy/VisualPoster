@@ -77,6 +77,7 @@ $route['faq'] = 'faq';
  * links from FAQ
  */
 $route['poster_sizes'] = 'postersizes';
+$route['poster_timing'] = 'postertiming';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

@@ -17,7 +17,7 @@
         </div>
 
         <div class="desc-wrapper">
-            <b><?php echo anchor('poster_sizes', 'POSTER TIMING', array('class'=>'external-link')); ?></b>
+            <b><?php echo anchor('poster_timing', 'POSTER TIMING', array('class'=>'external-link')); ?></b>
             <p>Industry recommendations for when your posters
                 should be visible.
         </div>
@@ -28,21 +28,21 @@
         </div>
 
         <div class="desc-wrapper">
-            <b><?php echo anchor('poster_sizes', 'MUSIC POSTER HISTORY', array('class'=>'external-link')); ?></b>
+            <b><?php echo anchor('music_poster_history', 'MUSIC POSTER HISTORY', array('class'=>'external-link')); ?></b>
             <p>History of the Music Poster</p>
         </div>
 
-        <div class="desc-wrapper">
-            <b><?php echo anchor('poster_sizes', 'DESIGNER DIRECTORY', array('class'=>'external-link')); ?></b>
+<!--        <div class="desc-wrapper">
+            <b><?php //echo anchor('poster_sizes', 'DESIGNER DIRECTORY', array('class'=>'external-link')); ?></b>
             <p>Awesome designers we're happy to recommend.</p>
         </div>
 
         <div class="desc-wrapper">
-            <b><?php echo anchor('poster_sizes', 'POSTER DISTRIBUTOR DIRECTORY', array('class'=>'external-link')); ?></b>
+            <b><?php //echo anchor('poster_sizes', 'POSTER DISTRIBUTOR DIRECTORY', array('class'=>'external-link')); ?></b>
             <p>A list of the best people who'll make sure the
                 great posters we print find an appreciative audience.
             </p>
-        </div>
+        </div>-->
 
         <div class="desc-wrapper">
             <b><?php echo anchor('poster_sizes', 'FLURO PREPRINT COLOURS', array('class'=>'external-link')); ?></b>
