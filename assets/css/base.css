@@ -191,9 +191,13 @@ li.pipe {
     font-family         :   Georgia, Arial, 'Times New Roman', serif;
 }
 
-#menu li a:active, #menu li a:hover {
+#menu li a:active, #menu li a:hover, #menu li a.active {
     color               :   #C50900;
     text-decoration     :   none;
+}
+
+#menu li a.active {
+    text-decoration     :   underline;
 }
 
 #header-nav {

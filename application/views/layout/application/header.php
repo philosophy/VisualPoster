@@ -25,7 +25,7 @@
             </li>
             <li class="pipe">|</li>
             <li>
-                <?php echo anchor('#', 'Rush Deliveries', array('class'=>'coming_soon')); ?>
+                <?php echo anchor('rush_deliveries', 'Rush Deliveries', array('class'=>(isset($rushlink) ? 'active' : ''))); ?>
             </li>
             <li class="pipe">|</li>
             <li>

@@ -15,6 +15,7 @@
             echo css_asset('contact_us/index.css');
             echo css_asset('about/index.css');
             echo css_asset('admin/index.css');
+            echo css_asset('rush_deliveries/index.css');
             echo css_asset('table.css');
             echo css_asset('lib/flash.css');
             echo js_asset('vendor/jquery-1.6.2.js');

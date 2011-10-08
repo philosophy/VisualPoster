@@ -1,0 +1,41 @@
+.rushdeliveries.index #main-col h3 {
+    font-size   : 2em;
+    color       : black;
+    font-family : Arial, Helvetica, sans-serif;
+}
+
+.rushdeliveries #content {
+    margin      : 30px 0 0;
+}
+
+.rushdeliveries #content p {
+    color       : #000;
+    margin      : 0;
+}
+
+.rushdeliveries #content .title {
+    font-weight : bold;
+    font-size   : 1em;
+}
+
+.rushdeliveries #content .desc-wrapper {
+    margin      : 10px 0 10px 10px;
+    clear       : both;
+    overflow    : hidden;
+}
+
+.rushdeliveries #content .desc-wrapper img {
+    float       : left;
+    display     : block;
+    padding-right : 15px;
+}
+
+.rushdeliveries #content .desc-wrapper p {
+    margin      : 0;
+    padding     : 12px;
+}
+
+.rushdeliveries #content h2 {
+    font-size   : 1.5em;
+    margin-top  : 30px;
+}

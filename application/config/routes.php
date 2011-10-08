@@ -65,5 +65,10 @@ $route['admin/poster_range/edit/:num'] = 'adminposterrange/edit/$1';
 $route['admin/poster_range/delete/:num'] = 'adminposterrange/delete/$1';
 
 
+/*
+ * top menu links
+ */
+$route['rush_deliveries'] = 'rushdeliveries';
+
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
