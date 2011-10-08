@@ -35,7 +35,7 @@
             <p>UV Gloss is perfect when you have rich photographic detail,
                 bubblegum bright colours or you want your poster to
                 jump out from all the others. This is the "vogue" magazine
-                treatment - so shiny you'll feel like <b>Kate Winslett</b>* in
+                treatment - so shiny you'll feel like <b><a class="fancy-img" href="assets/image/lib/extraeffects/steamywindow.jpg">Kate Winslett</a></b> in
                 Titanic when you run your hands over it.
             </p>
         </div>

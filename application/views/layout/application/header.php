@@ -17,10 +17,6 @@
     <form action="#" method="post"> <!-- additional feature when search is available -->
         <ul id="menu">
             <li>
-                <?php echo anchor('#', 'Printing Information', array('class'=>'coming_soon')); ?>
-            </li>
-            <li class="pipe">|</li>
-            <li>
                 <?php echo anchor('extra_effects', 'Extra Effects', array('class'=>(isset($extraeffects_link) ? 'active' : ''))); ?>
             </li>
             <li class="pipe">|</li>

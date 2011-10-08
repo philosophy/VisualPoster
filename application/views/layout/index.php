@@ -34,6 +34,10 @@
             echo js_asset('app.js');
             echo js_asset('vendor/slidedeck.jquery.lite.js');
             echo js_asset('vendor/jquery.tools.min.js');
+            echo js_asset('vendor/jquery.fancybox-1.3.4.js');
+            echo js_asset('vendor/jquery.easing-1.3.pack.js');
+            echo js_asset('vendor/jquery.mousewheel-3.0.4.pack.js');
+            echo css_asset('vendor/jquery.fancybox-1.3.4.css');
         ?>
     </head>
     <body>
@@ -88,6 +92,7 @@
             echo js_asset('lib/vp_coming_soon.js');
             echo js_asset('views/pricing.js');
             echo js_asset('lib/vp_scrollable.js');
+            echo js_asset('lib/vp_common.js');
         ?>
     </body>
 </html>
