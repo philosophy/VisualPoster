@@ -74,12 +74,14 @@ root {
 
 #service-guarantee h3.nopad {
     padding-left        :   0;
+    width               :   100px;
 }
 
 .priority-service {
     font-size           :   1em;
     font-weight         :   bold;
     margin-top          :   20px;
+    width               :   130px;
 }
 
 #main-col h4#flyer-price {
@@ -192,6 +194,8 @@ div.poster-print.orange {
     font-weight         :   bold;
 }
 
+
+
 /* start */
 /* pricing show */
 #left-col.service #service-guarantee h3 {
@@ -265,7 +269,7 @@ p.bubble {
 }
 
 p.bubble a {
-    cursor              :   none;
+    cursor              :   default;
     position            :   absolute;
     left                :   163px;
     display             :   block;
@@ -542,3 +546,7 @@ table#result-details {
 
 
 /* end of pricing show */
+
+#wrapper.pricing #banner {
+    padding-bottom: 20px;
+}

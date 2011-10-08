@@ -22,7 +22,8 @@
                     <a href="#" class="static-tooltip">link</a>
                 </p>
                 <div class="hide tooltip-content">
-                    In how many places do you want the stuff delivered?
+<!--                    In how many places do you want the stuff delivered?-->
+                    How many posters you want to print? (e.g. 500)
                 </div>
             </div>
 
@@ -37,7 +38,8 @@
                     <a href="#" class="static-tooltip">link</a>
                 </p>
                 <div class="hide tooltip-content">
-                    In how many places do you want the stuff delivered?
+                    What paper type you want to use?
+<!--                    In how many places do you want the stuff delivered?-->
                 </div>
             </div>
 

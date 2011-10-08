@@ -5,9 +5,9 @@
         <div class="bg-top-box"></div>
         <div id="bg-need"></div>
         <h3>Need It <br/>Faster?</h3>
-        <p class="priority-service">2 Day Gold Priority <br/>Service ($75 Flat Rate<br/>Surcharge)</p>
-        <p>Send us artwork by <span class="color-white">2:30pm</span>,(Monday to Friday) and we'll have your prints dispatched within <span class="color-white">2 business days</span> or you get them for <span class="color-white">free</span>!</p>
-        <p>Gold service gets special priority</p>
+        <p class="priority-service">2 Day Gold Priority Service ($75 Flat Rate Surcharge)</p>
+        <p>Send us artwork by <span class="color-white">2:30pm</span>, (Monday to Friday) and we'll have your prints dispatched within <span class="color-white">2 business days</span> or you get them for <span class="color-white">free</span>!
+           Gold service gets special priority treatment for a reasonable price. (Excluding Special Finishes)</p>
         <div class="bg-bottom-box"></div>
     </article>
     <article id="even-faster" class="box">
