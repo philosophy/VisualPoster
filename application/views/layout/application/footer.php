@@ -14,7 +14,7 @@
                 <?php echo anchor('abot', 'About', array('title'=>"About Page", 'class'=>(isset($aboutlink) ? 'active' : ''))); ?>
             </li>
             <li>
-                <?php echo anchor('contact', 'Contact', array('title'=>"Contact Page", 'class'=>(isset($contactlink) ? 'active' : ''))); ?>
+                <?php echo anchor('contactus', 'Contact', array('title'=>"Contact Page", 'class'=>(isset($contactlink) ? 'active' : ''))); ?>
             </li>
 <!--            <li>-->
                 <?php //echo anchor('', 'Eco-Policy'); ?>
@@ -22,19 +22,16 @@
         </ul>
         <ul>
             <li>
-                <?php echo anchor('#', 'Printing Information', array('class'=>'coming_soon')); ?>
+                <?php echo anchor('extra_effects', 'Extra Effects', array('class' => (isset($extraeffects_link) ? 'active' : ''))); ?>
             </li>
             <li>
-                <?php echo anchor('#', 'Extra Effects', array('class'=>'coming_soon')); ?>
+                <?php echo anchor('rush_deliveries', 'Rush Deliveries', array('class' => (isset($rushlink) ? 'active' : ''))); ?>
             </li>
             <li>
-                <?php echo anchor('#', 'Rush Deliveries', array('class'=>'coming_soon')); ?>
+                <?php echo anchor('faq', 'FAQ', array('class' => (isset($faqLink) ? 'active' : ''))); ?>
             </li>
             <li>
-                <?php echo anchor('#', 'FAQ', array('class'=>'coming_soon')); ?>
-            </li>
-            <li>
-                <?php echo anchor('#', 'Payment Terms', array('class'=>'coming_soon')); ?>
+                <?php echo anchor('payment_terms', 'Payment Terms', array('class' => (isset($paymentTermsLink) ? 'active' : ''))); ?>
             </li>
             <li>
                 <?php echo anchor('#', 'Site map', array('class'=>'coming_soon')); ?>
