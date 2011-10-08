@@ -244,9 +244,9 @@ ul#header-nav li a:hover, ul#header-nav li a.active {
 
 #main-col {
     width               : 570px;
-    padding             : 0 17px;
+    padding             : 0;
     float               : left;
-    margin              : 0 17px;
+    margin              : 0 35px;
 }
 
 #main-col h2, #keep-touch h2 {
@@ -271,11 +271,10 @@ ul#header-nav li a:hover, ul#header-nav li a.active {
     width               :   260px;
     height              :   262px;
     float               :   left;
-    margin-right        :   15px;
-    margin-bottom       :   15px;
     text-align          :   center;
     color               :   white;
     padding             :   10px 0;
+    margin              :   0 12px 20px;
     position            :   relative;
 }
 
