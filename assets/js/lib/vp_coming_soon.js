@@ -8,7 +8,7 @@ com.visualposter.widgets.comingSoon = {
   },
 
   preventDefaultBehavior : function() {
-    $('a[href=#]').live('click', function(e) {
+    $('a[href=#].coming_soon').live('click', function(e) {
        e.preventDefault();
     });
   },

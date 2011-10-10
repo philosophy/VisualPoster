@@ -445,3 +445,10 @@ a.external-link {
 a.external-link:hover {
     text-decoration     : underline;
 }
+
+.paymentterms #testimonials,
+.faq #testimonials,
+.rushdeliveries #testimonials,
+.extraeffects #testimonials {
+    margin : 0;
+}
